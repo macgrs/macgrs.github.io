@@ -1,0 +1,4 @@
+baseURL = 'https://macgrs.github.io'
+languageCode = 'en-us'
+title = 'Ontological Modelling Patterns'
+theme = "hugo-book"
