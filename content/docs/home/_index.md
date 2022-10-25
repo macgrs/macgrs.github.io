@@ -6,18 +6,17 @@ title: ".Home"
 
 # Home
 
-## Introduction
+## Welcome to OMP
 
-This website collects and publishes reference resources for pattern-based data modelling and publication using the standard semantic web framewok (ISOxxx).
+OMP is a collaborative repository for curation, publication and promotion of modelling patterns for scientific structured data.
 
-~1 The scope of the registered patterns focuses on Digital Humanities, Scientific activities for conservation and monitoring of built works.
-~2 The registered patterns are specific to Digital Humanities and scientific activities for conservation and monitoring of built works.
+Modelling patterns are schematic templates applicable for knowledge graphs, finely tuned for semantic web applications.
 
-The documentation part acts as a synthesised prerequisite for pattern-based modelling method and specification on the used ontologies. [Knowledge engineering]
+The scope of the registered modelling patterd spread through Digital Humanities, Scientific activities for conservation and monitoring of heritage buildings and built works. These patterns cover entities (actors, events, human-made objects), relationships between entities and with external thesauruses.
 
-[Fait pour les triples store mais utilisable sur les bases de données graphes type Neo4j]
+A shared data structure using pattern-based modelling makes it easier to design your knowledge base and get the maximum of flexibility and expressivity from the resulting graph.
 
-Scope: conservation, heritage science, archaeology, architecture, genie civil, 
+You might want to get started with the Documentation, or dive directly in the registered Ontological Modelling Patterns.
 
 ## Ontological Modelling Patterns
 + Mesure
