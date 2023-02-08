@@ -1,7 +1,8 @@
 # macgrs.github.io
 
+Repository du github-pages `https://macrgrs.github.io`
 
 
-### HUGO framework sources
-+ Official Go-Hugo website : https://gohugo.io/
-+ Active theme hugo-book : https://github.com/alex-shpak/hugo-book
+### Versions
++ (Todo) Compléter les contributions dans chacun des projets présentés, ajouter URBANIA.
++ **v0.2 (23/02/08)**: Mise en ligne du site
