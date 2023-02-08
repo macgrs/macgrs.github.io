@@ -1,4 +1,4 @@
-baseURL = 'https://macgrs.github.io/'
+baseURL = 'https://macgrs.github.io'
 languageCode = 'en-us'
 title = 'Antoine Gros'
 theme = "hugo-book"
