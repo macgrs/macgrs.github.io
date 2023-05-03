@@ -14,6 +14,7 @@ title: Publications
 
 <!-- ### Revues internationales à comité de lecture -->
 ### Revues internationales à comité de lecture
++ GROS, Antoine, GUILLEM, Anaïs, DE LUCA, Livio, BAILLIEUL, Élise, DUVOCELLE, Benoit, MALAVERGNE, Olivier, LEROUX, Lise et ZIMMER, Thierry, 2023. Faceting the post-disaster built heritage reconstruction process within the digital twin framework for Notre-Dame de Paris. Nature Scientific Reports. 12 avril 2023. Vol. 13, n° 1, pp. 5981. DOI 10.1038/s41598-023-32504-9. 
 + PARENT, Thomas, BROCATO, Maurizio, COLAS, Anne-Sophie, DOMÈDE, Nathalie, DUBOIS, Frédéric, GROS, Antoine, MOREL, Stéphane, MINDEGUIA, Jean-Christophe, MORENON, Pierre, NOUGAYREDE, Paul et TAFOREL, Paul, 2022. A multi-model structural analysis of the vaults of Notre-Dame de Paris cathedral after the 2019 fire and a proposal of a hybrid model merging continuous and discrete. Journal of Cultural Heritage. août 2022. 
 
 <!-- ### Revues nationales à comité de lecture -->
@@ -23,7 +24,7 @@ title: Publications
 
 ### Actes de colloques nationaux à comité de lecture
 + GROS, Antoine, 2022. Cartographie Sémantique des mémoires d'architecture de Lyon. In: SCAN ’22 : Séminaire de Conception Architecturale Numérique. octobre 2022.
-+ Article pierre à pierre
++ (Article pierre à pierre)
 + GROS, Antoine, 2018. Émergence de Morphologies Pour l’acoustique Des Espaces de Performance. In : SCAN ’18 : Séminaire de Conception Architecturale Numérique. octobre 2018.
 
 ### Interventions non publiées dans des colloques / congrès (tables rondes, communications orales, affiches sans actes)
@@ -50,7 +51,7 @@ title: Publications
 + Pédagogie et intervention en projet d'architecture **EPFL**(2018-2019) : atelier Y.Weinand (L3 & M1/M2) ; **ENSAM**(2020-2021) : atelier C.Marchiaro (L2), atelier F.Brugel (L3) atelier E.Breton (M1/M2) ; **ENSAL**(2021-) : atelier Ö.Lamontre-Berck (L3 & M1/M2)
 
 ### Formations post-diplôme
-+ LABORATOIRE MAP CNRS UMR3495/MCC, 2022. Formation CNRS CFE. *Post-traitement de campagnes de relevé photogrammétriques et lasergrammétriques. Génération de documents graphiques ad-hoc à partir d'un nuage de points post-traité.*
++ LABORATOIRE MAP CNRS UMR3495/MCC, 2023. Formation CNRS CFE. *Post-traitement de campagnes de relevé photogrammétriques et lasergrammétriques. Génération de documents graphiques ad-hoc à partir d'un nuage de points post-traité.*
 + LABORATOIRE MAP CNRS UMR3495/MCC, 2022. Formation CNRS CFE. *Post-traitement de campagnes de relevé photogrammétriques et lasergrammétriques*
 
 ## Expositions et Ateliers
