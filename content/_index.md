@@ -3,8 +3,9 @@ title: Introduction
 type: docs
 ---
 
-![Portrait](https://www.aria.archi.fr/wp-content/uploads/2021/09/Antoine_Gros3.jpg)
+<!-- ![Portrait](https://www.aria.archi.fr/wp-content/uploads/2021/09/Antoine_Gros3.jpg) -->
 
+[Image_Portrait]
 
 *Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture.*\
 Mes activités se concentrent sur l'ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l'environnement construit.
