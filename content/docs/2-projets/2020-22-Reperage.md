@@ -21,3 +21,7 @@ Réalisé par des partenaires complémentaires, spécialistes de l’archéomét
 Sur le plan scientifique, le projet REPERAGE a permis de mettre à disposition de l’ensemble des données produites aux membres du chantier scientifique Notre-Dame, ainsi qu’à la Maîtrise d’Œuvre du chantier de restauration. L’approche méthodologique innovante du projet est généralisable à d’autres cas d’études.
 
 Sur le plan de la diffusion culturelle, le projet REPERAGE a contribué à la création d’une mallette pédagogique et de valorisation qui mêle à la fois le virtuel et la maquette physique pour représenter au mieux les différents aspects mis en valeur par les chercheurs.
+
+### Liens
++ Description du projet : https://www.notre-dame.science/reperage-spatio-temporel-des-claveaux-des-nervures-des-voutes/
++ visualisation en ligne des résultats : https://reperage.map.cnrs.fr/viewer

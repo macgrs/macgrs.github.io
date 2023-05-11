@@ -4,10 +4,11 @@ title: (2021-24) MITI-Astragale
 
 **Titre du projet :** Vers un environnement numérique collaboratif pour l'analyse multimodale du comportement des structures\
 **Acronyme :** ASTRAGALE\
-**Partenaires :** Laboratoires Modèles et Simulations pour l'Architecture et le Patrimoine (UMR 3495 CNRS/MC, MAP), Laboratoire de Mécanique et de Génie Civil de Montpellier (UMR 5508 CNRS, LMGC),  Laboratoire d'Ingénierie des Systèmes Physiques et Numériques (EA7515, LISPEN)\
+**Partenaires :** Laboratoires Modèles et Simulations pour l'Architecture et le Patrimoine (MAP, UMR 3495 CNRS/MC), Laboratoire de Mécanique et de Génie Civil de Montpellier (LMGC, UMR 5508 CNRS),  Laboratoire d'Ingénierie des Systèmes Physiques et Numériques (LISPEN, EA7515)\
+**Encadrement:** Livio De Luca (MAP, UMR 3495 CNRS/MC), Frédéric Dubois (LMGC, UMR 5508 CNRS), Philippe Véron (LISPEN, EA7515), Kevin Jacquot (MAP, UMR 3495 CNRS/MC)
 **Collaborateurs :** Groupes de travail *Génie Civil et Calcul de Structure* et *Écosystème Numérique* du Chantier Scientifique de Notre-Dame de Paris\
 **Financement :** CNRS/MITI - Mission pour les initiatives transverses et interdisciplinaires  
-**Durée :** 3 ans
+**Durée :** 3 ans (Thèse)
 
 ### Résumé du projet
 La sauvegarde du patrimoine bâti, à travers les opérations de conservation-restauration, est aujourd'hui communément épaulée par l'analyse scientifique ; cela comprend l'aspect particulièrement critique de son évaluation structurelle. La stabilité et l'état des composants sont appréciés par les sciences des matériaux et du génie civil, dont les études sont épaulées par l'archéométrie ou l'histoire de l'art.
