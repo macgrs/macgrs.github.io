@@ -16,7 +16,7 @@ title: Intensif - Structures Légères
 
 ## Résumé
 **Mots-clefs :** Coques, Membranes, Résilles, Maquette numérique et analogique, changement de médium
-Et si, en ce lieu, l'on couvrait le plus d'espace possible avec le minimum de matière ? Pour cette semaine, exit la géométrie orthogonale et son festival de cubes. Les volumes se composeront par la dynamique de courbes tendues, comme autant de contrepoints aux légères cambures enveloppant les espaces. C'est un autre vocabulaire de formes que l'on explorera en maquette, en s'épargnant leur dessin fastidieux en par leur relevé photogrammétrique : technique qui d'une série de photographies du modèle physique les reconstruit en trois dimensions.
+> Et si, en ce lieu, l'on couvrait le plus d'espace possible avec le minimum de matière ? Pour cette semaine, exit la géométrie orthogonale et son festival de cubes. Les volumes se composeront par la dynamique de courbes tendues, comme autant de contrepoints aux légères cambures enveloppant les espaces. C'est un autre vocabulaire de formes que l'on explorera en maquette, en s'épargnant leur dessin fastidieux par leur relevé photogrammétrique : technique qui d'une série de photographies du modèle physique les reconstruit en trois dimensions.
 
 ## Contenu
 

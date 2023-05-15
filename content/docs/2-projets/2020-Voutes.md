@@ -12,7 +12,7 @@ voûtes de la cathédrale Notre-Dame de Paris
 
 
 ### Résumé du projet
-Étude réalisées sous la forme d'une prestation scientifique et technique réalisé par un consortium de laboratoires , cellule de transfert et startup issus des groupes de travail *Génie Civil et Calcul de Structure* et *Écosystème numérique* du Chantier Scientifique.
+Étude réalisées sous la forme d'une prestation scientifique et technique réalisé par un consortium de laboratoires, cellule de transfert et startup issus des groupes de travail *Génie Civil et Calcul de Structure* et *Écosystème numérique* du Chantier Scientifique.
 
 Cette étude porte sur l'évaluation de la stabilité mécanique résiduelle au feu des voûtes de la cathédrale Notre-Dame de Paris en vue de concourir à la phase de diagnostic structurel de la cathédrale mené par la maîtrise d'oeuvre.
 
