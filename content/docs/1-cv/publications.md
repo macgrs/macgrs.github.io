@@ -20,9 +20,13 @@ title: Publications
 <!-- ### Revues nationales à comité de lecture -->
 
 ### Actes de colloques internationaux à comité de lecture
++ GROS, Antoine, DE LUCA, Livio, DUBOIS, Frédéric, VÉRON, Philippe et JACQUOT, Kévin, 2023. Décrire une hypothèse au sein d’un graphe de connaissances, d’une simulation mécanique à un fait historique. In : Humanistica 2023. 2023. 
++ GUILLEM, Anaïs, GROS, Antoine et DELUCA, Livio, 2023. Faire parler les claveaux effondrés de la cathédrale Notre-Dame de Paris. In : Humanistica 2023. 2023. 
 + GROS, A., JACQUOT, K. et MESSAOUDI, T., 2019. Knowledge-Based Framework For Automatic Semantisation And Reconstruction Of Military Architecture On City-scale Models. In : ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. Copernicus GmbH. 31 janvier 2019.
 
 ### Actes de colloques nationaux à comité de lecture
++ MORENON, Pierre, BROCATO, Maurizio, COLAS, Anne-Sophie, DOMÈDE, Nathalie, DUBOIS, Frédéric, GARNIER, Denis, GROS, Antoine, MOREL, Stéphane, NOUGAYREDE, Paul, PARENT, Thomas et TAFOREL, Paul, 2023. Benchmark numérique des méthodes de calcul non-linéaires appliqués à la cathédrale Notre-Dame de Paris. In : Journées Nationales de la Maçonnerie. Ecole Centrale de Lyon. juin 2023. 
++ MORENON, Pierre, BROCATO, Maurizio, COLAS, Anne-Sophie, DOMÈDE, Nathalie, DUBOIS, Frédéric, GARNIER, Denis, GROS, Antoine, MOREL, Stéphane, NOUGAYREDE, Paul, PARENT, Thomas et TAFOREL, Paul, 2023. Fonctionnement mécanique d’une voûte sexpartite de la cathédrale Notre-Dame de Paris. In : Journées Nationales de la Maçonnerie. Ecole Centrale de Lyon. juin 2023. 
 + GROS, Antoine, 2022. Cartographie Sémantique des mémoires d'architecture de Lyon. In: SCAN ’22 : Séminaire de Conception Architecturale Numérique. octobre 2022.
 + (Article pierre à pierre)
 + GROS, Antoine, 2018. Émergence de Morphologies Pour l’acoustique Des Espaces de Performance. In : SCAN ’18 : Séminaire de Conception Architecturale Numérique. octobre 2018.
