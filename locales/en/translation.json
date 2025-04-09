@@ -1,0 +1,145 @@
+{
+    "title": "Welcome to react using react-i18next",
+    "description": {
+      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and german using buttons above."
+    },
+    "sidebar": {
+        "home": "Home",
+        "academics": "Academics",
+        "acadeproj": {
+            "astragale": "Astragale",
+            "reperage":  "Repérage",
+            "ndstruct":  "Voûtes Notre-Dame",
+            "cartothem": "Carthographie Thématique",
+            "camillo":   "Camillo",
+            "urbania":   "Urbania"
+        },
+        "courses": "Courses",
+        "projects": "Projects",
+        "music": "Music",
+        "more": "More"
+    },
+    "homepage": {
+        "title": "Accueil",
+        "abstract": "Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture. Mes activités se concentrent sur l’ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l’environnement construit. Cela m’amène à la modélisation de systèmes, la génération de modèles géométriques ou encore la conception de bases de connaissances tout en gardant les ouvrages d’art ou les édifices architecturaux comme sujets d’échanges et d’études. Les produits issus de ces projets viennent nourrir les hypothèses archéologiques de restitution, la réalisation du diagnostic structurel d’un bâtiment tout en identifiant et en levant des verrous scientifiques."
+    },
+    "academics": {
+        "global" :{
+            "abstract": "Résumé",
+            "acronym": "Acronym",
+            "partenaires": "Partners",
+            "encadrement": "Supervision",
+            "collaborateurs": "Collaborators",
+            "funding": "Funding",
+            "biblio": "Selective Bibliography",
+            "position": "Position",
+            "duration": "Duration",
+            "card": "Project Card",
+            "zooPartenaires": {
+                "mapupr":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.cnrs.fr/",
+                    "acronym":  "(MAP, UPR 2002 CNRS)"
+                },
+                "lmgc":{
+                    "name":     "Lab. de Mécanique et de Génie Civil de Montpellier",
+                    "href":     "https://lmgc.umontpellier.fr/",
+                    "acronym":  "(LMGC, UMR 5508 CNRS)"
+                },
+                "lispen":{
+                    "name":     "Lab. d’Ingénierie des Systèmes Physiques et Numériques",
+                    "href":     "https://lispen.artsetmetiers.fr/",
+                    "acronym":  "(LISPEN, EA7515)"
+                },
+                "mapurm":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.archi.fr/",
+                    "acronym":  "(MAP, URM ENSA/MC)"
+                },
+                "ensal":{
+                    "name":     "Ecole Nationale Supérieure d'Architecture de Lyon",
+                    "href":     "https://www.lyon.archi.fr/",
+                    "acronym":  "(ENSAL)"
+                }
+            }
+        },
+        "astragale": {
+            "title": "Astragale",
+            "subtitle": "Knowledge Graph Applications for Structural Simulation and Conservation Data in Built Heritage",
+            "collaborateurs": "Notre-Dame de Paris Scientific consortium for restauration, workgroups 'Digital Ecosystem' and 'Civil Engineering'",
+            "position": "PhD",
+            "abstract": "Le diagnostic structurel d'un ouvrages du patrimoine bâti repose sur le croisement d'informations hétérogènes. Dans cet article, les informations qualitatives provenant de l'inspection visuelle de l'ouvrage sont rendues intéropérables avec les données quantitatives issues de différents scénarios de simulations mécaniques par le biais d'un graphe de connaissance. Nous démontrons sa mise en oeuvre depuis la modélisation conceptuelle maniant l'ontologie CIDOC CRM, et son implémentation dans un système de connaissance appliqué à la cathédrale Notre Dame de Paris."
+        },
+        "ndpvaults": {
+            "title": "Vaults",
+            "subtitle": "Evaluation of the residual mechanical fire stability of the vaults of Notre-Dame Cathedral in Paris",
+            "partenaires": {
+                "mapupr":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.cnrs.fr/",
+                    "acronym":  "(MAP, UPR 2002 CNRS)"
+                },
+                "lmgc":{
+                    "name":     "Lab. de Mécanique et de Génie Civil de Montpellier",
+                    "href":     "https://lmgc.umontpellier.fr/",
+                    "acronym":  "(LMGC, UMR 5508 CNRS, Univ. Montpellier)"
+                },
+                "ideuzaime":{
+                    "name":     "Institut de Mécanique et d'Ingénierie de Bordeaux",
+                    "href":     "https://www.i2m.u-bordeaux.fr/",
+                    "acronym":  "(I2M, UMR 5295 CNRS, Univ. Bordeaux)"
+                },
+                "gsa":{
+                    "name":     "Lab. Géométrie Structure Architecture ",
+                    "href":     "https://paris-malaquais.archi.fr/la-recherche/p/laboratoire-gsa/",
+                    "acronym":  "(ENS d'Architecture de Paris Malaquais)"
+                },
+                "mimetics":{
+                    "name":     "Modelisation in Mechanics: Toward Innovating Computing Solutions",
+                    "href":     "https://lmgc.umontpellier.fr/",
+                    "acronym":  "(MiMeTICS engineering)"
+                },
+                "ifstar":{
+                    "name":     "Institut français des sciences et technologies des transports, de l'aménagement et des réseaux",
+                    "href":     "https://www.construction.univ-eiffel.fr/a-propos-des-6-etablissements/ifsttar",
+                    "acronym":  "(ENPC, IFFSTAR)"
+                }
+            },
+            "collaborateurs": "'Civil Engineering' and 'Digital Ecosystem' teams of the scientific consortium for Notre-Dame de Paris restoration",
+            "position": "Head of the 'Geometric Modeling' workpackage",
+            "funding": "EPA RNDP, Etablissement Public d'Aménagement pour la Restauration de la cathédrale Notre-Dame de Paris",
+            "duration": "2019-2020",
+            "head": "At the crossing of the transept, a gaping hole; in the vaulting, breaches. \n\nFollowing the April 2019 fire, the structural stability of Notre-Dame de Paris’ vaults became a key concern in the restoration of the secular monument. This study, part of the scientific consortium, contributes to the structural diagnosis led by the restoration team. Its objective is to analyze the post-fire mechanical behavior of the vaulting through numerical simulations, relying both on accurate mechanical modeling and detailed geometric reconstruction of the cathedral’s structural components.",
+            "body": {
+                "h_collaboration": "A wide-ranging collaboration to understand fire-damaged vault behavior",
+                "p_collaboration": "The study was carried out by a consortium of laboratories, research institutes, and startups from the “Civil Engineering” and “Digital Ecosystem” workgroups of the Notre-Dame Scientific Project. The core goal: assess the residual mechanical stability of the choir and nave vaults, made uncertain by centuries of accumulated loads, fire-induced damage, and the intrinsic irregularities of masonry. \n\nTwo complementary mechanical simulation approaches were used: (a) the continuous approach, which models masonry as a single, homogeneous material; (b) the discrete block-by-block approach, which considers stone-to-stone interactions through the mechanical role of mortar joints. These approaches allow for a comprehensive investigation of possible failure mechanisms, geometric deformations, internal stress distributions, and areas of structural vulnerability. In masonry structures, geometry plays a central role. The difference in thickness between the choir and nave vaults soon reveals opposing mechanisms, despite their similar appearance.",
+                "h_contrib": "Adaptive parametric geometric modeling, based on point cloud surveys",
+                "p_contrib": "To meet the requirements of geometric model fidelity, we set up a parametric modeling chain based on a reference Lidar survey, in this case the Tallon 2010 survey. While the buttressing system could be modeled manually, the geometric complexity of sexpartite vaults - double curvature, asymmetries, irregularities, thickness variations - required a more sophisticated approach. \n\nIn the Rhinoceros/Grasshopper environment, the vault ribs were generated from the point cloud, then the vault panels are reconstructed as relaxed translation surfaces that conforms to the recorded intrados. A variable offset was applied to define the extrados and capture the full volume of each panel, including their characteristic thinning near the keystone. These BREP models were then either meshed for use in continuous simulations or discretized using the Chebyshev algorithm (also known as the compass method) for block-based analysis."
+            },
+            "captions":{
+                "ndp_model_gsa": "Displacements endured by the vault and its buttressing system under horizontal loading [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]",
+                "ndp_model_deformation": "Stress mapping of material under horizontal loading [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]"
+            }
+        },
+        "camillo": {
+            "title": "Theater",
+            "subtitle": "Giulio Camillo's Theater of Memory, a legacy of the classical art of memory",
+            "funding": "",
+            "collaborateurs": "",
+            "position": "Msc. Student",
+            "duration": "jan 2018-june 2018",
+            "head": "A theatre with no stage, no actors; merely filled with the cosmos. \nGiulio Camillo (1480–1544) conceived The Theatre of Memory as an attempt to reconstruct the universe and its principles within a device shaped like an ancient theatre, inhabited by mythological images that function as miniature representations of the World. Through this project, Camillo embodies the Renaissance humanist’s thirst for certainty and knowledge, nourished by ancient treatises and the hermetic traditions of his time.",
+            "body": {
+                "h_regards": "A dialogue between memory devices and architecture",
+                "p_regards": "The Idea of the Theatre, along with the occult and hermetic sources to which Camillo continually refers, continues to challenge the modern reader. It reawakens the encyclopedic impulse and once again poses the question: “How can the world be reduced to a finite set of representations, and all knowledge turned into spectacle?” (B. Scheffer, 1997). \n\nOur study is structured around a dual inquiry. First, it examines how the Theatre of Memory both continues and transforms the ars memoriae tradition. This ancient mnemonic art consists in associating elements of discourse with architecturally ordered locations, so that “the order of places preserves the order of things; the images recall the things themselves” (Simonides of Ceos). Camillo’s theatre elaborates a Renaissance mutation of this art without fully realizing it, paving the way for later self-erudite systems such as those of Giordano Bruno. It also marks a departure from the “regular course of ideas” that would lead Descartes, Bacon, and Leibniz toward the foundations of modern scientific method. \n\nSecondly, the study situates the theatre within the broader history of architecture and traces its legacy. Notably, it highlights the intellectual and personal relationship between Camillo and Sebastiano Serlio, whose architectural treatises would shape European theory in the following century.",
+                "p_finish": "We consider the Theatre as a forgotten milestone in history, positioned at the intersection of memory systems and architecture, whose magical operating have since been absorbed by the centuries and their evolving technologies.",
+                "p_award": "This project was nominated for the Prix de la Jeune Architecture de Lyon, Research Mention category, in 2018."
+            },
+            "captions":{
+                "camillo_theatre": "Engraving representing the Theatre of Memory, placing mythological images in its locis [Anon]",
+                "camillo_jupimnem": "Jupiter disguised as a shepherd and Mnemosyne, engraving from the ‘Les amours des Dieux’ series \n(Giacomo Caraglio, 1505?-1565)"
+            }
+        }
+    }
+  }
