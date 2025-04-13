@@ -1,0 +1,199 @@
+{
+    "title": "Bienvenue sur le react using react-i18next",
+    "description": {
+      "part1": "Pour commencer, et sauve pour charger.",
+      "part2": "Changer language."
+    },
+    "sidebar": {
+        "home": "Accueil",
+        "academics": "Académique",
+        "acadeproj": {
+            "astragale": "Astragale",
+            "reperage":  "Repérage",
+            "ndstruct":  "Voûtes Notre-Dame",
+            "cartothem": "Carthographie Thématique",
+            "camillo":   "Camillo",
+            "urbania":   "Urbania"
+        },
+        "courses": "Cours",
+        "projects": "Projets",
+        "music": "Musique",
+        "more": "More"
+    },
+    "homepage": {
+        "title": "Accueil",
+        "abstract": "Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture. Mes activités se concentrent sur l’ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l’environnement construit. Cela m’amène à la modélisation de systèmes, la génération de modèles géométriques ou encore la conception de bases de connaissances tout en gardant les ouvrages d’art ou les édifices architecturaux comme sujets d’échanges et d’études. Les produits issus de ces projets viennent nourrir les hypothèses archéologiques de restitution, la réalisation du diagnostic structurel d’un bâtiment tout en identifiant et en levant des verrous scientifiques."
+    },
+    "academics": {
+        "global" :{
+            "abstract": "Résumé",
+            "acronym": "Acronyme",
+            "partenaires": "Partenaires",
+            "encadrement": "Encadrement",
+            "collaborateurs": "Collaborateurs",
+            "funding": "Financement",
+            "biblio": "Bibliographie sélective",
+            "position": "Position",
+            "duration": "Durée",
+            "card": "Project Card",
+            "zooPartenaires": {
+                "mapupr":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.cnrs.fr/",
+                    "acronym":  "(MAP, UPR 2002 CNRS)"
+                },
+                "lmgc":{
+                    "name":     "Lab. de Mécanique et de Génie Civil de Montpellier",
+                    "href":     "https://lmgc.umontpellier.fr/",
+                    "acronym":  "(LMGC, UMR 5508 CNRS)"
+                },
+                "lispen":{
+                    "name":     "Lab. d’Ingénierie des Systèmes Physiques et Numériques",
+                    "href":     "https://lispen.artsetmetiers.fr/",
+                    "acronym":  "(LISPEN, EA7515)"
+                },
+                "mapurm":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.archi.fr/",
+                    "acronym":  "(MAP, URM ENSA/MC)"
+                },
+                "ensal":{
+                    "name":     "Ecole Nationale Supérieure d'Architecture de Lyon",
+                    "href":     "https://www.lyon.archi.fr/",
+                    "acronym":  "(ENSAL)"
+                }
+            }
+        },
+        "astragale": {
+            "title": "Astragale",
+            "subtitle": "Application des Graphes de Connaissances pour les données de Simulation Structurelle et de Conservation du Patrimoine Culturel Bâti",
+            "collaborateurs": "Groupes de travail 'Génie Civil et Calcul de Structures' et 'Écosystème Numérique' du Chantier Scientifique de Notre-Dame de Paris",
+            "encadrement": "Livio De Luca (MAP, UPR 2002 CNRS), Frédéric Dubois (LMGC, UMR 5508 CNRS), Philippe Véron (LISPEN, EA7515), Kevin Jacquot (MAP, URM ENSA/MC)",
+            "position": "Doctorant",
+            "funding": "MITI-CNRS, Mission pour les initiatives transverses",
+            "duration": "2022-2025",
+            "head": "Le diagnostic structurel d'un ouvrages du patrimoine bâti repose sur le croisement d'informations hétérogènes. Dans cette étude, les informations qualitatives provenant de l'inspection visuelle de l'ouvrage sont rendues intéropérables avec les données quantitatives issues de différents scénarios de simulations mécaniques par le biais d'un graphe de connaissance. Nous démontrons sa mise en oeuvre depuis la modélisation conceptuelle maniant l'ontologie CIDOC CRM, et son implémentation dans un système de connaissance appliqué à la cathédrale Notre Dame de Paris.",
+            "body": ""
+        },
+        "reperage": {
+            "title": "Reperage",
+            "subtitle": "Repérage spatio-temporel des claveaux des nervures des voûtes effondrées de Notre-Dame de Paris",
+            "partenaires": {
+                "mapupr":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.cnrs.fr/",
+                    "acronym":  "(MAP, UPR 2002 CNRS)"
+                },
+                "lrmh":{
+                    "name":     "Lab. des Monuments Historiques",
+                    "href":     "https://www.lrmh.fr/",
+                    "acronym":  "(LRMH)"
+                },
+                "sradrac":{
+                    "name":     "Direction Régionale des Affaires Culturelles section d’Archéologie",
+                    "href":     "https://www.culture.gouv.fr/fr/regions/drac-ile-de-france",
+                    "acronym":  "(SRA-DRAC IDF)"
+                }
+            },
+            "collaborateurs": "Groupes de travail 'Pierre' et 'Écosystème Numérique' du Chantier Scientifique de Notre-Dame de Paris",
+            "position": "Co-Responsable",
+            "funding": "FSP, Fondation des Sciences pour le Patrimoine",
+            "duration": "2020-2023",
+            "head": "<strong>La cathédrale Notre-Dame de Paris, ce <del>livre</del> puzzle de pierres.</strong> \nEn avril 2019, la chute de la flèche de la cathédrale précipite 80 des 120 claveaux de l'arc F2930 de la nef parmi les amoncellements de débris. Ce projet s'attache à documenter et à restituer la trajectoire de ces vestiges dans l'espace et dans le temps, en combinant ingénierie des connaissances et web sémantique, annotation de scènes photogrammétriques, travaux interdisciplinaires et modélisations mathématiques.",
+            "body": {
+                "h_para1": "Comment repositionner les fragments d'un monument détruit ?",
+                "p_para10": "En archéologie, le terme d'anastylose désigne l'étude méthodique des fragments d'un artefact du patrimoine pour en restituer un état antérieur. Les premières hypothèses de l'arc effondré sont effectués manuellement, en manipulant les vestiges selon les méthodologies traditionnelles, et n'aboutissent qu'à une hypothèse partielle et incertaine.",
+                "p_para11": "En dérivant les observations archéologiques en contraintes algorithmiques, un modèle d'optimisation linéaire a été construit. Il donne lieu à des aller-retours interdisciplinaires entre la méthode d'anastylose et son interprétation mathématique, et aboutit à une restitution complète de l’arc avec une fiabilité estimée à 73,5 % (Gros et al., 2023). Ce travail a pris forme sur site, mais aussi dans une maquette physique à l’échelle 1/10e - produite depuis les numérisations haute-définition des vestiges -, enrichie par des versions numériques interactive de l'arc et des claveaux.",
+                "h_para2": "Repenser la documentation du patrimoine bâti, depuis les études et les vestiges",
+                "p_para20": "L’urgence du chantier a empêché une fouille archéologique classique en phase de sécurisation. Pour pallier cette absence, l’équipe a reconstruit les trajectoires des vestiges à partir de scènes photogrammétriques annotées, associées à des modèles 3D.",
+                "p_para21": "Au prisme de l'ingénierie des connaissances, le corpus hétérogène de données produits - par les archéologues, architectes, géomaticiens, etc. - est modélisé au moyen de l'ontologie CIDOC CRM et structuré au sein des technologies du web sémantique. Le projet explore ainsi un cadre conceptuel articulant l’Actor-Network Theory avec le CIDOC CRM (Guillem et al., 2024), et un cadre technologique attenant au jumeau numérique (Gros et al, 2023). Ces travaux fournissent un socle conceptuel pour le <link_ERC>projet ERC n_dame</link_ERC> et le <link_Astra>projet Astragale</link_Astra>."
+            },
+            "captions":{
+                "reperage_4moments": "Quatre facettes de la restitution de l'arc et de la trajectoire de ses vestiges: (a) anastylose archéologique, (b) photogrammétrie et modélisation 3d, (c) identification des voussoirs, (d) restitution hybride, anastylose et optimisation linéaire [(A. Kommanda/LRMH/RNDP, 2021), (Gros, 2023), (MAP/CNRS/MC, 2022), (Gros, 2022)]",
+                "reperage_prefclaveau": "Les claveaux, des vestiges identifiables parmi les débris (A. Kommanda/LRMH/RNDP, 2020)",
+                "reperage_humanistica": "Extrait du diagramme de mapping avec l'ontologie CIDOC CRM des informations des claveaux N1A et N320 (Guillem et al., 2023)"
+            }
+        },
+        "ndpvaults": {
+            "title": "Voûtes",
+            "subtitle": "Évaluation de la stabilité mécanique résiduelle au feu des voûtes de la cathédrale Notre-Dame de Paris",
+            "partenaires": {
+                "mapupr":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.cnrs.fr/",
+                    "acronym":  "(MAP, UPR 2002 CNRS)"
+                },
+                "lmgc":{
+                    "name":     "Lab. de Mécanique et de Génie Civil de Montpellier",
+                    "href":     "https://lmgc.umontpellier.fr/",
+                    "acronym":  "(LMGC, UMR 5508 CNRS, Univ. Montpellier)"
+                },
+                "ideuzaime":{
+                    "name":     "Institut de Mécanique et d'Ingénierie de Bordeaux",
+                    "href":     "https://www.i2m.u-bordeaux.fr/",
+                    "acronym":  "(I2M, UMR 5295 CNRS, Univ. Bordeaux)"
+                },
+                "gsa":{
+                    "name":     "Lab. Géométrie Structure Architecture ",
+                    "href":     "https://paris-malaquais.archi.fr/la-recherche/p/laboratoire-gsa/",
+                    "acronym":  "(ENS d'Architecture de Paris Malaquais)"
+                },
+                "mimetics":{
+                    "name":     "Modelisation in Mechanics: Toward Innovating Computing Solutions",
+                    "href":     "https://lmgc.umontpellier.fr/",
+                    "acronym":  "(MiMeTICS engineering)"
+                },
+                "ifstar":{
+                    "name":     "Institut français des sciences et technologies des transports, de l'aménagement et des réseaux",
+                    "href":     "https://www.construction.univ-eiffel.fr/a-propos-des-6-etablissements/ifsttar",
+                    "acronym":  "(ENPC, IFFSTAR)"
+                }
+            },
+            "collaborateurs": "Groupes de travail 'Génie Civil' du Chantier Scientifique de Notre-Dame de Paris",
+            "position": "Responsable du workpackage 'Modélisation Géométrique'",
+            "funding": "EPA RNDP, Etablissement Public d'Aménagement pour la Restauration de la cathédrale Notre-Dame de Paris",
+            "duration": "2019-2020",
+            "head": "A la croisée du transept, un trou béant, et des brèches dans le voûtement. \nSuite à l’incendie d'avril 2019, la stabilité des voûtes de la cathédrale Notre-Dame de Paris est devenue une question centrale pour la restauration de l’édifice séculier. Cette étude, intégrée au chantier scientifique, s’inscrit dans le cadre du diagnostic structurel mené par la maîtrise d’œuvre. Elle vise à comprendre le comportement post-sinistre du voûtement de l'édifice par des simulations mécaniques, et repose sur tant sur sa représentation mécanique fiable que sur la modélisation géométrique fine de ses composants structurels.",
+            "body": {
+                "h_collaboration": "Une collaboration d'envergure pour comprendre le comportement mécanique des voûtes",
+                "p_collaboration": "L’étude a été conduite par un groupement de laboratoires, instituts et startups issus des groupes de travail 'Génie Civil' et 'Écosystème Numérique' du Chantier Scientifique. L’objectif principal : évaluer la stabilité mécanique résiduelle des voûtes du chœur et de la nef, rendue incertaine par les dommages thermiques, l'historique de chargement au fil des siècles et l’irrégularité intrinsèque des maçonneries. \n\nDeux types de simulations mécaniques ont été mobilisés : (a) l’approche continue, qui assimile la maçonnerie à un matériau unique et homogène, et (b) l’approche discrète bloc-à-bloc, qui modélise les interactions entre pierres, leur comportement conféré par les joints de mortier. Ces approches croisées permettent d'explorer les différents mécanismes de ruine de l'ouvrage, d'étudier ses déformations géométriques et les contraintes au sein des matériaux, ainsi que d’identifier les zones de fragilité. Dans le cas des ouvrages en maçonnerie de blocs, la géométrie est un facteur premier. La différence d'épaisseur entre les voûtes du chœur et de la nef ne tarde pas à révéler des mécanismes opposés, en dépit d'une apparence semblable.",
+                "h_contrib": "La modélisation géométrique adaptive des voûtes, paramétrée sur les relevés en nuages de points",
+                "p_contrib": "Pour répondre aux exigences de fidélité géométrique des modèles, nous avons mis en place une chaîne de modélisation paramétrique fondée sur un relevé Lidar de référence, ici le relevé Tallon 2010. Si les éléments de contrebutement comme les arcs-boutants ont pu être modélisés manuellement, la complexité géométrique des voûtes sexpartites – doubles courbure, asymétries, irrégularités, variations d’épaisseur – exigeait une approche plus sophistiquée. \n\nDans l'environnement Rhinoceros/Grasshopper, les nervures des voûtes ont été générées à partir du nuage de points, puis les voûtains reconstruits sous forme de surfaces de translation 'relaxées', pour épouser l’intrados relevé. Un offset variable de cette surface libre permet de générer l’extrados et de restituer le volume complet du voûtain, en reproduisant son affinement de quelques centimetres au niveau de la clef. Les modèles ainsi obtenus, de type BREP, peuvent être soit maillés pour les simulations en milieu continu, soit découpés en blocs selon l’algorithme de Chebyshev - ou algorithme du compas -, en vue d’une analyse bloc-à-bloc."
+            },
+            "captions":{
+                "ndp_model_gsa": "Déplacements subis par la voûte et son contrebutement lors d’une sollicitation horizontale [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]",
+                "ndp_model_deformation": "Cartographie des contraintes dans le matériau sous sollicitation horizontale [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]"
+            }
+        },
+        "archimem": {
+            "title": "Cartographie de mémoires",
+            "subtitle": "Cartographie thématique des mémoires d’architecture niveau Master de l’École Nationale Supérieure d’Architecture de Lyon",
+            "duration": "fev 2019- avr 2019",
+            "head": "...",
+            "body": {
+                "p_abstract": "Au cours de ces dernières années, l’exercice du mémoire est devenu un objet clé pour accéder à la pratique du métier d’architecte. C’est une production jeune ou en bourgeonnement, dense, souvent interdisciplinaire, difficile à cerner dûe à la diversité des thèmes abordés au sein de la discipline. Malgré tout, c’est un corpus que l’on qualifierait comme homogène car fédéré autour d’une discipline. \nCet expérimentation propose une visualisation de ces données sous la forme d’un graphe, au moyen du Traitement Automatique de la Langue (TAL) et de regroupement thématiques des travaux abordés."
+            }
+        },
+        "camillo": {
+            "title": "Théâtre",
+            "subtitle": "Le Théâtre de la Mémoire de Giulio Camillo, un héritage de l'art classique de la mémoire",
+            "funding": "",
+            "collaborateurs": "",
+            "position": "Etudiant en Master",
+            "duration": "jan 2018-juin 2018",
+            "head": "Un théâtre sans planches, sans acteurs; tout juste rempli du cosmos. \nGiulio Camillo (1480-1544) établit Le Théâtre de la Mémoire comme une tentative de reconstituer l'univers et ses mesures au sein d'un dispositif, prenant la forme d'un théâtre antique, habité par des images mythologiques qui deviennent autant de miniatures du Monde. À travers ce projet, Camillo incarne le désir de connaissances et de certitudes propre à un humaniste de la Renaissance, nourri par les traités anciens et les traditions hermétiques de son temps.",
+            "body": {
+                "h_regards": "Regards croisés entre les systèmes de mémoire et l'architecture",
+                "p_regards": "L'Idée du Théâtre, ainsi que les corpus occultes auxquels se réfère sans cesse Camillo questionnent le lecteur contemporain. Il réveille le spectre encyclopédique et demande une fois encore: 'comment réduire le monde à un ensemble fini de représentations et muer toute la connaissance en spectacle ?' (B.Scheffer, 1997). \n\nNotre étude se dote d'une problématique double. D'une part, elle examine comment le Théâtre de la Mémoire prolonge et transforme l'ars memoriae. Cette antique tradition consiste à associer les éléments d'un discours à des éléments placés dans des lieux architecturés pour que 'l'ordre des lieux conserve l'ordre des choses ; les images rappellent les choses elles même' (Simonide de Céos). Le Théâtre en élabore la mutation au cours de la Renaissance, sans pour autant la réaliser. Il pave la voie pour d'autres systèmes auto-érudits comme ceux de Giordano Bruno, marque l'écart avec le 'cours régulier des idées' qui file chez Descartes, Bacon, Leibniz vers la méthode scientifique. \nD'autre part, elle localise le Théâtre dans le contexte de l'histoire de l'architecture et en indique la postérité. Notamment le lien intellectuel et amical entre l'auteur et Sebastiano Serlio, son influence sur ce théoricien dont les ouvrages irrigueront la théorie architecturale européenne sur le siècle à venir.",
+                "p_finish": "Nous plaçons le Théâtre comme un jalon oublié par l'histoire, à la croisée entre les systèmes de mémoire et l'architecture, dont le fonctionnement magique fut absorbé par les siècles et leurs technologies.",
+                "p_award": "Ce projet fut nommé pour le Prix de la Jeune Architecture de Lyon, catégorie Mention Recherche, en 2018"
+            },
+            "captions":{
+                "camillo_theatre": "Gravure représentant le Théâtre de la Mémoire, plaçant les images mythologiques dans ses locis [Anon]",
+                "camillo_jupimnem": "Jupiter déguisé en berger et Mnemosyne, gravure de la série 'Les amours des Dieux' \n(Giacomo Caraglio, 1505?-1565)"
+            }
+        }
+    }
+}
+
+

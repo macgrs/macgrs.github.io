@@ -1,0 +1,21 @@
+{
+    "astragale": {
+      "heroImgUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0926580524006630-gr12_lrg.jpg",
+      "heroImgUrl_old": "s3://img/paraview_uc12-23sidetranparent-lite.png"
+    },
+    "reperage": {
+      "heroImgUrl": "https://sharedocs.huma-num.fr/wl/?id=GxHCKRrvJhqr51Ia2D1mkDVxiF1aIWYO&download=1"
+    },
+    "ndpvaults": {
+      "heroImgUrl": "https://sharedocs.huma-num.fr/wl/?id=BQlTtmLt0SD60bztKRtlrK7U8jJFxegp&download=1"
+    },
+    "archimem": {
+      "heroImgUrl": "https://www.jourda-architectes.com/wp-content/uploads/1987/02/EAL-int.jpg"
+    },
+    "camillo": {
+      "heroImgUrl": "https://sharedocs.huma-num.fr/wl/?id=ayOHPysA9DVXyzty2QiNUvT8m7FB3Vou&download=1"
+    },
+    "urbania": {
+      "heroImgUrl": "https://www.researchgate.net/profile/Antoine-Gros-5/publication/331075349/figure/fig1/AS:726264478433283@1550166353952/Representation-du-Theatre-de-la-Memoire-Anonyme_W640.jpg"
+    }
+}
