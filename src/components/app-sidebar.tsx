@@ -8,6 +8,7 @@ import {
   // Command,
   Frame,
   GalleryVerticalEnd,
+  NotepadText,
   // Map,
   // PieChart,
   // Settings2,
@@ -62,6 +63,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         url: "/",
         icon: Frame,
       },
+      {
+        name: t('sidebar.cv'),
+        url: "/cv",
+        icon: NotepadText,
+      },
     ],
     navAcademics: [
       {
@@ -85,21 +91,21 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             url: "/academics/ndstruct",
             year: "20",
           },
-          {
-            title: t('sidebar.acadeproj.cartothem'),
-            url: "/academics/cartothem",
-            year: "19-20",
-          },
+          // {
+          //   title: t('sidebar.acadeproj.cartothem'),
+          //   url: "/academics/cartothem",
+          //   year: "19-20",
+          // },
           {
             title: t('sidebar.acadeproj.camillo'),
             url: "/academics/camillo",
             year: "18",
           },
-          {
-            title: t('sidebar.acadeproj.urbania'),
-            url: "/academics/urbania",
-            year: "17-18",
-          },
+          // {
+          //   title: t('sidebar.acadeproj.urbania'),
+          //   url: "/academics/urbania",
+          //   year: "17-18",
+          // },
         ],
       },
       {
@@ -107,22 +113,22 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         url: "#",
         icon: BookOpen,
         items: [
-          {
-            title: "Introduction",
-            url: "#",
-          },
-          {
-            title: "Get Started",
-            url: "#",
-          },
-          {
-            title: "Tutorials",
-            url: "#",
-          },
-          {
-            title: "Changelog",
-            url: "#",
-          },
+          // {
+          //   title: "Introduction",
+          //   url: "#",
+          // },
+          // {
+          //   title: "Get Started",
+          //   url: "#",
+          // },
+          // {
+          //   title: "Tutorials",
+          //   url: "#",
+          // },
+          // {
+          //   title: "Changelog",
+          //   url: "#",
+          // },
         ],
       },
     ],
@@ -133,18 +139,18 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         icon: Bot,
         isActive: true,
         items: [
-          {
-            title: "(2025+) LMP",
-            url: "more/projects/lmp",
-          },
-          {
-            title: "Explorer",
-            url: "#",
-          },
-          {
-            title: "Quantum",
-            url: "#",
-          },
+          // {
+          //   title: "(2025+) LMP",
+          //   url: "more/projects/lmp",
+          // },
+          // {
+          //   title: "Explorer",
+          //   url: "#",
+          // },
+          // {
+          //   title: "Quantum",
+          //   url: "#",
+          // },
         ],
       },
       {

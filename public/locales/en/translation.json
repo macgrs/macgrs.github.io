@@ -6,6 +6,7 @@
     },
     "sidebar": {
         "home": "Home",
+        "cv": "Curriculum Vitae",
         "academics": "Academics",
         "acadeproj": {
             "astragale": "Astragale",
@@ -24,9 +25,153 @@
         "title": "Accueil",
         "abstract": "Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture. Mes activités se concentrent sur l’ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l’environnement construit. Cela m’amène à la modélisation de systèmes, la génération de modèles géométriques ou encore la conception de bases de connaissances tout en gardant les ouvrages d’art ou les édifices architecturaux comme sujets d’échanges et d’études. Les produits issus de ces projets viennent nourrir les hypothèses archéologiques de restitution, la réalisation du diagnostic structurel d’un bâtiment tout en identifiant et en levant des verrous scientifiques."
     },
+    "cv": {
+        "title": "Curriculum Vitae",
+        "education": {
+          "title": "Formation",
+          "entries": [
+            {
+              "id": "edu1",
+              "duration": "2022 - 2025",
+              "position": "Ph.D.",
+              "title": "Engineering, Knowledge Graph Applications for Structural Simulation and Conservation Data in Built Heritage",
+              "location": "Arts & Métiers, Paris",
+              "description": ""
+            },
+            {
+              "id": "edu2",
+              "duration": "2017 - 2019",
+              "position": "M.Sc. with Research Mention",
+              "title": "Architecture",
+              "location": "ENS d'Architecture de Lyon, Lyon",
+              "description":
+                "Nominated for the Prix de la Jeune Architecture de Lyon, Research category, in 2018"
+            },
+            {
+              "id": "edu3",
+              "duration": "2013 - 2016",
+              "position": "B.Sc.",
+              "title": "Architecture",
+              "location": "ENS d'Architecture de Paris Val-de-Seine, Paris",
+              "description": ""
+            },
+            {
+                "id": "edu4",
+                "duration": "2010 - 2012",
+                "position": "Propaedeutics",
+                "title": "Engineering",
+                "location": "Polytech' Paris-Saclay, Université Paris-Saclay, Paris",
+                "description": ""
+              }
+          ]
+        },
+        "research": {
+          "title": "Research",
+          "entries": [
+            {
+              "id": "exp1",
+              "duration": "2021 - 2025",
+              "position": "Notre-Dame de Paris Cathedral Scientific Consortium, “Digital Ecosystem” workgroup",
+              "title": "Associate Researcher",
+              "location": "CNRS/MC",
+              "description":
+                "Documentation, digitization, data modeling, and organization of knowledge from the restoration project and interdisciplinary studies."
+            },
+            {
+              "id": "exp2",
+              "duration": "2021 - 2025",
+              "position": "Astragale, Toward a collaborative digital environment for the analysis of built structures",
+              "title": "PhD. Student, Principal Investigator",
+              "location": "(MAP, UMR CNRS 3495)/LMGC/LISPEN",
+              "description":
+                "Bridging conservation data with simulation models with knowledge graphs. System and Knowledge Engineering"
+            },
+            {
+              "id": "exp3",
+              "duration": "2020 - 2023",
+              "position": "Reperage, Spatiotemporal relocation of remains",
+              "title": "Co-Direction, Principal Investigator",
+              "location": "MAP, UMR CNRS 3495",
+              "description":
+                "Documentation, photogrammetry-based relocation and digital anastylosis of Notre Dame’s fallen nave arch stones. Ontological modelling with CIDOC CRM. Collaboration with the “Stone” scientific workgroup."
+            },
+            {
+                "id": "exp4",
+                "duration": "2019 - 2021",
+                "position": "Structural analysis of sexpartite vault behavior",
+                "title": "Associate Researcher, Principal Investigator for the 'Geometry' workpackage",
+                "location": "MAP, UMR CNRS 3495",
+                "description":
+                  " Adaptive parametric remodelling of Notre-Dame sexpartite vaults for structural analysis with FEM/DEM. Collaboration with the “Structure” scientific workgroup"
+            },
+            {
+                "id": "exp5",
+                "duration": "2017 - 2018 (part time)",
+                "position": "Urbania",
+                "title": "Research Contributor",
+                "location": "MAP, UMR CNRS 3495",
+                "description": ""
+            }
+          ]
+        },
+        "experience": {
+          "title": "Experience",
+          "entries": [
+            {
+              "id": "res1",
+              "duration": "2019 - 2021",
+              "position": "Associate Professor",
+              "title": "Sciences and Technologies for Architecture",
+              "location": "ENS d'Architecture de Marseille, Marseille",
+              "description":
+                "Management of the Master Thesis Atelier: “Heritage Buildings and Digital humanities” (M1, M2). Core Courses: “Methods and techniques for Arch. Surveying” (B3), “Structural Design” (B3). Digitization. Research board."
+            },
+            {
+              "id": "res2",
+              "duration": "jun-dec 2019",
+              "position": "Research Contributor",
+              "title": "Data analysis, Exhibition Curation",
+              "location": "Conseil d'Architecture, d'Urbanisme et d'Environnement du Rhône, Lyon",
+              "description": ""
+            },
+            {
+              "id": "res3",
+              "duration": "sep 2018 - dec 2019",
+              "position": "Research Graduate & Teaching Assistant Researcher",
+              "title": "Prototyping, CAM, teaching in “Studio Weinand” (M1) and “Designing Structure” (B3)",
+              "location": "EPFL ENAC IIC IBOIS, Lausanne",
+              "description": ""
+            },
+            {
+                "id": "res4",
+                "duration": "2017 - 2028 (part time)",
+                "position": "Research Contributor",
+                "title": "Knowledge-based geometrical remodelling of bastioned city fortifications, urban scale",
+                "location": "MAP-ARIA, UMR CNRS/MC 3495, Lyon",
+                "description": ""
+              },
+              {
+                "id": "res5",
+                "duration": "mars-juill. 2016",
+                "position": "Community Manager",
+                "title": "Promoting the PROTO204' Fablab and Living Lab",
+                "location": "PROTO204, Université Paris-Saclay",
+                "description": ""
+              },
+              {
+                "id": "res5",
+                "duration": "sep 2015 - fev 2016",
+                "position": "Architect Intern",
+                "title": "Feasibility studies for housing",
+                "location": "Studio Muoto, Paris",
+                "description": ""
+              }
+          ]
+        }
+      },
     "academics": {
         "global" :{
-            "abstract": "Résumé",
+            "abstract": "Abstract",
             "acronym": "Acronym",
             "partenaires": "Partners",
             "encadrement": "Supervision",
@@ -68,8 +213,26 @@
             "title": "Astragale",
             "subtitle": "Knowledge Graph Applications for Structural Simulation and Conservation Data in Built Heritage",
             "collaborateurs": "Notre-Dame de Paris Scientific consortium for restauration, workgroups 'Digital Ecosystem' and 'Civil Engineering'",
-            "position": "PhD",
-            "abstract": "Le diagnostic structurel d'un ouvrages du patrimoine bâti repose sur le croisement d'informations hétérogènes. Dans cet article, les informations qualitatives provenant de l'inspection visuelle de l'ouvrage sont rendues intéropérables avec les données quantitatives issues de différents scénarios de simulations mécaniques par le biais d'un graphe de connaissance. Nous démontrons sa mise en oeuvre depuis la modélisation conceptuelle maniant l'ontologie CIDOC CRM, et son implémentation dans un système de connaissance appliqué à la cathédrale Notre Dame de Paris."
+            "encadrement": "Livio De Luca (MAP, UPR 2002 CNRS), Frédéric Dubois (LMGC, UMR 5508 CNRS), Philippe Véron (LISPEN, EA7515), Kevin Jacquot (MAP, URM ENSA/MC)",
+            "position": "PhD Student",
+            "funding": "MITI-CNRS, Mission pour les initiatives transverses",
+            "duration": "2022-2025",
+            "head": "<strong>Brdiging observations, modelling, and simulations.</strong> \nUnderstanding building's pathologies is central to the conservation of built heritage. Such comprehension emerges from the interplay of on-site observations, measures and models, and simulations. Structural diagnosis, in particular, is key to anticipating interventions and ensuring the safety of buildings. The main challenge lies in designing methods and tools that support the coherent integration of such heterogeneous data in a knowledge capitalization framework.",
+            "body": {
+                "h_para1": "Organizing diagnostic knowledge via knowledge graphs",
+                "p_para10": "We propose a knowledge graph approach to organize and interrelate data produced during building diagnostics. By combining provenance modelling, spatial localization of alterations, and the formalization of their typologies using Semantic Web technologies, we iteratively develop the AB2CRM ontology from the CIDOC CRM standard. The innovative application of the eXtreme Design methodology enables the extraction and integration of ontology patterns from CIDOC CRM, supporting controlled increases in model complexity and ensuring consistency through systematic testing protocols.",
+                "p_para11": "The ontology connects data provenance using PROV-O-like mechanisms, defines structural components and alterations through SKOS-based thesauri (e.g., AAT, ICOMOS-stone), and supports spatial localization through topological relationships or geometrical representations (e.g., LiDAR scans, STEP models). This conceptual framework enables both deductive and inductive reasoning about known or emerging damage typologies. Ultimately, this conceptual framework should provide the basis for deductive and inductive reasoning, involving known or emerging types of deterioration.",
+                "h_para2": "A reference system Architecture for diagnostic data integration",
+                "p_para20": "Reusability of information, mutualization across studies, and analogy between similar structures are key requirements for the design of such an information system. We identified and tested a distributed, event-driven reference architecture with loosely coupled services exposed through a gateway API.",
+                "p_para21": "Two data pipelines illustrate the integration of heterogeneous information into the knowledge graph: (a) extraction of damage-related data from numerical simulations using the multiphysics solver LMGC90, and (b) import of conservation annotations from the photogrammetric scene annotation platform Aïoli. Enabled by the knowledge graph, these datasets can be queried, cross-referenced, and analyzed through advanced logic (e.g., hierarchical clustering), paving the way for sustainable management of structural diagnostics in heritage conservation.",
+                "p_para30": "See also, <link_Github>Astragale Project on Github</link_Github>."
+            },
+            "captions":{
+                "astragale_archcidoccrm": "Alignment of conservation information, a crack observed on site, and a simulation result, the prediction of head cracking during a passive thrust scenario (Gros, 2025)",
+                "astragale_grapheclustering": "Hierarchical clustering of alterations and damage, from information stored in the knowledge graph (Gros, 2025)",
+                "astragale_simulationsysml": "(a) Representation of the workflow and joint dependencies of a mechanical simulation; (b) Propagation of an arc-head crack at different time steps of a mechanical simulation, this discrete information is extracted and recorded as a data graph. (Gros, 2025)",
+                "astragale_sysarch": "Overview of knowledge system architecture, based on modern service layering (Gros, 2025)"
+            }
         },
         "ndpvaults": {
             "title": "Vaults",
@@ -110,7 +273,7 @@
             "position": "Head of the 'Geometric Modeling' workpackage",
             "funding": "EPA RNDP, Etablissement Public d'Aménagement pour la Restauration de la cathédrale Notre-Dame de Paris",
             "duration": "2019-2020",
-            "head": "At the crossing of the transept, a gaping hole; in the vaulting, breaches. \n\nFollowing the April 2019 fire, the structural stability of Notre-Dame de Paris’ vaults became a key concern in the restoration of the secular monument. This study, part of the scientific consortium, contributes to the structural diagnosis led by the restoration team. Its objective is to analyze the post-fire mechanical behavior of the vaulting through numerical simulations, relying both on accurate mechanical modeling and detailed geometric reconstruction of the cathedral’s structural components.",
+            "head": "<strong>At the crossing of the transept, a gaping hole; in the vaulting, breaches.</strong> \n\nFollowing the April 2019 fire, the structural stability of Notre-Dame de Paris’ vaults became a key concern in the restoration of the secular monument. This study, part of the scientific consortium, contributes to the structural diagnosis led by the restoration team. Its objective is to analyze the post-fire mechanical behavior of the vaulting through numerical simulations, relying both on accurate mechanical modeling and detailed geometric reconstruction of the cathedral’s structural components.",
             "body": {
                 "h_collaboration": "A wide-ranging collaboration to understand fire-damaged vault behavior",
                 "p_collaboration": "The study was carried out by a consortium of laboratories, research institutes, and startups from the “Civil Engineering” and “Digital Ecosystem” workgroups of the Notre-Dame Scientific Project. The core goal: assess the residual mechanical stability of the choir and nave vaults, made uncertain by centuries of accumulated loads, fire-induced damage, and the intrinsic irregularities of masonry. \n\nTwo complementary mechanical simulation approaches were used: (a) the continuous approach, which models masonry as a single, homogeneous material; (b) the discrete block-by-block approach, which considers stone-to-stone interactions through the mechanical role of mortar joints. These approaches allow for a comprehensive investigation of possible failure mechanisms, geometric deformations, internal stress distributions, and areas of structural vulnerability. In masonry structures, geometry plays a central role. The difference in thickness between the choir and nave vaults soon reveals opposing mechanisms, despite their similar appearance.",
@@ -129,7 +292,7 @@
             "collaborateurs": "",
             "position": "Msc. Student",
             "duration": "jan 2018-june 2018",
-            "head": "A theatre with no stage, no actors; merely filled with the cosmos. \nGiulio Camillo (1480–1544) conceived The Theatre of Memory as an attempt to reconstruct the universe and its principles within a device shaped like an ancient theatre, inhabited by mythological images that function as miniature representations of the World. Through this project, Camillo embodies the Renaissance humanist’s thirst for certainty and knowledge, nourished by ancient treatises and the hermetic traditions of his time.",
+            "head": "<strong>A theatre with no stage, no actors; merely filled with the cosmos.</strong> \nGiulio Camillo (1480–1544) conceived The Theatre of Memory as an attempt to reconstruct the universe and its principles within a device shaped like an ancient theatre, inhabited by mythological images that function as miniature representations of the World. Through this project, Camillo embodies the Renaissance humanist’s thirst for certainty and knowledge, nourished by ancient treatises and the hermetic traditions of his time.",
             "body": {
                 "h_regards": "A dialogue between memory devices and architecture",
                 "p_regards": "The Idea of the Theatre, along with the occult and hermetic sources to which Camillo continually refers, continues to challenge the modern reader. It reawakens the encyclopedic impulse and once again poses the question: “How can the world be reduced to a finite set of representations, and all knowledge turned into spectacle?” (B. Scheffer, 1997). \n\nOur study is structured around a dual inquiry. First, it examines how the Theatre of Memory both continues and transforms the ars memoriae tradition. This ancient mnemonic art consists in associating elements of discourse with architecturally ordered locations, so that “the order of places preserves the order of things; the images recall the things themselves” (Simonides of Ceos). Camillo’s theatre elaborates a Renaissance mutation of this art without fully realizing it, paving the way for later self-erudite systems such as those of Giordano Bruno. It also marks a departure from the “regular course of ideas” that would lead Descartes, Bacon, and Leibniz toward the foundations of modern scientific method. \n\nSecondly, the study situates the theatre within the broader history of architecture and traces its legacy. Notably, it highlights the intellectual and personal relationship between Camillo and Sebastiano Serlio, whose architectural treatises would shape European theory in the following century.",
@@ -139,6 +302,46 @@
             "captions":{
                 "camillo_theatre": "Engraving representing the Theatre of Memory, placing mythological images in its locis [Anon]",
                 "camillo_jupimnem": "Jupiter disguised as a shepherd and Mnemosyne, engraving from the ‘Les amours des Dieux’ series \n(Giacomo Caraglio, 1505?-1565)"
+            }
+        },
+        "reperage": {
+            "title": "Reperage",
+            "subtitle": "Repérage spatio-temporel des claveaux des nervures des voûtes effondrées de Notre-Dame de Paris",
+            "partenaires": {
+                "mapupr":{
+                    "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
+                    "href":     "https://www.map.cnrs.fr/",
+                    "acronym":  "(MAP, UPR 2002 CNRS)"
+                },
+                "lrmh":{
+                    "name":     "Lab. des Monuments Historiques",
+                    "href":     "https://www.lrmh.fr/",
+                    "acronym":  "(LRMH)"
+                },
+                "sradrac":{
+                    "name":     "Direction Régionale des Affaires Culturelles section d’Archéologie",
+                    "href":     "https://www.culture.gouv.fr/fr/regions/drac-ile-de-france",
+                    "acronym":  "(SRA-DRAC IDF)"
+                }
+            },
+            "collaborateurs": "'Digital Ecosystem' and 'Stone' teams of the scientific consortium for Notre-Dame de Paris restoration",
+            "position": "Co-Director",
+            "funding": "FSP, Fondation des Sciences pour le Patrimoine",
+            "duration": "2020-2023",
+            "head": "<strong>Notre-Dame de Paris cathedral, this stone <del>book</del> puzzle.</strong> \nIn April 2019, the collapse of the cathedral's spire caused 80 of the 120 voussoirs from the F29-30 arch in the nave to fall amidst the heaps of rubble. This project aims to document and reconstruct the spatial and temporal trajectories of these remains, combining knowledge engineering and semantic web technologies, annotated photogrammetric scenes, interdisciplinary contributions, and mathematical modeling.",
+            "body": {
+                "h_para1": "Repositioning the fragments of a collapsed monument",
+                "p_para10": "In archaeology, the term anastylosis refers to the methodical study of fragmented heritage artefacts to restore them to a previous state. Initial hypotheses for the reconstruction of the cllapsed arch were based on manual handling and traditional methods, resulting in a partial and uncertain proposition.",
+                "p_para11": "By converting archaeological insights into algorithmic constraints, a linear optimization model was developed. This enabled an interdisciplinary dialogue between the principles of anastylosis and their mathematical interpretation, culminating in a full reconstruction of the arch with an estimated confidence level of 73.5% (Gros et al., 2023). This work materialized on site, in a 1:10 scale physical model produced from high-definition scans of the remains, enriched by interactive digital representations of the arch and its voussoirs.",
+                "h_para2": "Rethinking heritage documentation from fieldwork to digital traces",
+                "p_para20": "The urgency of the restoration site precluded conventional archaeological excavation during the securing phase. To overcome this gap, the team reconstructed the trajectories of the fallen voussoir using annotated photogrammetric scenes and 3D models.",
+                "p_para21": "Through the lens of knowledge engineering, the heterogeneous data corpus - produced by archaeologists, architects, geomatics experts, etc. — was modeled using the CIDOC CRM ontology and structured within Semantic Web technologies. The project thus explores a conceptual framework that articulates the Actor-Network Theory with CIDOC CRM (Guillem et al., 2024), alongside a technological framework associated with the digital twin paradigm (Gros et al., 2023). These developments provide a robust conceptual foundation for the <link_ERC>ERC n-dame_Heritage project</link_ERC> and the <link_Astra>Astragale project</link_Astra>.",
+                "p_para30": "See also, the documentary film <link_Arte>Notre-Dame de Paris, le chantier du siècle</link_Arte> (in French/German, English subtitled)."
+            },
+            "captions":{
+                "reperage_4moments": "Four facet for the restitution of the arch and it's remains trajectory: (a) archeological anastylosis, (b) photogrammetry and 3d modelling, (c) voussoirs identification, (d) an hybrid solution, the interplay of mathematical optimisation and anastylosis. [(A. Kommanda/LRMH/RNDP, 2021), (Gros, 2023), (MAP/CNRS/MC, 2022), (Gros, 2022)]",
+                "reperage_prefclaveau": "The arch voussoirs, specific remains among rubble (A. Kommanda/LRMH/RNDP, 2020)",
+                "reperage_humanistica": "A diagrammatic extract from the CIDOC CRM mapping of the voussoirs N1A and N320' informations (Guillem et al., 2023)"
             }
         }
     }

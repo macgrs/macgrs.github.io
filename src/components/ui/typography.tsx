@@ -24,7 +24,8 @@ const H1: React.FC<Props> = ({className, children}) => {
 
   const H3: React.FC<Props> = ({className, children}) => {
     return (
-      <h3 className={`whitespace-pre-line font-[PPNeueMontrealRegular] scroll-m-20 text-2xl tracking-tight lg:text-2xl ${className}`}>
+      // <h3 className={`whitespace-pre-line font-[PPNeueMontrealRegular] scroll-m-20 text-2xl tracking-tight lg:text-2xl ${className}`}>
+      <h3 className={`whitespace-pre-line scroll-m-20 text-2xl tracking-tight lg:text-2xl ${className}`}>
         {children}
       </h3>
     )
@@ -49,8 +50,8 @@ const H1: React.FC<Props> = ({className, children}) => {
 
   const P: React.FC<Props> = ({className, children}) => {
     return (
-      <p className={`whitespace-pre-line font-[PPNeueMontrealRegular] leading-7 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
-      {/* <p className={`text-base leading-relaxed text-gray-800 ${className}`}> */}
+      // <p className={`whitespace-pre-line font-[PPNeueMontrealRegular] tracking-wide leading-7 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
+      <p className={`whitespace-pre-line text-base leading-relaxed text-gray-800 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
        {children}
       </p>
     )
@@ -58,7 +59,8 @@ const H1: React.FC<Props> = ({className, children}) => {
 
   const C: React.FC<Props> = ({className, children}) => {
     return (
-      <p className={`mx-2 font-[PPNeueMontrealRegular] whitespace-pre-line italic leading-6 [&:not(:first-child)]:mt-2 lg:text-base ${className}`}>
+      // <p className={`mx-2 font-[PPNeueMontrealRegular] whitespace-pre-line italic leading-6 [&:not(:first-child)]:mt-2 lg:text-base ${className}`}>
+      <p className={`mx-2 whitespace-pre-line italic leading-6 [&:not(:first-child)]:mt-2 lg:text-lg ${className}`}>
        {children}
       </p>
     )

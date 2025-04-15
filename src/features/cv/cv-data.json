@@ -1,0 +1,88 @@
+{
+    "education": [
+      {
+        "id": "edu1",
+        "duration": "2015 - 2019",
+        "position": "Ph.D.",
+        "title": "Engineering",
+        "location": "Arts & Métiers",
+        "description":
+          "Specialized in artificial intelligence and machine learning with focus on natural language processing. Thesis on 'Deep Learning Approaches for Contextual Understanding in Conversational AI'."
+      },
+      {
+        "id": "edu2",
+        "duration": "2013 - 2015",
+        "position": "M.Sc.",
+        "title": "Computer Science",
+        "location": "MIT, Cambridge, MA",
+        "description":
+          "Focused on algorithms and computational theory. Graduated with honors and received the Outstanding Graduate Student Award."
+      },
+      {
+        "id": "edu3",
+        "duration": "2009 - 2013",
+        "position": "B.Sc.",
+        "title": "Computer Engineering",
+        "location": "UC Berkeley, CA",
+        "description": "Double major in Mathematics. Senior project on distributed systems. Dean's List all semesters."
+      }
+    ],
+    "experience": [
+      {
+        "id": "exp1",
+        "duration": "2020 - Present",
+        "position": "Senior AI Researcher",
+        "title": "Advanced AI Solutions Team",
+        "location": "Google Research, Mountain View, CA",
+        "description":
+          "Leading a team of 8 researchers working on next-generation language models. Developed key components of the latest conversational AI system deployed across Google products."
+      },
+      {
+        "id": "exp2",
+        "duration": "2019 - 2020",
+        "position": "AI Research Scientist",
+        "title": "Natural Language Understanding",
+        "location": "OpenAI, San Francisco, CA",
+        "description":
+          "Contributed to GPT architecture improvements. Focused on enhancing contextual understanding and reducing hallucinations in large language models."
+      },
+      {
+        "id": "exp3",
+        "duration": "2017 - 2019",
+        "position": "Research Intern",
+        "title": "AI Research Division",
+        "location": "Microsoft Research, Seattle, WA",
+        "description":
+          "Worked on machine learning models for code completion and generation. Published 2 papers at top-tier conferences based on this work."
+      }
+    ],
+    "research": [
+      {
+        "id": "res1",
+        "duration": "2021 - 2023",
+        "position": "Principal Investigator",
+        "title": "Multimodal Learning for Robotics",
+        "location": "Collaborative project with Stanford Robotics",
+        "description":
+          "Developed novel approaches for robots to learn from both visual and textual instructions. Resulted in 3 publications and a patent application."
+      },
+      {
+        "id": "res2",
+        "duration": "2018 - 2021",
+        "position": "Research Contributor",
+        "title": "Efficient Transformers",
+        "location": "Cross-institutional research initiative",
+        "description":
+          "Investigated methods to reduce computational requirements of transformer models while maintaining performance. Achieved 40% reduction in training time."
+      },
+      {
+        "id": "res3",
+        "duration": "2016 - 2018",
+        "position": "Graduate Researcher",
+        "title": "Explainable AI Systems",
+        "location": "Stanford AI Lab",
+        "description":
+          "Researched techniques to make deep learning models more interpretable. Work cited in over 50 subsequent papers in the field."
+      }
+    ]
+  }

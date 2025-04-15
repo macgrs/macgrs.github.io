@@ -5,10 +5,10 @@ import { H1, H2, H3, P, A, C } from "@/components/ui/typography"
 import { ZoomableImage } from "@/components/ui/zoomable-image"
 import SimpleParallax from 'simple-parallax-js';
 
-import {ProjectCard} from "@/features/static-academics/ProjectCard"
-import {ProjectHeroImageTitle} from "@/features/static-academics/ProjectHeroImageTitle"
+import {ProjectCard} from "@/features/academics/ProjectCard"
+import {ProjectHeroImageTitle} from "@/features/academics/ProjectHeroImageTitle"
 
-import * as projectData from '@/features/static-academics/project-data';
+import * as projectData from '@/features/academics/academics-data';
 
 
 const AcademicsStaticNdpVaults = () => {

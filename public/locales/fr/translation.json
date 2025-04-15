@@ -6,6 +6,7 @@
     },
     "sidebar": {
         "home": "Accueil",
+        "cv": "Curriculum Vitae",
         "academics": "Académique",
         "acadeproj": {
             "astragale": "Astragale",
@@ -24,6 +25,112 @@
         "title": "Accueil",
         "abstract": "Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture. Mes activités se concentrent sur l’ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l’environnement construit. Cela m’amène à la modélisation de systèmes, la génération de modèles géométriques ou encore la conception de bases de connaissances tout en gardant les ouvrages d’art ou les édifices architecturaux comme sujets d’échanges et d’études. Les produits issus de ces projets viennent nourrir les hypothèses archéologiques de restitution, la réalisation du diagnostic structurel d’un bâtiment tout en identifiant et en levant des verrous scientifiques."
     },
+    "cv": {
+        "title": "Curriculum Vitae",
+        "education": {
+          "title": "Formation",
+          "entries": [
+            {
+              "id": "edu1",
+              "duration": "2022 - 2025",
+              "position": "Ph.D.",
+              "title": "Ingénierie",
+              "location": "Arts & Métiers, Paris",
+              "description":
+                "Projet Astragale"
+            },
+            {
+              "id": "edu2",
+              "duration": "2017 - 2019",
+              "position": "Master, mention recherche",
+              "title": "Architecture",
+              "location": "ENS d'Architecture de Lyon, Lyon",
+              "description":
+                "Toute la mémoire des hommes, théâtre de Camillo\n Nominé en catégorie Recherche pour les Prix de la Jeune Architecture 18"
+            },
+            {
+              "id": "edu3",
+              "duration": "2013 - 2016",
+              "position": "Licence",
+              "title": "Architecture",
+              "location": "ENS d'Architecture de Paris Val-de-Seine, Paris",
+              "description": "Double major in Mathematics. Senior project on distributed systems. Dean's List all semesters."
+            },
+            {
+                "id": "edu4",
+                "duration": "2010 - 2012",
+                "position": "Propédeutique",
+                "title": "Computer Engineering",
+                "location": "Polytech' Paris-Saclay, Université Paris-Saclay, Paris",
+                "description": "Double major in Mathematics. Senior project on distributed systems. Dean's List all semesters."
+              }
+          ]
+        },
+        "experience": {
+          "title": "Experience",
+          "entries": [
+            {
+              "id": "exp1",
+              "duration": "2021 - 2025",
+              "position": "Chantier Scientifique pour la restauration de la cathédrale Notre-Dame de Paris, équipe 'Écosystème Numérique'",
+              "title": "Chercheur Associé",
+              "location": "CNRS / MC",
+              "description":
+                "Documentation, digitization, data modeling, and organization of knowledge from the restoration project and interdisciplinary studies."
+            },
+            {
+              "id": "exp2",
+              "duration": "2019 - 2020",
+              "position": "AI Research Scientist",
+              "title": "Natural Language Understanding",
+              "location": "OpenAI, San Francisco, CA",
+              "description":
+                "Contributed to GPT architecture improvements. Focused on enhancing contextual understanding and reducing hallucinations in large language models."
+            },
+            {
+              "id": "exp3",
+              "duration": "2017 - 2019",
+              "position": "Research Intern",
+              "title": "AI Research Division",
+              "location": "Microsoft Research, Seattle, WA",
+              "description":
+                "Worked on machine learning models for code completion and generation. Published 2 papers at top-tier conferences based on this work."
+            }
+          ]
+        },
+        "research": {
+          "title": "Research",
+          "entries": [
+            {
+              "id": "res1",
+              "duration": "2021 - 2023",
+              "position": "Principal Investigator",
+              "title": "Multimodal Learning for Robotics",
+              "location": "Collaborative project with Stanford Robotics",
+              "description":
+                "Developed novel approaches for robots to learn from both visual and textual instructions. Resulted in 3 publications and a patent application."
+            },
+            {
+              "id": "res2",
+              "duration": "2018 - 2021",
+              "position": "Research Contributor",
+              "title": "Efficient Transformers",
+              "location": "Cross-institutional research initiative",
+              "description":
+                "Investigated methods to reduce computational requirements of transformer models while maintaining performance. Achieved 40% reduction in training time."
+            },
+            {
+              "id": "res3",
+              "duration": "2016 - 2018",
+              "position": "Graduate Researcher",
+              "title": "Explainable AI Systems",
+              "location": "Stanford AI Lab",
+              "description":
+                "Researched techniques to make deep learning models more interpretable. Work cited in over 50 subsequent papers in the field."
+            }
+          ]
+        }
+      },
     "academics": {
         "global" :{
             "abstract": "Résumé",
@@ -72,8 +179,22 @@
             "position": "Doctorant",
             "funding": "MITI-CNRS, Mission pour les initiatives transverses",
             "duration": "2022-2025",
-            "head": "Le diagnostic structurel d'un ouvrages du patrimoine bâti repose sur le croisement d'informations hétérogènes. Dans cette étude, les informations qualitatives provenant de l'inspection visuelle de l'ouvrage sont rendues intéropérables avec les données quantitatives issues de différents scénarios de simulations mécaniques par le biais d'un graphe de connaissance. Nous démontrons sa mise en oeuvre depuis la modélisation conceptuelle maniant l'ontologie CIDOC CRM, et son implémentation dans un système de connaissance appliqué à la cathédrale Notre Dame de Paris.",
-            "body": ""
+            "head": "<strong>Relier observations, modélisations et simulations.</strong> \nLa conservation du patrimoine bâti repose sur une compréhension fine des désordres affectant les structures. Or, ces désordres ne peuvent être pleinement appréhendés qu’en croisant des observations empiriques, des mesures et modèles, et des simulations numériques. Parmi ces études, le diagnostic structurel est critique pour anticiper les interventions et garantir la sécurité des édifices. Le défi est alors de concevoir les outils et méthodes permettant l'intégration cohérente de ces informations dans une logique de capitalisation des connaissances.",
+            "body": {
+                "h_para1": "Organiser la connaissances d'un édifice par un graphe",
+                "p_para10": "Cette étude propose une approche fondée sur les graphes de connaissances pour organiser et relier les données issues des diagnostics. En combinant modélisation de la provenance des études, spatialisation des altérations et formalisation de leur types avec les outils du Web Sémantique, nous développons l'ontologie AB2CRM depuis le standard CIDOC CRM. L'application innovante de la méthodologie eXtreme Design nous permet d'extraire et assembler des motifs ontologiques de CIDOC CRM de manière itérative, dans le but de contrôler la montée en complexité du modèle et d'en certifier la validité par un protocole de test.",
+                "p_para11": "Cette ontologie permet de relier l’origine des informations par des mécanismes similaire à PROV-O, la nature des composants et de leurs altérations structurée par des thésaurus SKOS (AAT, icomos-stone, etc.) et les localiser, par leurs relations topologique ou l'un de leurs géométries (relevé Lidar, modèle STEP, etc.). A terme, le cadre conceptuel mis en œuvre permet d’envisager un raisonnement déductif et inductif, autour des typologies de dégradations connues ou émergentes.",
+                "h_para2": "Une architecture système de référence pour l'intégration des données de diagnostic",
+                "p_para20": "La réutilisation des informations, leur mutualisation entre les études et les possibilités d'analogie entre les ouvrages de même types sont autant d'exigences à satisfaire lors de la conception d'un tel système d'information. Nous avons identifié et expérimenté une architecture de référence distribuée, orientée-événements, dont les services faiblement couplés sont exposés par une API passerelle. ",
+                "p_para21": "Deux pipelines de données illustrent l'enrichissment de données hétérogènes vers le graphe de connaissances : (a) l'extraction d'informations d'endommagement depuis les résultats de simulations issus du solveur multiphysique LMGC90, et (b) l'import des informations de conservation depuis la plateforme d'annotation de scènes photogrammétriques Aïoli. Grâce au graphe de connaissances, ces données peuvent être explorées, croisées et analysées selon des logiques avancées (ex. : clustering d’altérations), ouvrant la voie à une gestion durable des informations de diagnostic du patrimoine.",
+                "p_para30": "Voir aussi, <link_Github>le projet Astragale sur Github</link_Github>."
+            },
+            "captions":{
+                "astragale_archcidoccrm": "Alignement des informations de conservation, une fissure observée sur site, et d'un résultat de simulation, la prédiction d'une fissureation en tête lors d'un scénario de poussée passive (Gros, 2025)",
+                "astragale_grapheclustering": "Clustering hiérarchique des altérations et endommagements, depuis les informations stockées dans le graphe de connaissances (Gros, 2025)",
+                "astragale_simulationsysml": "(a) Représentation du flux de travail et des dépendances conjointes à une simulation mécanique ; (b) Propagation d'une fissure en tête d'arc à différents pas de temps d'une simulation mécanique, ces informations discrètes sont extraites et enregistrées sous la forme d'un graphe de données. (Gros, 2025)",
+                "astragale_sysarch": "Vue d'ensemble de l'architecture du système de connaissance, basée sur une stratification de services moderne (Gros, 2025)"
+            }
         },
         "reperage": {
             "title": "Reperage",
@@ -106,7 +227,8 @@
                 "p_para11": "En dérivant les observations archéologiques en contraintes algorithmiques, un modèle d'optimisation linéaire a été construit. Il donne lieu à des aller-retours interdisciplinaires entre la méthode d'anastylose et son interprétation mathématique, et aboutit à une restitution complète de l’arc avec une fiabilité estimée à 73,5 % (Gros et al., 2023). Ce travail a pris forme sur site, mais aussi dans une maquette physique à l’échelle 1/10e - produite depuis les numérisations haute-définition des vestiges -, enrichie par des versions numériques interactive de l'arc et des claveaux.",
                 "h_para2": "Repenser la documentation du patrimoine bâti, depuis les études et les vestiges",
                 "p_para20": "L’urgence du chantier a empêché une fouille archéologique classique en phase de sécurisation. Pour pallier cette absence, l’équipe a reconstruit les trajectoires des vestiges à partir de scènes photogrammétriques annotées, associées à des modèles 3D.",
-                "p_para21": "Au prisme de l'ingénierie des connaissances, le corpus hétérogène de données produits - par les archéologues, architectes, géomaticiens, etc. - est modélisé au moyen de l'ontologie CIDOC CRM et structuré au sein des technologies du web sémantique. Le projet explore ainsi un cadre conceptuel articulant l’Actor-Network Theory avec le CIDOC CRM (Guillem et al., 2024), et un cadre technologique attenant au jumeau numérique (Gros et al, 2023). Ces travaux fournissent un socle conceptuel pour le <link_ERC>projet ERC n_dame</link_ERC> et le <link_Astra>projet Astragale</link_Astra>."
+                "p_para21": "Au prisme de l'ingénierie des connaissances, le corpus hétérogène de données produits - par les archéologues, architectes, géomaticiens, etc. - est modélisé au moyen de l'ontologie CIDOC CRM et structuré au sein des technologies du web sémantique. Le projet explore ainsi un cadre conceptuel articulant l’Actor-Network Theory avec le CIDOC CRM (Guillem et al., 2024), et un cadre technologique attenant au jumeau numérique (Gros et al, 2023). Ces travaux fournissent un socle conceptuel pour le <link_ERC>projet ERC n-dame_Heritage</link_ERC> et le <link_Astra>projet Astragale</link_Astra>.",
+                "p_para30": "Voir aussi, le film documentaire <link_Arte>Notre-Dame de Paris, le chantier du siècle</link_Arte>."
             },
             "captions":{
                 "reperage_4moments": "Quatre facettes de la restitution de l'arc et de la trajectoire de ses vestiges: (a) anastylose archéologique, (b) photogrammétrie et modélisation 3d, (c) identification des voussoirs, (d) restitution hybride, anastylose et optimisation linéaire [(A. Kommanda/LRMH/RNDP, 2021), (Gros, 2023), (MAP/CNRS/MC, 2022), (Gros, 2022)]",

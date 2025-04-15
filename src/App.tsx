@@ -25,14 +25,15 @@ import {
 
 // // PAGES - COMPONENTS // //
 import Home from '@/features/Home.tsx'
+import { CurriculumVitae } from '@/features/cv/curriculum-vitae.tsx'
 
-import AcademicsStaticAstragale   from '@/features/static-academics/project-astragale.jsx'
-import AcademicsStaticReperage    from '@/features/static-academics/project-reperage.jsx'
-import AcademicsStaticNdstruct    from '@/features/static-academics/project-ndstruct.jsx'
-import AcademicsStaticCarthothem  from '@/features/static-academics/project-cartothem.jsx'
-import AcademicsStaticUrbania    from '@/features/static-academics/project-urbania.jsx'
+import AcademicsStaticAstragale   from '@/features/academics/project-astragale.jsx'
+import AcademicsStaticReperage    from '@/features/academics/project-reperage.jsx'
+import AcademicsStaticNdstruct    from '@/features/academics/project-ndstruct.jsx'
+import AcademicsStaticCarthothem  from '@/features/academics/project-cartothem.jsx'
+import AcademicsStaticUrbania    from '@/features/academics/project-urbania.jsx'
 
-import AcademicsStaticCamillo  from '@/features/static-academics/project-camillo.jsx'
+import AcademicsStaticCamillo  from '@/features/academics/project-camillo.jsx'
 
 export default function Page() {
   return (
@@ -67,6 +68,7 @@ export default function Page() {
             <Route index element={<Home />} />
 
             {/* <Route element={<AuthLayout />}> */}
+              <Route path="/cv"                   element={<CurriculumVitae />} />
               <Route path="/academics/astragale"  element={<AcademicsStaticAstragale />} />
               <Route path="/academics/reperage"   element={<AcademicsStaticReperage />} />
               <Route path="/academics/ndstruct"   element={<AcademicsStaticNdstruct />} />

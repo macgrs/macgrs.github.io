@@ -5,14 +5,14 @@ import { H1, H2, H3, H4, P, A, C } from "@/components/ui/typography"
 import { ZoomableImage } from "@/components/ui/zoomable-image"
 import SimpleParallax from 'simple-parallax-js';
 
-import {ProjectCard} from "@/features/static-academics/ProjectCard"
-import {ProjectHeroImageTitle} from "@/features/static-academics/ProjectHeroImageTitle"
+import {ProjectCard} from "@/features/academics/ProjectCard"
+import {ProjectHeroImageTitle} from "@/features/academics/ProjectHeroImageTitle"
 import { Cite } from '@citation-js/core'
 import "@citation-js/plugin-bibtex"
 import "@citation-js/plugin-ris"
 import "@citation-js/plugin-csl"
 
-import * as projectData from '@/features/static-academics/project-data';
+import * as projectData from '@/features/academics/academics-data';
 
 import bibFile from "@/assets/example.bib?raw"
 
@@ -71,7 +71,6 @@ const AcademicsStaticReperage = () => {
           </P>
 
 
-
           <div>
             <H3>{t(`academics.${projectKey}.body.h_para1`)}</H3>
             <P>{t(`academics.${projectKey}.body.p_para10`)}</P>
@@ -105,6 +104,14 @@ const AcademicsStaticReperage = () => {
               components={{
                 link_ERC: <A href="https://cordis.europa.eu/project/id/101055423" />,
                 link_Astra: <A href="https://hal.science/hal-04790092v1" />,
+              }}
+            />
+          </P>
+          <P className='italic'>
+            <Trans
+              i18nKey={`academics.${projectKey}.body.p_para30`}
+              components={{
+                link_Arte: <A href="https://www.youtube.com/watch?v=ztQ_g2Ix7ws" />,
               }}
             />
           </P>
@@ -146,6 +153,7 @@ const AcademicsStaticReperage = () => {
             <li dangerouslySetInnerHTML={{ __html: biblioHtml[2], }}/>
             <li dangerouslySetInnerHTML={{ __html: biblioHtml[3], }}/>
           </ul> 
+          {/* Film documentaire https://www.youtube.com/watch?v=ztQ_g2Ix7ws */}
       </div>
       </div>
     </div>

@@ -5,14 +5,14 @@ import { H1, H2, H3, H4, P, A, C } from "@/components/ui/typography"
 import { ZoomableImage } from "@/components/ui/zoomable-image"
 import SimpleParallax from 'simple-parallax-js';
 
-import {ProjectCard} from "@/features/static-academics/ProjectCard"
-import {ProjectHeroImageTitle} from "@/features/static-academics/ProjectHeroImageTitle"
+import {ProjectCard} from "@/features/academics/ProjectCard"
+import {ProjectHeroImageTitle} from "@/features/academics/ProjectHeroImageTitle"
 import { Cite } from '@citation-js/core'
 import "@citation-js/plugin-bibtex"
 import "@citation-js/plugin-ris"
 import "@citation-js/plugin-csl"
 
-import * as projectData from '@/features/static-academics/project-data';
+import * as projectData from '@/features/academics/academics-data.json';
 
 import bibFile from "@/assets/example.bib?raw"
 
@@ -30,9 +30,9 @@ const getClickableHTMLCitation = ({library, key}) => {
 }
 
 
-const AcademicsStaticNdpVaults = () => {
-  const { t, i18n } = useTranslation();
-  const projectKey = 'ndpvaults'
+const AcademicsStaticCamillo = () => { // : React.FC
+  const { t } = useTranslation();
+  const projectKey = 'camillo'
   
   let citationLibrary = null
   try {
@@ -41,11 +41,9 @@ const AcademicsStaticNdpVaults = () => {
       console.error(err)
     }
 
-    const biblioHtml = [
-      getClickableHTMLCitation({library:citationLibrary, key:'parentMultimodelStructuralAnalysis2023'}),
-      getClickableHTMLCitation({library:citationLibrary, key:'morenonBenchmarkNumeriqueMethodes2023'}),
-      getClickableHTMLCitation({library:citationLibrary, key:'morenonFonctionnementMecaniqueVoutes2023'})
-    ]
+  const biblioHtml = [
+    getClickableHTMLCitation({library:citationLibrary, key:'grosTheatreGiulioCamillo2018'}),
+  ]
 
   return (
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
@@ -58,26 +56,33 @@ const AcademicsStaticNdpVaults = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
         {/* MAIN COLUMN (3/5) */}
         <div className="lg:col-span-3 pt-4 px-4 bg-rose-000 space-y-6">
-          <P className="font-medium">{t(`academics.${projectKey}.head`)}</P>
+          <P>
+            <Trans
+              i18nKey={`academics.${projectKey}.head`}
+              components={{
+                strong: <P className="font-semibold tracking-wide"/>,
+                del: <del className="line-through font-semibold" />,
+              }}
+            />
+          </P>
 
           <div>
-            <H3>{t(`academics.${projectKey}.body.h_collaboration`)}</H3>
-            <P >{t(`academics.${projectKey}.body.p_collaboration`)}</P>
+            <H3>{t(`academics.${projectKey}.body.h_regards`)}</H3>
+            <P >{t(`academics.${projectKey}.body.p_regards`)}</P>
           </div>
 
           <div className="w-full md:w-4/5 mx-auto pt-4">
             <ZoomableImage
-              src="https://sharedocs.huma-num.fr/wl/?id=yjtxXqk5krDaB4QA1zBto0VHEQEXmAtI&download=1"
+              src="https://sharedocs.huma-num.fr/wl/?id=YxfSeFTNWdQcdl4Drq74cekan95VF3YF&download=1"
               title="TITRE"
               about={t(`academics.${projectKey}.captions.ndp_model_gsa`)}
               className="cursor-pointer w-full h-auto object-contain"
             />
-            <C>{t(`academics.${projectKey}.captions.ndp_model_gsa`)}</C>
+            <C>{t(`academics.${projectKey}.captions.camillo_theatre`)}</C>
           </div>
-
           <div>
-            <H3>{t(`academics.${projectKey}.body.h_contrib`)}</H3>
-            <P>{t(`academics.${projectKey}.body.p_contrib`)}</P>
+            <P >{t(`academics.${projectKey}.body.p_finish`)}</P>
+            <P className="italic">{t(`academics.${projectKey}.body.p_award`)}</P>
           </div>
         </div>
 
@@ -85,26 +90,25 @@ const AcademicsStaticNdpVaults = () => {
         <div className="lg:col-span-2 pt-4 px-4 lg:px-8 bg-orange-000">
           <ProjectCard
             projectKey={projectKey}
-            partenaireKeys={['mapupr', 'lmgc', 'lispen', 'mapurm']}
+            partenaireKeys={['ensal']}
           />
 
-          <div className="mt-12">
+          <div className="mt-12 w-1/2 center">
             <ZoomableImage
-              src="https://sharedocs.huma-num.fr/wl/?id=0Z22UL8AJfojZZmI2FL0Lop1QR8zoYXs&download=1"
+              src="https://sharedocs.huma-num.fr/wl/?id=Mke5cOMmxtXG5tNOx0mhFzZZsIHX3FB0&download=1"
               title="TITRE"
               about="description longue"
               className="cursor-pointer w-full h-auto object-contain"
             />
-            <C>{t(`academics.${projectKey}.captions.ndp_model_deformation`)}</C>
+            <C>{t(`academics.${projectKey}.captions.camillo_jupimnem`)}</C>
           </div>
         </div>
+
         {/* Publication Card */}
         <div className="lg:col-span-3 pt-4 px-4 lg:px-8 bg-orange-000">
           <H4>{t(`academics.global.biblio`)}</H4>
           <ul className="list-disc font-[PPNeueMontrealRegular] mt-4">
             <li dangerouslySetInnerHTML={{ __html: biblioHtml[0], }}/>
-            <li dangerouslySetInnerHTML={{ __html: biblioHtml[1], }}/>
-            <li dangerouslySetInnerHTML={{ __html: biblioHtml[2], }}/>
           </ul> 
       </div>
       </div>
@@ -113,4 +117,4 @@ const AcademicsStaticNdpVaults = () => {
   )
 }
 
-export default AcademicsStaticNdpVaults
+export default AcademicsStaticCamillo
