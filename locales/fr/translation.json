@@ -6,24 +6,171 @@
     },
     "sidebar": {
         "home": "Accueil",
+        "cv": "Curriculum Vitae",
         "academics": "Académique",
         "acadeproj": {
             "astragale": "Astragale",
             "reperage":  "Repérage",
             "ndstruct":  "Voûtes Notre-Dame",
-            "cartothem": "Carthographie Thématique",
+            "cartothem": "[Carthographie Thématique]",
             "camillo":   "Camillo",
-            "urbania":   "Urbania"
+            "urbania":   "[Urbania]"
         },
-        "courses": "Cours",
+        "courses": "[Cours]",
         "projects": "Projets",
-        "music": "Musique",
+        "music": "[Musique]",
         "more": "More"
     },
     "homepage": {
         "title": "Accueil",
-        "abstract": "Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture. Mes activités se concentrent sur l’ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l’environnement construit. Cela m’amène à la modélisation de systèmes, la génération de modèles géométriques ou encore la conception de bases de connaissances tout en gardant les ouvrages d’art ou les édifices architecturaux comme sujets d’échanges et d’études. Les produits issus de ces projets viennent nourrir les hypothèses archéologiques de restitution, la réalisation du diagnostic structurel d’un bâtiment tout en identifiant et en levant des verrous scientifiques."
+        "titles": "Ph.D. Ingénierie / Ms.C. Architecture",
+        "catchphrase": "Relier données, modèles et connaissances pour appréhender l'environnement bâti, et soutenir les humanités numériques",
+        "description": "Mes activités de recherche se trouvent au confluent de l'ingénierie des connaissances, de l'architecture et de la conception de méthodes orientées données. Elles reposent sur les technologies du Web Sémantique pour le développement de graphes de connaissances, la création de modèles géométriques paramétriques, et la conception de systèmes intégrés. Ces artefacts alimentent une variété de cas d'utilisation, du diagnostic structurel à l'analyse de textes ou bien les restitutions archéologiques, en appui à la transmission des savoirs et à la prise de décision dans les cadres opérationnels."
     },
+    "cv": {
+        "title": "Curriculum Vitae",
+        "education": {
+          "title": "Formation",
+          "entries": [
+            {
+              "id": "edu1",
+              "duration": "2022 - 2025",
+              "position": "Doctorat",
+              "title": "Ingénierie, Application des Graphes de Connaissances pour les données de Conservation et de Simulation Structurelle du Patrimoine Bâti",
+              "location": "Arts & Métiers, Paris",
+              "description": ""
+            },
+            {
+              "id": "edu2",
+              "duration": "2017 - 2019",
+              "position": "Master, Mention Recherche",
+              "title": "Architecture",
+              "location": "ENS d'Architecture de Lyon, Lyon",
+              "description":
+                "Nominé pour le Prix de la Jeune Architecture de Lyon 18', catégorie Mention Recherche"
+            },
+            {
+              "id": "edu3",
+              "duration": "2013 - 2016",
+              "position": "Licence",
+              "title": "Architecture",
+              "location": "ENS d'Architecture de Paris Val-de-Seine, Paris",
+              "description": ""
+            },
+            {
+                "id": "edu4",
+                "duration": "2010 - 2012",
+                "position": "Propédeutique",
+                "title": "Ingénierie",
+                "location": "Polytech' Paris-Saclay, Université Paris-Saclay, Paris",
+                "description": ""
+              }
+          ]
+        },
+        "research": {
+          "title": "Recherche",
+          "entries": [
+            {
+              "id": "exp1",
+              "duration": "2021 - 2025",
+              "position": "Chantier Scientifique pour la restauration de la cathédrale Notre-Dame de Paris, groupe de travail 'Ecosystème Numérique'",
+              "title": "Chercheur Associé",
+              "location": "CNRS/MC",
+              "description":
+                "Documentation, digitalisation, modélisation des données, organisation des connaissances depuis le projet de restauration et les études interdisciplinaires."
+            },
+            {
+              "id": "exp2",
+              "duration": "2021 - 2025",
+              "position": "Astragale: Vers un environnment collaboratif pour l'analyse du comportement des structures",
+              "title": "Doctorant",
+              "location": "(MAP, UMR CNRS 3495)/LMGC/LISPEN",
+              "description":
+                "Relier les données de conservation du patrimoine avec les modèles de simulations, à travers les graphes de connaissances. Ingénierie système et Ingénièrie des connaissances."
+            },
+            {
+              "id": "exp3",
+              "duration": "2020 - 2023",
+              "position": "Reperage: Repérage spatio-temporel des claveaux des nervures des voûtes effondrées de Notre-Dame de Paris",
+              "title": "Co-Direction, Principal Investigator",
+              "location": "MAP, UMR CNRS 3495",
+              "description":
+                "Photogrammétrie, documentation, anastylose numérique des voussoirs de l'arc effondré de la nef de Notre-Dame. Modélisation ontologique avec CIDOC CRM. Collaboration avec le groupe de travail scientifique 'Pierre'."
+            },
+            {
+                "id": "exp4",
+                "duration": "2019 - 2021",
+                "position": "Évaluation de la stabilité mécanique résiduelle au feu des voûtes de la cathédrale Notre-Dame de Paris",
+                "title": "Chercheur Associé, Responsable du workpackage 'Geometrie'",
+                "location": "MAP, UMR CNRS 3495",
+                "description":
+                  "Modélisation géométrique paramétrique adaptive du voûtement sexpartite de la cathédrale Notre-Dame de Paris, pour l'analyse structurelle en FEM/DEM. Collaboration avec le groupe de travail 'Structure et Calcul Mécanique' du Chantier Scientifique pour la restauration de la cathédrale Notre-Dame de Paris."
+            },
+            {
+                "id": "exp5",
+                "duration": "2017 - 2018 (part time)",
+                "position": "Urbania",
+                "title": "Collaborateur Scientfique",
+                "location": "MAP, UMR CNRS 3495",
+                "description": ""
+            }
+          ]
+        },
+        "experience": {
+          "title": "Experience Professionnelle",
+          "entries": [
+            {
+              "id": "res1",
+              "duration": "2019 - 2021",
+              "position": "Maître de Conférences Associé",
+              "title": "Sciences et Techniques pour l'Architecture (champs STA-OMI et STA-CIMA)",
+              "location": "ENS d'Architecture de Marseille, Marseille",
+              "description":
+                "Encadrement du séminaire « Patrimoine et Humanités Numériques » (M1/M2), Création de l’intensif « Structures légères » (M1/M2). Cours de technologie et analyses des structures (L2), techniques de réhabilitation (M1). Encadrement en studio (L1/L3/M1), interventions en travaux dirigés. Participation à la Commission Recherche de l'établissement."
+            },
+            {
+                "id": "res2",
+                "duration": "jun-dec 2019",
+                "position": "Chargé de mission",
+                "title": "",
+                "location": "Conseil d'Architecture, d'Urbanisme et d'Environnement du Rhône, Lyon",
+                "description": "Traitement de données et préparation d’une formation sur les commissions préalables. Travail de commissariat, constitution de corpus & contenus pour l’exposition 20/21 'Tissus urbains et Architecture Ordinaire'."
+              },
+              {
+                "id": "res3",
+                "duration": "sep 2018 - dec 2019",
+                "position": "Assistant Professeur et Collaborateur Scientifique",
+                "title": "Architecture et Ingénierie pour la construction bois",
+                "location": "EPFL ENAC IIC IBOIS, Lausanne",
+                "description": "Enseignement en atelier d’architecture (M1) et cours « Concevoir les Structures » (L3), prototypage & fabrication numérique, optimisation structurelle."
+              },
+              {
+                  "id": "res4",
+                  "duration": "2017 - 2028 (temps partiel)",
+                  "position": "Collaborateur Scientifique",
+                  "title": "Modélisation géométrique basée sur les connaissances de fortification bastionnées à l'échelle urbaine",
+                  "location": "MAP-ARIA, UMR CNRS/MC 3495, Lyon",
+                  "description": ""
+                },
+                {
+                  "id": "res5",
+                  "duration": "mars-juill. 2016",
+                  "position": "Community Manager",
+                  "title": "Animation et promotion du Fablab et du Living Lab du PROTO204",
+                  "location": "PROTO204, Université Paris-Saclay",
+                  "description": ""
+                },
+                {
+                  "id": "res5",
+                  "duration": "sep 2015 - fev 2016",
+                  "position": "Stagiaire",
+                  "title": "Documents de faisabilités pour du logement, une crèche et un équipement sportif.",
+                  "location": "Studio Muoto, Paris",
+                  "description": ""
+                }
+          ]
+        }
+      },
     "academics": {
         "global" :{
             "abstract": "Résumé",
@@ -72,8 +219,22 @@
             "position": "Doctorant",
             "funding": "MITI-CNRS, Mission pour les initiatives transverses",
             "duration": "2022-2025",
-            "head": "Le diagnostic structurel d'un ouvrages du patrimoine bâti repose sur le croisement d'informations hétérogènes. Dans cette étude, les informations qualitatives provenant de l'inspection visuelle de l'ouvrage sont rendues intéropérables avec les données quantitatives issues de différents scénarios de simulations mécaniques par le biais d'un graphe de connaissance. Nous démontrons sa mise en oeuvre depuis la modélisation conceptuelle maniant l'ontologie CIDOC CRM, et son implémentation dans un système de connaissance appliqué à la cathédrale Notre Dame de Paris.",
-            "body": ""
+            "head": "<strong>Relier observations, modélisations et simulations.</strong> \nLa conservation du patrimoine bâti repose sur une compréhension fine des désordres affectant les structures. Or, ces désordres ne peuvent être pleinement appréhendés qu’en croisant des observations empiriques, des mesures et modèles, et des simulations numériques. Parmi ces études, le diagnostic structurel est critique pour anticiper les interventions et garantir la sécurité des édifices. Le défi est alors de concevoir les outils et méthodes permettant l'intégration cohérente de ces informations dans une logique de capitalisation des connaissances.",
+            "body": {
+                "h_para1": "Organiser la connaissances d'un édifice par un graphe",
+                "p_para10": "Cette étude propose une approche fondée sur les graphes de connaissances pour organiser et relier les données issues des diagnostics. En combinant modélisation de la provenance des études, spatialisation des altérations et formalisation de leur types avec les outils du Web Sémantique, nous développons l'ontologie AB2CRM depuis le standard CIDOC CRM. L'application innovante de la méthodologie eXtreme Design nous permet d'extraire et assembler des motifs ontologiques de CIDOC CRM de manière itérative, dans le but de contrôler la montée en complexité du modèle et d'en certifier la validité par un protocole de test.",
+                "p_para11": "Cette ontologie permet de relier l’origine des informations par des mécanismes similaire à PROV-O, la nature des composants et de leurs altérations structurée par des thésaurus SKOS (AAT, icomos-stone, etc.) et les localiser, par leurs relations topologique ou l'un de leurs géométries (relevé Lidar, modèle STEP, etc.). A terme, le cadre conceptuel mis en œuvre permet d’envisager un raisonnement déductif et inductif, autour des typologies de dégradations connues ou émergentes.",
+                "h_para2": "Une architecture système de référence pour l'intégration des données de diagnostic",
+                "p_para20": "La réutilisation des informations, leur mutualisation entre les études et les possibilités d'analogie entre les ouvrages de même types sont autant d'exigences à satisfaire lors de la conception d'un tel système d'information. Nous avons identifié et expérimenté une architecture de référence distribuée, orientée-événements, dont les services faiblement couplés sont exposés par une API passerelle. ",
+                "p_para21": "Deux pipelines de données illustrent l'enrichissment de données hétérogènes vers le graphe de connaissances : (a) l'extraction d'informations d'endommagement depuis les résultats de simulations issus du solveur multiphysique LMGC90, et (b) l'import des informations de conservation depuis la plateforme d'annotation de scènes photogrammétriques Aïoli. Grâce au graphe de connaissances, ces données peuvent être explorées, croisées et analysées selon des logiques avancées (ex. : clustering d’altérations), ouvrant la voie à une gestion durable des informations de diagnostic du patrimoine.",
+                "p_para30": "Voir aussi, <link_Github>le projet Astragale sur Github</link_Github>."
+            },
+            "captions":{
+                "astragale_archcidoccrm": "Alignement des informations de conservation, une fissure observée sur site, et d'un résultat de simulation, la prédiction d'une fissureation en tête lors d'un scénario de poussée passive (Gros, 2025)",
+                "astragale_grapheclustering": "Clustering hiérarchique des altérations et endommagements, depuis les informations stockées dans le graphe de connaissances (Gros, 2025)",
+                "astragale_simulationsysml": "(a) Représentation du flux de travail et des dépendances conjointes à une simulation mécanique ; (b) Propagation d'une fissure en tête d'arc à différents pas de temps d'une simulation mécanique, ces informations discrètes sont extraites et enregistrées sous la forme d'un graphe de données. (Gros, 2025)",
+                "astragale_sysarch": "Vue d'ensemble de l'architecture du système de connaissance, basée sur une stratification de services moderne (Gros, 2025)"
+            }
         },
         "reperage": {
             "title": "Reperage",
@@ -96,12 +257,23 @@
                 }
             },
             "collaborateurs": "Groupes de travail 'Pierre' et 'Écosystème Numérique' du Chantier Scientifique de Notre-Dame de Paris",
-            "position": "Doctorant",
+            "position": "Co-Responsable",
             "funding": "FSP, Fondation des Sciences pour le Patrimoine",
             "duration": "2020-2023",
-            "head": "...",
+            "head": "<strong>La cathédrale Notre-Dame de Paris, ce <del>livre</del> puzzle de pierres.</strong> \nEn avril 2019, la chute de la flèche de la cathédrale précipite 80 des 120 claveaux de l'arc F2930 de la nef parmi les amoncellements de débris. Ce projet s'attache à documenter et à restituer la trajectoire de ces vestiges dans l'espace et dans le temps, en combinant ingénierie des connaissances et web sémantique, annotation de scènes photogrammétriques, travaux interdisciplinaires et modélisations mathématiques.",
             "body": {
-                "1": "L’authenticité et le réemploi des matériaux de construction sont des problématiques centrales lors d’une intervention lourde sur un édifice patrimonial. Dans le cas de la cathédrale Notre-Dame de Paris, l’effondrement de ses voûtes, le 15 avril 2019, a provoqué au sol des amoncellements d’items dont le devenir pose question. Sur ce chantier d’exception, ces items n’ont pas été considérés comme des débris, mais comme des objets à valeur patrimoniale, justifiant une intervention mettant en œuvre les techniques de l’archéologie. C’est la raison pour laquelle leur déblaiement a fait l’objet d’une approche raisonnée et d’une documentation par des prises de vues photographiques. Plus de 50 000 clichés ont été produits, notamment par le Laboratoire de recherche des monuments historiques, le C2RMF, et le Service régional d’Archéologie de la DRAC Ile-de-France. \nCe projet a l’ambition d’introduire une méthode pour faciliter le repérage d’artefacts remarquables à partir d’un corpus de photographies partiellement indexées et le chaînage temporel des différents états et positions de ces éléments. Le cas d’application porte sur les items suivants : les claveaux des nervures des voûtes de la cathédrale Notre-Dame, dans le cadre du suivi scientifique du chantier et de la documentation des premières interventions. Mis en lien avec les techniques numériques du relevé et la restitution géométrique de formes architecturales, ce repérage lie les données sémantiques (archéométriques, historiques, typologiques…) à la position spatiale et temporelle des artefacts dans les nuages de points 3D du chantier de mise en sécurité et de restauration, au fil des interventions. \nRéalisé par des partenaires complémentaires, spécialistes de l’archéométrie, la conservation des monuments historiques, le relevé/modélisation 3D des formes et le développement de systèmes d’informations spatialisées pour la gestion des données patrimoniales, le projet REPERAGE proposera un meilleur suivi des éléments d’un édifice ou d’un objet patrimonial, dans le cas d’une destruction partielle ou totale de ce dernier. Il contribue aux apports scientifiques du chantier Notre-Dame, en harmonie avec les projets de recherche existants, et avec les pratiques actuelles de documentation de la prise en charge chantier de sauvetage post-catastrophe. \nSur le plan scientifique, le projet REPERAGE a permis de mettre à disposition de l’ensemble des données produites aux membres du chantier scientifique Notre-Dame, ainsi qu’à la Maîtrise d’Œuvre du chantier de restauration. L’approche méthodologique innovante du projet est généralisable à d’autres cas d’études. \nSur le plan de la diffusion culturelle, le projet REPERAGE a contribué à la création d’une mallette pédagogique et de valorisation qui mêle à la fois le virtuel et la maquette physique pour représenter au mieux les différents aspects mis en valeur par les chercheurs."
+                "h_para1": "Comment repositionner les fragments d'un monument détruit ?",
+                "p_para10": "En archéologie, le terme d'anastylose désigne l'étude méthodique des fragments d'un artefact du patrimoine pour en restituer un état antérieur. Les premières hypothèses de l'arc effondré sont effectués manuellement, en manipulant les vestiges selon les méthodologies traditionnelles, et n'aboutissent qu'à une hypothèse partielle et incertaine.",
+                "p_para11": "En dérivant les observations archéologiques en contraintes algorithmiques, un modèle d'optimisation linéaire a été construit. Il donne lieu à des aller-retours interdisciplinaires entre la méthode d'anastylose et son interprétation mathématique, et aboutit à une restitution complète de l’arc avec une fiabilité estimée à 73,5 % (Gros et al., 2023). Ce travail a pris forme sur site, mais aussi dans une maquette physique à l’échelle 1/10e - produite depuis les numérisations haute-définition des vestiges -, enrichie par des versions numériques interactive de l'arc et des claveaux.",
+                "h_para2": "Repenser la documentation du patrimoine bâti, depuis les études et les vestiges",
+                "p_para20": "L’urgence du chantier a empêché une fouille archéologique classique en phase de sécurisation. Pour pallier cette absence, l’équipe a reconstruit les trajectoires des vestiges à partir de scènes photogrammétriques annotées, associées à des modèles 3D.",
+                "p_para21": "Au prisme de l'ingénierie des connaissances, le corpus hétérogène de données produits - par les archéologues, architectes, géomaticiens, etc. - est modélisé au moyen de l'ontologie CIDOC CRM et structuré au sein des technologies du web sémantique. Le projet explore ainsi un cadre conceptuel articulant l’Actor-Network Theory avec le CIDOC CRM (Guillem et al., 2024), et un cadre technologique attenant au jumeau numérique (Gros et al, 2023). Ces travaux fournissent un socle conceptuel pour le <link_ERC>projet ERC n-dame_Heritage</link_ERC> et le <link_Astra>projet Astragale</link_Astra>.",
+                "p_para30": "Voir aussi, le film documentaire <link_Arte>Notre-Dame de Paris, le chantier du siècle</link_Arte>."
+            },
+            "captions":{
+                "reperage_4moments": "Quatre facettes de la restitution de l'arc et de la trajectoire de ses vestiges: (a) anastylose archéologique, (b) photogrammétrie et modélisation 3d, (c) identification des voussoirs, (d) restitution hybride, anastylose et optimisation linéaire [(A. Kommanda/LRMH/RNDP, 2021), (Gros, 2023), (MAP/CNRS/MC, 2022), (Gros, 2022)]",
+                "reperage_prefclaveau": "Les claveaux, des vestiges identifiables parmi les débris (A. Kommanda/LRMH/RNDP, 2020)",
+                "reperage_humanistica": "Extrait du diagramme de mapping avec l'ontologie CIDOC CRM des informations des claveaux N1A et N320 (Guillem et al., 2023)"
             }
         },
         "ndpvaults": {
