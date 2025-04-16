@@ -51,7 +51,7 @@ const H1: React.FC<Props> = ({className, children}) => {
   const P: React.FC<Props> = ({className, children}) => {
     return (
       // <p className={`whitespace-pre-line font-[PPNeueMontrealRegular] tracking-wide leading-7 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
-      <p className={`whitespace-pre-line text-base leading-relaxed text-gray-800 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
+      <p className={`whitespace-pre-line text-base leading-relaxed text-gray-800 dark:text-stone-200 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
        {children}
       </p>
     )

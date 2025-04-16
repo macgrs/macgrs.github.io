@@ -1,8 +1,8 @@
 "use client"
 
 import type React from "react"
-import { Calendar, Briefcase, GraduationCap, FlaskConical, MapPin, Languages, MessageSquareHeart } from "lucide-react"
-import { H1, H2, H3, H4, P, A, C } from "@/components/ui/typography"
+import { Calendar, Briefcase, GraduationCap, FlaskConical, MapPin } from "lucide-react" // Languages, MessageSquareHeart
+// import { H1, H2, H3, H4, P, A, C } from "@/components/ui/typography"
 import { useTranslation } from "react-i18next"
 
 interface CVEntry {
@@ -68,17 +68,17 @@ export function CurriculumVitae() {
         <CVSection
           title={t("cv.education.title")}
           icon={GraduationCap}
-          entries={t("cv.education.entries", { returnObjects: true })}
+          entries={t("cv.education.entries", { returnObjects: true }) as CVEntry[]}
         />
         <CVSection
           title={t("cv.research.title")}
           icon={FlaskConical}
-          entries={t("cv.research.entries", { returnObjects: true })}
+          entries={t("cv.research.entries", { returnObjects: true })as CVEntry[]}
         />
         <CVSection
           title={t("cv.experience.title")}
           icon={Briefcase}
-          entries={t("cv.experience.entries", { returnObjects: true })}
+          entries={t("cv.experience.entries", { returnObjects: true }) as CVEntry[]}
         />
       </div>
       {/* <div className="flex items-center gap-2 mb-4">

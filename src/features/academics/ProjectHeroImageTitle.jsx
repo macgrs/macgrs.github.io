@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import SimpleParallax from 'simple-parallax-js';
 
 
-const ProjectHeroImageTitle = ({projectKey, projectData}) => {
+const ProjectHeroImageTitle = ({projectKey, projectData, heroTextClassName}) => {
     const { t, i18n } = useTranslation();
     const [imageUrl, setImageUrl] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -55,10 +55,10 @@ const ProjectHeroImageTitle = ({projectKey, projectData}) => {
         </SimpleParallax>
         <div className="absolute inset-0 flex flex-col justify-end p-6">
           <div className="flex items-center gap-4">
-            <H1>{t(`academics.${projectKey}.title`)}</H1>
-            <H3 className="" >{t(`academics.${projectKey}.duration`)}</H3>
+            <H1 className={heroTextClassName} >{t(`academics.${projectKey}.title`)}</H1>
+            <H3 className={heroTextClassName} >{t(`academics.${projectKey}.duration`)}</H3>
           </div>
-            <H2>{t(`academics.${projectKey}.subtitle`)}</H2>
+            <H2 className={heroTextClassName}>{t(`academics.${projectKey}.subtitle`)}</H2>
         </div>
       </div>
     )

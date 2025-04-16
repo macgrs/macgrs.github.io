@@ -52,7 +52,7 @@ const AcademicsStaticReperage = () => {
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       {/* Hero Image + Title */}
       <div className="mb-4">
-        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} />
+        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-white drop-shadow-[0_0.3px_4.5px_rgba(0,0,0,0.8)]"}/>
       </div>
 
       {/* Main Content Grid */}
@@ -69,7 +69,6 @@ const AcademicsStaticReperage = () => {
               }}
             />
           </P>
-
 
           <div>
             <H3>{t(`academics.${projectKey}.body.h_para1`)}</H3>

@@ -25,13 +25,14 @@ import {
 
 // // PAGES - COMPONENTS // //
 import Home from '@/features/Home.tsx'
+import ConstructionPage from '@/features/page-construction.tsx'
 import { CurriculumVitae } from '@/features/cv/curriculum-vitae.tsx'
 
 import AcademicsStaticAstragale   from '@/features/academics/project-astragale.jsx'
 import AcademicsStaticReperage    from '@/features/academics/project-reperage.jsx'
 import AcademicsStaticNdstruct    from '@/features/academics/project-ndstruct.jsx'
-import AcademicsStaticCarthothem  from '@/features/academics/project-cartothem.jsx'
-import AcademicsStaticUrbania    from '@/features/academics/project-urbania.jsx'
+// import AcademicsStaticCarthothem  from '@/features/academics/project-cartothem.jsx'
+// import AcademicsStaticUrbania    from '@/features/academics/project-urbania.jsx'
 
 import AcademicsStaticCamillo  from '@/features/academics/project-camillo.jsx'
 
@@ -65,6 +66,7 @@ export default function Page() {
             </div>
           </header>
           <Routes>
+            {/* <Route index element={<Home />} /> */}
             <Route index element={<Home />} />
 
             {/* <Route element={<AuthLayout />}> */}
@@ -72,9 +74,9 @@ export default function Page() {
               <Route path="/academics/astragale"  element={<AcademicsStaticAstragale />} />
               <Route path="/academics/reperage"   element={<AcademicsStaticReperage />} />
               <Route path="/academics/ndstruct"   element={<AcademicsStaticNdstruct />} />
-              <Route path="/academics/cartothem"  element={<AcademicsStaticCarthothem />} />
+              <Route path="/academics/cartothem"  element={<ConstructionPage />} />
               <Route path="/academics/camillo"    element={<AcademicsStaticCamillo />} />
-              <Route path="/academics/urbania"    element={<AcademicsStaticUrbania />} />
+              <Route path="/academics/urbania"    element={<ConstructionPage />} />
             {/* </Route> */}
 
 

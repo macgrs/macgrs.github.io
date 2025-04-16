@@ -44,12 +44,13 @@ const AcademicsStaticCamillo = () => { // : React.FC
   const biblioHtml = [
     getClickableHTMLCitation({library:citationLibrary, key:'grosTheatreGiulioCamillo2018'}),
   ]
+  
 
   return (
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       {/* Hero Image + Title */}
       <div className="mb-4">
-        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} />
+        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-white drop-shadow-[0_0.3px_3.1px_rgba(0,0,0,0.8)]"}/>
       </div>
 
       {/* Main Content Grid */}

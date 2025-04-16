@@ -12,23 +12,28 @@
             "astragale": "Astragale",
             "reperage":  "Repérage",
             "ndstruct":  "Voûtes Notre-Dame",
-            "cartothem": "Carthographie Thématique",
+            "cartothem": "[Carthographie Thématique]",
             "camillo":   "Camillo",
-            "urbania":   "Urbania"
+            "urbania":   "[Urbania]"
         },
-        "courses": "Courses",
+        "courses": "[Courses]",
         "projects": "Projects",
-        "music": "Music",
+        "music": "[Music]",
         "more": "More"
+    },
+    "construction": {
+        "disclaimer": "Sorry, this page is still under construction"
     },
     "homepage": {
         "title": "Accueil",
-        "abstract": "Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture. Mes activités se concentrent sur l’ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l’environnement construit. Cela m’amène à la modélisation de systèmes, la génération de modèles géométriques ou encore la conception de bases de connaissances tout en gardant les ouvrages d’art ou les édifices architecturaux comme sujets d’échanges et d’études. Les produits issus de ces projets viennent nourrir les hypothèses archéologiques de restitution, la réalisation du diagnostic structurel d’un bâtiment tout en identifiant et en levant des verrous scientifiques."
+        "titles": "Ph.D. Engineering / Ms.C. Architecture",
+        "catchphrase": "Bridging data, models, and knowledge to understand the built environment and foster digital humanities",
+        "description": "My research activities sit at the crossroads of knowledge engineering, architecture and design of data-driven methods. It involves the use of Semantic Web technologies for knowledge graph development, the creation of parametric geometric models, and the design of integrated systems. These artefacts feed into a variety of use cases, from structural diagnosis to text analysis or archeological restitution, enhancing both knowledge transmission and operational decision-making."
     },
     "cv": {
         "title": "Curriculum Vitae",
         "education": {
-          "title": "Formation",
+          "title": "Education",
           "entries": [
             {
               "id": "edu1",
@@ -107,7 +112,7 @@
             {
                 "id": "exp5",
                 "duration": "2017 - 2018 (part time)",
-                "position": "Urbania",
+                "position": "Urbania, Digital studies of historical city models",
                 "title": "Research Contributor",
                 "location": "MAP, UMR CNRS 3495",
                 "description": ""
@@ -127,45 +132,45 @@
                 "Management of the Master Thesis Atelier: “Heritage Buildings and Digital humanities” (M1, M2). Core Courses: “Methods and techniques for Arch. Surveying” (B3), “Structural Design” (B3). Digitization. Research board."
             },
             {
-              "id": "res2",
-              "duration": "jun-dec 2019",
-              "position": "Research Contributor",
-              "title": "Data analysis, Exhibition Curation",
-              "location": "Conseil d'Architecture, d'Urbanisme et d'Environnement du Rhône, Lyon",
-              "description": ""
-            },
-            {
-              "id": "res3",
-              "duration": "sep 2018 - dec 2019",
-              "position": "Research Graduate & Teaching Assistant Researcher",
-              "title": "Prototyping, CAM, teaching in “Studio Weinand” (M1) and “Designing Structure” (B3)",
-              "location": "EPFL ENAC IIC IBOIS, Lausanne",
-              "description": ""
-            },
-            {
-                "id": "res4",
-                "duration": "2017 - 2028 (part time)",
-                "position": "Research Contributor",
-                "title": "Knowledge-based geometrical remodelling of bastioned city fortifications, urban scale",
-                "location": "MAP-ARIA, UMR CNRS/MC 3495, Lyon",
+                "id": "res2",
+                "duration": "jun-dec 2019",
+                "position": "Project Contributor",
+                "title": "Data analysis, Exhibition Curation",
+                "location": "Conseil d'Architecture, d'Urbanisme et d'Environnement du Rhône, Lyon",
                 "description": ""
               },
               {
-                "id": "res5",
-                "duration": "mars-juill. 2016",
-                "position": "Community Manager",
-                "title": "Promoting the PROTO204' Fablab and Living Lab",
-                "location": "PROTO204, Université Paris-Saclay",
+                "id": "res3",
+                "duration": "sep 2018 - dec 2019",
+                "position": "Research Graduate & Teaching Assistant Researcher",
+                "title": "Prototyping, CAM, teaching in “Studio Weinand” (M1) and “Designing Structure” (B3)",
+                "location": "EPFL ENAC IIC IBOIS, Lausanne",
                 "description": ""
               },
               {
-                "id": "res5",
-                "duration": "sep 2015 - fev 2016",
-                "position": "Architect Intern",
-                "title": "Feasibility studies for housing",
-                "location": "Studio Muoto, Paris",
-                "description": ""
-              }
+                  "id": "res4",
+                  "duration": "2017 - 2028 (part time)",
+                  "position": "Research Contributor",
+                  "title": "Knowledge-based geometrical remodelling of bastioned city fortifications, urban scale",
+                  "location": "MAP-ARIA, UMR CNRS/MC 3495, Lyon",
+                  "description": ""
+                },
+                {
+                    "id": "res5",
+                    "duration": "mars-juill. 2016",
+                    "position": "Community Manager",
+                    "title": "Promoting the PROTO204' Fablab and Living Lab",
+                    "location": "PROTO204, Université Paris-Saclay",
+                    "description": ""
+                },
+                {
+                    "id": "res5",
+                    "duration": "sep 2015 - fev 2016",
+                    "position": "Architect Intern",
+                    "title": "Feasibility studies for housing, a kindergarten and sports facilities.",
+                    "location": "Studio Muoto, Paris",
+                    "description": ""
+                }
           ]
         }
       },

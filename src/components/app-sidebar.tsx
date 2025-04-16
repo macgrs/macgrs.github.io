@@ -30,7 +30,6 @@ import {
 } from "@/components/ui/sidebar.tsx"
 
 
-
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { t } = useTranslation();
 
@@ -91,21 +90,21 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             url: "/academics/ndstruct",
             year: "20",
           },
-          // {
-          //   title: t('sidebar.acadeproj.cartothem'),
-          //   url: "/academics/cartothem",
-          //   year: "19-20",
-          // },
+          {
+            title: t('sidebar.acadeproj.cartothem'),
+            url: "/academics/cartothem",
+            year: "19-20",
+          },
           {
             title: t('sidebar.acadeproj.camillo'),
             url: "/academics/camillo",
             year: "18",
           },
-          // {
-          //   title: t('sidebar.acadeproj.urbania'),
-          //   url: "/academics/urbania",
-          //   year: "17-18",
-          // },
+          {
+            title: t('sidebar.acadeproj.urbania'),
+            url: "/academics/urbania",
+            year: "17-18",
+          },
         ],
       },
       {

@@ -12,18 +12,20 @@
             "astragale": "Astragale",
             "reperage":  "Repérage",
             "ndstruct":  "Voûtes Notre-Dame",
-            "cartothem": "Carthographie Thématique",
+            "cartothem": "[Carthographie Thématique]",
             "camillo":   "Camillo",
-            "urbania":   "Urbania"
+            "urbania":   "[Urbania]"
         },
-        "courses": "Cours",
+        "courses": "[Cours]",
         "projects": "Projets",
-        "music": "Musique",
+        "music": "[Musique]",
         "more": "More"
     },
     "homepage": {
         "title": "Accueil",
-        "abstract": "Architecte, doctorant en Ingénierie (spt. Conception), ex-Maitre de Conférences en Architecture. Mes activités se concentrent sur l’ingénierie de connaissances et le developpement de méthodes orientées données pour les humanités et l’environnement construit. Cela m’amène à la modélisation de systèmes, la génération de modèles géométriques ou encore la conception de bases de connaissances tout en gardant les ouvrages d’art ou les édifices architecturaux comme sujets d’échanges et d’études. Les produits issus de ces projets viennent nourrir les hypothèses archéologiques de restitution, la réalisation du diagnostic structurel d’un bâtiment tout en identifiant et en levant des verrous scientifiques."
+        "titles": "Ph.D. Ingénierie / Ms.C. Architecture",
+        "catchphrase": "Relier données, modèles et connaissances pour appréhender l'environnement bâti, et soutenir les humanités numériques",
+        "description": "Mes activités de recherche se trouvent au confluent de l'ingénierie des connaissances, de l'architecture et de la conception de méthodes orientées données. Elles reposent sur les technologies du Web Sémantique pour le développement de graphes de connaissances, la création de modèles géométriques paramétriques, et la conception de systèmes intégrés. Ces artefacts alimentent une variété de cas d'utilisation, du diagnostic structurel à l'analyse de textes ou bien les restitutions archéologiques, en appui à la transmission des savoirs et à la prise de décision dans les cadres opérationnels."
     },
     "cv": {
         "title": "Curriculum Vitae",
@@ -33,20 +35,19 @@
             {
               "id": "edu1",
               "duration": "2022 - 2025",
-              "position": "Ph.D.",
-              "title": "Ingénierie",
+              "position": "Doctorat",
+              "title": "Ingénierie, Application des Graphes de Connaissances pour les données de Conservation et de Simulation Structurelle du Patrimoine Bâti",
               "location": "Arts & Métiers, Paris",
-              "description":
-                "Projet Astragale"
+              "description": ""
             },
             {
               "id": "edu2",
               "duration": "2017 - 2019",
-              "position": "Master, mention recherche",
+              "position": "Master, Mention Recherche",
               "title": "Architecture",
               "location": "ENS d'Architecture de Lyon, Lyon",
               "description":
-                "Toute la mémoire des hommes, théâtre de Camillo\n Nominé en catégorie Recherche pour les Prix de la Jeune Architecture 18"
+                "Nominé pour le Prix de la Jeune Architecture de Lyon 18', catégorie Mention Recherche"
             },
             {
               "id": "edu3",
@@ -54,80 +55,119 @@
               "position": "Licence",
               "title": "Architecture",
               "location": "ENS d'Architecture de Paris Val-de-Seine, Paris",
-              "description": "Double major in Mathematics. Senior project on distributed systems. Dean's List all semesters."
+              "description": ""
             },
             {
                 "id": "edu4",
                 "duration": "2010 - 2012",
                 "position": "Propédeutique",
-                "title": "Computer Engineering",
+                "title": "Ingénierie",
                 "location": "Polytech' Paris-Saclay, Université Paris-Saclay, Paris",
-                "description": "Double major in Mathematics. Senior project on distributed systems. Dean's List all semesters."
+                "description": ""
               }
           ]
         },
-        "experience": {
-          "title": "Experience",
+        "research": {
+          "title": "Recherche",
           "entries": [
             {
               "id": "exp1",
               "duration": "2021 - 2025",
-              "position": "Chantier Scientifique pour la restauration de la cathédrale Notre-Dame de Paris, équipe 'Écosystème Numérique'",
+              "position": "Chantier Scientifique pour la restauration de la cathédrale Notre-Dame de Paris, groupe de travail 'Ecosystème Numérique'",
               "title": "Chercheur Associé",
-              "location": "CNRS / MC",
+              "location": "CNRS/MC",
               "description":
-                "Documentation, digitization, data modeling, and organization of knowledge from the restoration project and interdisciplinary studies."
+                "Documentation, digitalisation, modélisation des données, organisation des connaissances depuis le projet de restauration et les études interdisciplinaires."
             },
             {
               "id": "exp2",
-              "duration": "2019 - 2020",
-              "position": "AI Research Scientist",
-              "title": "Natural Language Understanding",
-              "location": "OpenAI, San Francisco, CA",
+              "duration": "2021 - 2025",
+              "position": "Astragale: Vers un environnment collaboratif pour l'analyse du comportement des structures",
+              "title": "Doctorant",
+              "location": "(MAP, UMR CNRS 3495)/LMGC/LISPEN",
               "description":
-                "Contributed to GPT architecture improvements. Focused on enhancing contextual understanding and reducing hallucinations in large language models."
+                "Relier les données de conservation du patrimoine avec les modèles de simulations, à travers les graphes de connaissances. Ingénierie système et Ingénièrie des connaissances."
             },
             {
               "id": "exp3",
-              "duration": "2017 - 2019",
-              "position": "Research Intern",
-              "title": "AI Research Division",
-              "location": "Microsoft Research, Seattle, WA",
+              "duration": "2020 - 2023",
+              "position": "Reperage: Repérage spatio-temporel des claveaux des nervures des voûtes effondrées de Notre-Dame de Paris",
+              "title": "Co-Direction, Principal Investigator",
+              "location": "MAP, UMR CNRS 3495",
               "description":
-                "Worked on machine learning models for code completion and generation. Published 2 papers at top-tier conferences based on this work."
+                "Photogrammétrie, documentation, anastylose numérique des voussoirs de l'arc effondré de la nef de Notre-Dame. Modélisation ontologique avec CIDOC CRM. Collaboration avec le groupe de travail scientifique 'Pierre'."
+            },
+            {
+                "id": "exp4",
+                "duration": "2019 - 2021",
+                "position": "Évaluation de la stabilité mécanique résiduelle au feu des voûtes de la cathédrale Notre-Dame de Paris",
+                "title": "Chercheur Associé, Responsable du workpackage 'Geometrie'",
+                "location": "MAP, UMR CNRS 3495",
+                "description":
+                  "Modélisation géométrique paramétrique adaptive du voûtement sexpartite de la cathédrale Notre-Dame de Paris, pour l'analyse structurelle en FEM/DEM. Collaboration avec le groupe de travail 'Structure et Calcul Mécanique' du Chantier Scientifique pour la restauration de la cathédrale Notre-Dame de Paris."
+            },
+            {
+                "id": "exp5",
+                "duration": "2017 - 2018 (part time)",
+                "position": "Urbania",
+                "title": "Collaborateur Scientfique",
+                "location": "MAP, UMR CNRS 3495",
+                "description": ""
             }
           ]
         },
-        "research": {
-          "title": "Research",
+        "experience": {
+          "title": "Experience Professionnelle",
           "entries": [
             {
               "id": "res1",
-              "duration": "2021 - 2023",
-              "position": "Principal Investigator",
-              "title": "Multimodal Learning for Robotics",
-              "location": "Collaborative project with Stanford Robotics",
+              "duration": "2019 - 2021",
+              "position": "Maître de Conférences Associé",
+              "title": "Sciences et Techniques pour l'Architecture (champs STA-OMI et STA-CIMA)",
+              "location": "ENS d'Architecture de Marseille, Marseille",
               "description":
-                "Developed novel approaches for robots to learn from both visual and textual instructions. Resulted in 3 publications and a patent application."
+                "Encadrement du séminaire « Patrimoine et Humanités Numériques » (M1/M2), Création de l’intensif « Structures légères » (M1/M2). Cours de technologie et analyses des structures (L2), techniques de réhabilitation (M1). Encadrement en studio (L1/L3/M1), interventions en travaux dirigés. Participation à la Commission Recherche de l'établissement."
             },
             {
-              "id": "res2",
-              "duration": "2018 - 2021",
-              "position": "Research Contributor",
-              "title": "Efficient Transformers",
-              "location": "Cross-institutional research initiative",
-              "description":
-                "Investigated methods to reduce computational requirements of transformer models while maintaining performance. Achieved 40% reduction in training time."
-            },
-            {
-              "id": "res3",
-              "duration": "2016 - 2018",
-              "position": "Graduate Researcher",
-              "title": "Explainable AI Systems",
-              "location": "Stanford AI Lab",
-              "description":
-                "Researched techniques to make deep learning models more interpretable. Work cited in over 50 subsequent papers in the field."
-            }
+                "id": "res2",
+                "duration": "jun-dec 2019",
+                "position": "Chargé de mission",
+                "title": "",
+                "location": "Conseil d'Architecture, d'Urbanisme et d'Environnement du Rhône, Lyon",
+                "description": "Traitement de données et préparation d’une formation sur les commissions préalables. Travail de commissariat, constitution de corpus & contenus pour l’exposition 20/21 'Tissus urbains et Architecture Ordinaire'."
+              },
+              {
+                "id": "res3",
+                "duration": "sep 2018 - dec 2019",
+                "position": "Assistant Professeur et Collaborateur Scientifique",
+                "title": "Architecture et Ingénierie pour la construction bois",
+                "location": "EPFL ENAC IIC IBOIS, Lausanne",
+                "description": "Enseignement en atelier d’architecture (M1) et cours « Concevoir les Structures » (L3), prototypage & fabrication numérique, optimisation structurelle."
+              },
+              {
+                  "id": "res4",
+                  "duration": "2017 - 2028 (temps partiel)",
+                  "position": "Collaborateur Scientifique",
+                  "title": "Modélisation géométrique basée sur les connaissances de fortification bastionnées à l'échelle urbaine",
+                  "location": "MAP-ARIA, UMR CNRS/MC 3495, Lyon",
+                  "description": ""
+                },
+                {
+                  "id": "res5",
+                  "duration": "mars-juill. 2016",
+                  "position": "Community Manager",
+                  "title": "Animation et promotion du Fablab et du Living Lab du PROTO204",
+                  "location": "PROTO204, Université Paris-Saclay",
+                  "description": ""
+                },
+                {
+                  "id": "res5",
+                  "duration": "sep 2015 - fev 2016",
+                  "position": "Stagiaire",
+                  "title": "Documents de faisabilités pour du logement, une crèche et un équipement sportif.",
+                  "location": "Studio Muoto, Paris",
+                  "description": ""
+                }
           ]
         }
       },

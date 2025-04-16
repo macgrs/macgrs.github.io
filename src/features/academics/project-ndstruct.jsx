@@ -51,7 +51,7 @@ const AcademicsStaticNdpVaults = () => {
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       {/* Hero Image + Title */}
       <div className="mb-4">
-        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} />
+        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-white"}/>
       </div>
 
       {/* Main Content Grid */}
