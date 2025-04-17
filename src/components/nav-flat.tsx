@@ -23,6 +23,8 @@ import {
     // useSidebar,
   } from "@/components/ui/sidebar.tsx"
   
+import { Link } from "react-router-dom"
+
   export function NavFlat({
     projects,
   }: {
@@ -41,10 +43,10 @@ import {
           {projects.map((item) => (
             <SidebarMenuItem key={item.name}>
               <SidebarMenuButton asChild>
-                <a href={item.url}>
-                  <item.icon />
-                  <span>{item.name}</span>
-                </a>
+              <Link to={item.url}>
+                <item.icon />
+                <span>{item.name}</span>
+              </Link>
               </SidebarMenuButton>
               {/* <DropdownMenu>
                 <DropdownMenuTrigger asChild>

@@ -161,7 +161,7 @@
                   "description": ""
                 },
                 {
-                  "id": "res5",
+                  "id": "res6",
                   "duration": "sep 2015 - fev 2016",
                   "position": "Stagiaire",
                   "title": "Documents de faisabilités pour du logement, une crèche et un équipement sportif.",
@@ -175,6 +175,7 @@
         "global" :{
             "abstract": "Résumé",
             "acronym": "Acronyme",
+            "keywords": "Mots-clefs",
             "partenaires": "Partenaires",
             "encadrement": "Encadrement",
             "collaborateurs": "Collaborateurs",
@@ -213,6 +214,7 @@
         },
         "astragale": {
             "title": "Astragale",
+            "keywords": "Graphes de Conaissances, Diagnostic Structurel, Simulation bloc-à-bloc, Web Sémantique, Ontologie, Architecture Système, Patrimoine Culturel",
             "subtitle": "Application des Graphes de Connaissances pour les données de Simulation Structurelle et de Conservation du Patrimoine Culturel Bâti",
             "collaborateurs": "Groupes de travail 'Génie Civil et Calcul de Structures' et 'Écosystème Numérique' du Chantier Scientifique de Notre-Dame de Paris",
             "encadrement": "Livio De Luca (MAP, UPR 2002 CNRS), Frédéric Dubois (LMGC, UMR 5508 CNRS), Philippe Véron (LISPEN, EA7515), Kevin Jacquot (MAP, URM ENSA/MC)",
@@ -238,6 +240,7 @@
         },
         "reperage": {
             "title": "Reperage",
+            "keywords": "Ingénierie Inverse, Modélisation Ontologique, Optimization Linéaire, Archéologei, Patrimoine Culturel, Photogrammétrie, Jumeau Numérique",
             "subtitle": "Repérage spatio-temporel des claveaux des nervures des voûtes effondrées de Notre-Dame de Paris",
             "partenaires": {
                 "mapupr":{
@@ -256,7 +259,7 @@
                     "acronym":  "(SRA-DRAC IDF)"
                 }
             },
-            "collaborateurs": "Groupes de travail 'Pierre' et 'Écosystème Numérique' du Chantier Scientifique de Notre-Dame de Paris",
+            "collaborateurs": "A. Gros, L. De Luca (MAP UMR CNRS/MC 3495), A. Guillem, L.Leroux, O.Malavergne, T.Zimmer (LRMH), D. Chaoui-Derieux (SRA-DRAC IDF), E. Bailleul (IRHIS, UMR CNRS 8529), C. Moulis (UR 1132 SAMA), B. Duvocelle.",
             "position": "Co-Responsable",
             "funding": "FSP, Fondation des Sciences pour le Patrimoine",
             "duration": "2020-2023",
@@ -278,6 +281,7 @@
         },
         "ndpvaults": {
             "title": "Voûtes",
+            "keywords": "Diagnostic Structurel, Modélisation Paramétrique, DEM, FEM, Patrimoine Culturel",
             "subtitle": "Évaluation de la stabilité mécanique résiduelle au feu des voûtes de la cathédrale Notre-Dame de Paris",
             "partenaires": {
                 "mapupr":{
@@ -311,7 +315,7 @@
                     "acronym":  "(ENPC, IFFSTAR)"
                 }
             },
-            "collaborateurs": "Groupes de travail 'Génie Civil' du Chantier Scientifique de Notre-Dame de Paris",
+            "collaborateurs": "S.Morel, T.Parent, JC. Mindeguia (I2M, UMR 5295 CNRS, Univ. Bordeaux), F.Dubois, P.Taforel (LMGC, UMR 5508 CNRS, Univ. Montpellier, Mimetic Engineering), P.Morenon, N.Domède (LMDC, INSA-UPS), P.Nougayrede, M.Brocato (GSA, ENSAPM), AS.Colas, D.Garnier (ENPC, IFFSTAR)",
             "position": "Responsable du workpackage 'Modélisation Géométrique'",
             "funding": "EPA RNDP, Etablissement Public d'Aménagement pour la Restauration de la cathédrale Notre-Dame de Paris",
             "duration": "2019-2020",
@@ -338,6 +342,7 @@
         },
         "camillo": {
             "title": "Théâtre",
+            "keywords": "Architecture, Renaissance, Ars Memoriae, Gnoses",
             "subtitle": "Le Théâtre de la Mémoire de Giulio Camillo, un héritage de l'art classique de la mémoire",
             "funding": "",
             "collaborateurs": "",

@@ -67,8 +67,9 @@ const H1: React.FC<Props> = ({className, children}) => {
   }
 
   const A: React.FC<Props> = ({className, children, href}) => {
+    // leading-7 [&:not(:first-child)]:mt-6
     return (
-      <a href={href} className={`text-blue-600 dark:text-blue-500 hover:underline leading-7 [&:not(:first-child)]:mt-6 ${className}`}>
+      <a href={href} className={`whitespace-pre-line text-blue-600 dark:text-blue-500 hover:underline  ${className}`}>
        {children}
       </a>
     )

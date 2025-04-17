@@ -29,6 +29,14 @@ const getClickableHTMLCitation = ({library, key}) => {
   )
 }
 
+const projetCardKeys = [
+  "position",
+  "duration",
+  "keywords",
+  "collaborateurs",
+  "partenaires",
+  "funding"
+]
 
 const AcademicsStaticNdpVaults = () => {
   const { t, i18n } = useTranslation();
@@ -93,6 +101,7 @@ const AcademicsStaticNdpVaults = () => {
         <div className="lg:col-span-2 pt-4 px-4 lg:px-8 bg-orange-000">
           <ProjectCard
             projectKey={projectKey}
+            rowKeys={projetCardKeys}
             partenaireKeys={['mapupr', 'lmgc', 'lispen', 'mapurm']}
           />
 

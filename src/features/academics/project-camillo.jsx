@@ -16,6 +16,13 @@ import * as projectData from '@/features/academics/academics-data.json';
 
 import bibFile from "@/assets/example.bib?raw"
 
+const projetCardKeys = [
+  "position",
+  "duration",
+  "keywords",
+  "partenaires",
+]
+
 const getClickableHTMLCitation = ({library, key}) => {
   const citeHTML = library.format('bibliography', {
     entry: key,
@@ -91,6 +98,7 @@ const AcademicsStaticCamillo = () => { // : React.FC
         <div className="lg:col-span-2 pt-4 px-4 lg:px-8 bg-orange-000">
           <ProjectCard
             projectKey={projectKey}
+            rowKeys={projetCardKeys}
             partenaireKeys={['ensal']}
           />
 

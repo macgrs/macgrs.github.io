@@ -27,10 +27,10 @@
     "moduleResolution": "nodenext",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     },
+    "baseUrl": ".", // https://macgrs.github.io/
     // 👇 add this if not already set
     "isolatedModules": true,
     "esModuleInterop": true,

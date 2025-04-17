@@ -71,18 +71,18 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     navAcademics: [
       {
         title: t('sidebar.projects'),
-        url: "/academics",
+        url: "academics",
         icon: Bot,
         isActive: true,
         items: [
           {
             title: t('sidebar.acadeproj.astragale'),
-            url: "/academics/astragale",
+            url: "academics/astragale",
             year: "21-25",
           },
           {
             title: t('sidebar.acadeproj.reperage'),
-            url: "/academics/reperage",
+            url: "academics/reperage",
             year: "20-23",
           },
           {

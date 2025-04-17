@@ -65,19 +65,46 @@ export default function Page() {
               <ModeToggle />
             </div>
           </header>
-          <Routes>
-            {/* <Route index element={<Home />} /> */}
-            <Route index element={<Home />} />
+        
+        {/* <Routes>
+          <Route index element={<Home />} />
+            <Route path="/cv" element={<CurriculumVitae />} />
+            <Route path="/academics/astragale"  element={<AcademicsStaticAstragale />} />
+            <Route path="/academics/reperage"   element={<AcademicsStaticReperage />} />
+            <Route path="/academics/ndstruct"   element={<AcademicsStaticNdstruct />} />
+            <Route path="/academics/cartothem"  element={<ConstructionPage />} />
+            <Route path="/academics/camillo"    element={<AcademicsStaticCamillo />} />
+            <Route path="/academics/urbania"    element={<ConstructionPage />} />
 
-            {/* <Route element={<AuthLayout />}> */}
-              <Route path="/cv"                   element={<CurriculumVitae />} />
-              <Route path="/academics/astragale"  element={<AcademicsStaticAstragale />} />
-              <Route path="/academics/reperage"   element={<AcademicsStaticReperage />} />
-              <Route path="/academics/ndstruct"   element={<AcademicsStaticNdstruct />} />
-              <Route path="/academics/cartothem"  element={<ConstructionPage />} />
-              <Route path="/academics/camillo"    element={<AcademicsStaticCamillo />} />
-              <Route path="/academics/urbania"    element={<ConstructionPage />} />
-            {/* </Route> */}
+            <Route path="*" element={<ConstructionPage />} />
+        </Routes> */}
+        <Routes>
+          <Route path="/">
+            <Route index element={<Home />} />
+            <Route path="cv" element={<CurriculumVitae />} />
+            <Route path="*" element={<ConstructionPage />} />
+            <Route path="academics">
+              <Route index />
+              <Route path="astragale"  element={<AcademicsStaticAstragale />} />
+              <Route path="reperage"   element={<AcademicsStaticReperage />} />
+              <Route path="ndstruct"   element={<AcademicsStaticNdstruct />} />
+              <Route path="cartothem"  element={<ConstructionPage />} />
+              <Route path="camillo"    element={<AcademicsStaticCamillo />} />
+              <Route path="urbania"    element={<ConstructionPage />} />
+            </Route>
+          </Route>
+        </Routes>
+
+          {/* <Routes>
+            <Route path="/"                       element={<Home />} />
+            <Route path="/cv"                   element={<CurriculumVitae />} />
+            <Route path="/academics/astragale"  element={<AcademicsStaticAstragale />} />
+            <Route path="/academics/reperage"   element={<AcademicsStaticReperage />} />
+            <Route path="/academics/ndstruct"   element={<AcademicsStaticNdstruct />} />
+            <Route path="/academics/cartothem"  element={<ConstructionPage />} />
+            <Route path="/academics/camillo"    element={<AcademicsStaticCamillo />} />
+            <Route path="/academics/urbania"    element={<ConstructionPage />} />
+          </Routes> */}
 
 
 
@@ -94,7 +121,6 @@ export default function Page() {
                 <Route path=":city" element={<City />} />
                 <Route path="trending" element={<Trending />} />
               </Route> */}
-            </Routes>
           {/* <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
             <div className="grid auto-rows-min gap-4 md:grid-cols-3">
               <div className="aspect-video rounded-xl bg-muted/50" />

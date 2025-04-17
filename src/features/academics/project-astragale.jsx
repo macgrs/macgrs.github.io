@@ -29,6 +29,14 @@ const getClickableHTMLCitation = ({library, key}) => {
   )
 }
 
+const projetCardKeys = [
+  "position",
+  "duration",
+  "keywords",
+  "encadrement",
+  "partenaires",
+  "funding"
+]
 
 const AcademicsStaticAstragale = () => {
   const { t, i18n } = useTranslation();
@@ -51,7 +59,8 @@ const AcademicsStaticAstragale = () => {
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       {/* Hero Image + Title */}
       <div className="mb-4">
-        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-white drop-shadow-[0_0.2px_3.2px_rgba(0,0,0,0.8)]"}/>
+        {/* <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-white drop-shadow-[0_0.2px_3.2px_rgba(0,0,0,0.8)]"}/> */}
+        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-black drop-shadow-[0_0.3px_0.3px_rgba(255,255,255,0.8)]"}/>
       </div>
 
       {/* Main Content Grid */}
@@ -130,6 +139,7 @@ const AcademicsStaticAstragale = () => {
         <div className="lg:col-span-2 pt-4 px-4 lg:px-8 bg-orange-000">
           <ProjectCard
             projectKey={projectKey}
+            rowKeys={projetCardKeys}
             partenaireKeys={['mapupr', 'lmgc', 'lispen', 'mapurm']}
           />
 
