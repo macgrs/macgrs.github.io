@@ -178,7 +178,8 @@
         "global" :{
             "abstract": "Abstract",
             "acronym": "Acronym",
-            "partenaires": "Partners",
+            "partenaires": "Partnerships",
+            "keywords": "Keywords",
             "encadrement": "Supervision",
             "collaborateurs": "Collaborators",
             "funding": "Funding",
@@ -216,6 +217,7 @@
         },
         "astragale": {
             "title": "Astragale",
+            "keywords": "Knowledge Graph, Structural Diagnosis, Block-based Simulation, Semantic Web, Ontology Modelisation, System Architecture, Cultural Heritage",
             "subtitle": "Knowledge Graph Applications for Structural Simulation and Conservation Data in Built Heritage",
             "collaborateurs": "Notre-Dame de Paris Scientific consortium for restauration, workgroups 'Digital Ecosystem' and 'Civil Engineering'",
             "encadrement": "Livio De Luca (MAP, UPR 2002 CNRS), Frédéric Dubois (LMGC, UMR 5508 CNRS), Philippe Véron (LISPEN, EA7515), Kevin Jacquot (MAP, URM ENSA/MC)",
@@ -241,6 +243,7 @@
         },
         "ndpvaults": {
             "title": "Vaults",
+            "keywords": "Structural Diagnosis, Parametric Modeling, DEM, FEM, Cultural Heritage",
             "subtitle": "Evaluation of the residual mechanical fire stability of the vaults of Notre-Dame Cathedral in Paris",
             "partenaires": {
                 "mapupr":{
@@ -274,7 +277,7 @@
                     "acronym":  "(ENPC, IFFSTAR)"
                 }
             },
-            "collaborateurs": "'Civil Engineering' and 'Digital Ecosystem' teams of the scientific consortium for Notre-Dame de Paris restoration",
+            "collaborateurs": "S.Morel, T.Parent, JC. Mindeguia (I2M, UMR 5295 CNRS, Univ. Bordeaux), F.Dubois, P.Taforel (LMGC, UMR 5508 CNRS, Univ. Montpellier, Mimetic Engineering), P.Morenon, N.Domède (LMDC, INSA-UPS), P.Nougayrede, M.Brocato (GSA, ENSAPM), AS.Colas, D.Garnier (ENPC, IFFSTAR)",
             "position": "Head of the 'Geometric Modeling' workpackage",
             "funding": "EPA RNDP, Etablissement Public d'Aménagement pour la Restauration de la cathédrale Notre-Dame de Paris",
             "duration": "2019-2020",
@@ -292,6 +295,7 @@
         },
         "camillo": {
             "title": "Theater",
+            "keywords": "Architecture, Renaissance, Ars Memoriae, Gnosis",
             "subtitle": "Giulio Camillo's Theater of Memory, a legacy of the classical art of memory",
             "funding": "",
             "collaborateurs": "",
@@ -311,7 +315,8 @@
         },
         "reperage": {
             "title": "Reperage",
-            "subtitle": "Repérage spatio-temporel des claveaux des nervures des voûtes effondrées de Notre-Dame de Paris",
+            "keywords": "Reverse Engineering, Ontology Modeling, Linear Optimization, Archeology, Cultural Heritage, Photogrammetry, Digital Twin",
+            "subtitle": "Spatio-temporal relocation of remains from Notre-Dame de Paris fallen nave arch",
             "partenaires": {
                 "mapupr":{
                     "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
@@ -329,7 +334,7 @@
                     "acronym":  "(SRA-DRAC IDF)"
                 }
             },
-            "collaborateurs": "'Digital Ecosystem' and 'Stone' teams of the scientific consortium for Notre-Dame de Paris restoration",
+            "collaborateurs": "A. Gros, L. De Luca (MAP UMR CNRS/MC 3495), A. Guillem, L.Leroux, O.Malavergne, T.Zimmer (LRMH), D. Chaoui-Derieux (SRA-DRAC IDF), E. Bailleul (IRHIS, UMR CNRS 8529), C. Moulis (UR 1132 SAMA), B. Duvocelle.",
             "position": "Co-Director",
             "funding": "FSP, Fondation des Sciences pour le Patrimoine",
             "duration": "2020-2023",
