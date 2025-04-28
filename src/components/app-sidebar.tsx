@@ -112,22 +112,22 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         url: "#",
         icon: BookOpen,
         items: [
-          // {
-          //   title: "Introduction",
-          //   url: "#",
-          // },
-          // {
-          //   title: "Get Started",
-          //   url: "#",
-          // },
-          // {
-          //   title: "Tutorials",
-          //   url: "#",
-          // },
-          // {
-          //   title: "Changelog",
-          //   url: "#",
-          // },
+          {
+            title: t('sidebar.acadecourses.built-heritage-digital-humanities'),
+            url: "/courses/built-heritage-digital-humanities",
+          },
+          {
+            title: t('sidebar.acadecourses.architectural-survey'),
+            url: "/courses/architectural-survey",
+          },
+          {
+            title: t('sidebar.acadecourses.structural-design'),
+            url: "/courses/structural-design",
+          },
+          {
+            title: t('sidebar.acadecourses.light-structures'),
+            url: "courses/light-structures",
+          },
         ],
       },
     ],

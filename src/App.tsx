@@ -33,8 +33,9 @@ import AcademicsStaticReperage    from '@/features/academics/project-reperage.js
 import AcademicsStaticNdstruct    from '@/features/academics/project-ndstruct.jsx'
 // import AcademicsStaticCarthothem  from '@/features/academics/project-cartothem.jsx'
 // import AcademicsStaticUrbania    from '@/features/academics/project-urbania.jsx'
-
 import AcademicsStaticCamillo  from '@/features/academics/project-camillo.jsx'
+
+import AcademicsCourseStructuralDesign from '@/features/academics/course-conceptru.jsx'
 
 export default function Page() {
   return (
@@ -46,19 +47,6 @@ export default function Page() {
             <div className="flex items-center gap-2 px-4">
               <SidebarTrigger className="-ml-1" />
               <Separator orientation="vertical" className="mr-2 h-4" />
-              {/* <Breadcrumb>
-                <BreadcrumbList>
-                  <BreadcrumbItem className="hidden md:block">
-                    <BreadcrumbLink href="#">
-                      Building Your Application
-                    </BreadcrumbLink>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator className="hidden md:block" />
-                  <BreadcrumbItem>
-                    <BreadcrumbPage>Data Fetching</BreadcrumbPage>
-                  </BreadcrumbItem>
-                </BreadcrumbList>
-              </Breadcrumb> */}
             </div>
             <div className="flex flex-auto justify-end gap-2 px-4">
               <LangToggle />
@@ -66,18 +54,6 @@ export default function Page() {
             </div>
           </header>
         
-        {/* <Routes>
-          <Route index element={<Home />} />
-            <Route path="/cv" element={<CurriculumVitae />} />
-            <Route path="/academics/astragale"  element={<AcademicsStaticAstragale />} />
-            <Route path="/academics/reperage"   element={<AcademicsStaticReperage />} />
-            <Route path="/academics/ndstruct"   element={<AcademicsStaticNdstruct />} />
-            <Route path="/academics/cartothem"  element={<ConstructionPage />} />
-            <Route path="/academics/camillo"    element={<AcademicsStaticCamillo />} />
-            <Route path="/academics/urbania"    element={<ConstructionPage />} />
-
-            <Route path="*" element={<ConstructionPage />} />
-        </Routes> */}
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
@@ -92,43 +68,15 @@ export default function Page() {
               <Route path="camillo"    element={<AcademicsStaticCamillo />} />
               <Route path="urbania"    element={<ConstructionPage />} />
             </Route>
+            <Route path="courses">
+              <Route index />
+              {/* <Route path="built-heritage-digital-humanities"  element={<AcademicsCourseStructuralDesign />} /> */}
+              {/* <Route path="architectural-survey"               element={<AcademicsCourseStructuralDesign />} /> */}
+              <Route path="structural-design"                  element={<AcademicsCourseStructuralDesign />} />
+              {/* <Route path="light-structures"                   element={<AcademicsCourseStructuralDesign />} /> */}
+            </Route>
           </Route>
         </Routes>
-
-          {/* <Routes>
-            <Route path="/"                       element={<Home />} />
-            <Route path="/cv"                   element={<CurriculumVitae />} />
-            <Route path="/academics/astragale"  element={<AcademicsStaticAstragale />} />
-            <Route path="/academics/reperage"   element={<AcademicsStaticReperage />} />
-            <Route path="/academics/ndstruct"   element={<AcademicsStaticNdstruct />} />
-            <Route path="/academics/cartothem"  element={<ConstructionPage />} />
-            <Route path="/academics/camillo"    element={<AcademicsStaticCamillo />} />
-            <Route path="/academics/urbania"    element={<ConstructionPage />} />
-          </Routes> */}
-
-
-
-            {/* <Route path="about" element={<About />}></Route> */}
-              {/* <Route path="about" element={<About />} />
-
-              <Route element={<AuthLayout />}>
-                <Route path="login" element={<Login />} />
-                <Route path="register" element={<Register />} />
-              </Route>
-
-              <Route path="concerts">
-                <Route index element={<ConcertsHome />} />
-                <Route path=":city" element={<City />} />
-                <Route path="trending" element={<Trending />} />
-              </Route> */}
-          {/* <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-            <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-              <div className="aspect-video rounded-xl bg-muted/50" />
-              <div className="aspect-video rounded-xl bg-muted/50" />
-              <div className="aspect-video rounded-xl bg-muted/50" />
-            </div>
-            <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
-          </div> */}
         </SidebarInset>
       </SidebarProvider>
     </ThemeProvider>

@@ -4,6 +4,9 @@
       "part1": "Pour commencer, et sauve pour charger.",
       "part2": "Changer language."
     },
+    "construction": {
+        "disclaimer": "Cette page est en construction"
+    },
     "sidebar": {
         "home": "Accueil",
         "cv": "Curriculum Vitae",
@@ -16,7 +19,13 @@
             "camillo":   "Camillo",
             "urbania":   "[Urbania]"
         },
-        "courses": "[Cours]",
+        "acadecourses": {
+            "built-heritage-digital-humanities": "[Patrimoine Architectural et Humanités Numériques]",
+            "architectural-survey":              "[Relevé Architectural]",
+            "structural-design":                 "Conception de Structures",
+            "light-structures":                  "[Structures Légères]"
+        },
+        "courses": "Cours",
         "projects": "Projets",
         "music": "[Musique]",
         "more": "More"
@@ -184,6 +193,14 @@
             "position": "Position",
             "duration": "Durée",
             "card": "Project Card",
+            "level": "Niveau",
+            "content": "Contenu",
+            "discipline": "Discipline",
+            "reqskills": "Compétences requises",
+            "acqskills": "Acquis de la formation",
+            "method-teaching": "Méthode d'enseignement",
+            "method-eval": "Méthode d'évaluation",
+            "ressources": "Ressources",
             "zooPartenaires": {
                 "mapupr":{
                     "name":     "Lab. Modèles et Simulations pour l’Architecture et le Patrimoine",
@@ -358,6 +375,20 @@
             "captions":{
                 "camillo_theatre": "Gravure représentant le Théâtre de la Mémoire, plaçant les images mythologiques dans ses locis [Anon]",
                 "camillo_jupimnem": "Jupiter déguisé en berger et Mnemosyne, gravure de la série 'Les amours des Dieux' \n(Giacomo Caraglio, 1505?-1565)"
+            }
+        },
+        "courses": {
+            "conceptru": {
+                "title": "Conception des Structures",
+                "keywords": "Principes structurels, Systèmes structurels, Conception de structure, Statique",
+                "subtitle": "ça tooooombe",
+                "discipline": "Architecture, Ingénierie",
+                "level": "Licence",
+                "duration": "1h30 (format conférence) / 4x1h (format court) / 5x1h30 (format long)",
+                "head": "Qu'elle soit visible ou cachée, massive ou 'en filigrane', le choix de la structure pour un projet d'architecture accompagne le dessin de sa forme et de ses espaces. Ce cours propose un parcours parmi les systèmes structurels usuels, en prenant pour point de départ l'approche typologique et systématique émise par H.Engels.",
+                "content": {
+                    "1": "L'introduction du cours _Concevoir des Structures_ porte sur le rapport entre l'aspect mécanique et l'aspect spatial lors de la conception d'un tel système. Il en résulte que son dessin est contingenté, et que sur un tout autre plan, la prise en compte de ces mêmes contingences ouvre à la mise en oeuvre de plusieurs programmes esthétiques devenus classiques au fil des siècles. À travers ces derniers, la forme gagne en expressivité tout en se positionnant vis-à-vis des principes statiques et des phénomènes naturels qui les ont vus apparaître. La division en quatre chapitres de ce cours correspond à quatre manières de rediriger les forces dans un système structurel. Un rappel de statique introduit chacun de ces chapitres, puis à la description générale des types de structures considérés s'ensuit un focus sur l'une d'entre elles."
+                }
             }
         }
     }
