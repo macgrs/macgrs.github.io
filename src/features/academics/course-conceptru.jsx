@@ -111,7 +111,7 @@ const AcademicsCourseStructuralDesign = () => { // : React.FC
       
       <div className="mt-12 w-1/2 center">
       <ZoomableImage
-      src="https://sharedocs.huma-num.fr/wl/?id=Mke5cOMmxtXG5tNOx0mhFzZZsIHX3FB0&download=1"
+      src=""
       title="TITRE"
       about="description longue"
       className="cursor-pointer w-full h-auto object-contain"

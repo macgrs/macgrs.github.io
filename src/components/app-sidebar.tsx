@@ -138,18 +138,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         icon: Bot,
         isActive: true,
         items: [
-          // {
-          //   title: "(2025+) LMP",
-          //   url: "more/projects/lmp",
-          // },
-          // {
-          //   title: "Explorer",
-          //   url: "#",
-          // },
-          // {
-          //   title: "Quantum",
-          //   url: "#",
-          // },
+          {
+            title: t('sidebar.moreproj.prairie'),
+            url: "more/prairie",
+            year: "21-25",
+          }
         ],
       },
       {

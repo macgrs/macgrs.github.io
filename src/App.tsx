@@ -1,9 +1,23 @@
-// // REACT // //
+/**
+ * App.tsx
+ *
+ * xxxxxxxxxxxxxxxxx
+ * xxxxxxxxxxxxxxxxx
+ * xxxxxxxxxxxxxxxxx
+ */
+
+// -------------------------------------
+// IMPORTS
+// -------------------------------------
+// React, RTK and base Imports
+// -------------------------------------
 import {
   Routes, Route
 } from 'react-router-dom'
 
-// // UI - BASE // //
+
+// Common Components
+// -------------------------------------
 import { ModeToggle } from "@/components/mode-toggle.tsx"
 import { LangToggle } from "@/components/lang-toggle.tsx"
 import { AppSidebar } from "@/components/app-sidebar.tsx"
@@ -23,11 +37,18 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar.tsx"
 
-// // PAGES - COMPONENTS // //
+
+// Pages
+// -------------------------------------
+// Statics
 import Home from '@/features/Home.tsx'
 import ConstructionPage from '@/features/page-construction.tsx'
+
+// -- Academics
+// ---- CV
 import { CurriculumVitae } from '@/features/cv/curriculum-vitae.tsx'
 
+// ---- Aca. projs
 import AcademicsStaticAstragale   from '@/features/academics/project-astragale.jsx'
 import AcademicsStaticReperage    from '@/features/academics/project-reperage.jsx'
 import AcademicsStaticNdstruct    from '@/features/academics/project-ndstruct.jsx'
@@ -35,7 +56,12 @@ import AcademicsStaticNdstruct    from '@/features/academics/project-ndstruct.js
 // import AcademicsStaticUrbania    from '@/features/academics/project-urbania.jsx'
 import AcademicsStaticCamillo  from '@/features/academics/project-camillo.jsx'
 
+// ---- Courses
 import AcademicsCourseStructuralDesign from '@/features/academics/course-conceptru.jsx'
+
+// -- Projects
+import ProjectPrairiePage from '@/features/project-prairie/prairie-page.jsx'
+import PrairieHousePage from '@/features/project-prairie/prairie-house-page.jsx'
 
 export default function Page() {
   return (
@@ -74,6 +100,11 @@ export default function Page() {
               {/* <Route path="architectural-survey"               element={<AcademicsCourseStructuralDesign />} /> */}
               <Route path="structural-design"                  element={<AcademicsCourseStructuralDesign />} />
               {/* <Route path="light-structures"                   element={<AcademicsCourseStructuralDesign />} /> */}
+            </Route>
+            <Route path="more/prairie/houses/:id" element={<PrairieHousePage />} />
+            <Route path="more">
+              <Route index />
+              <Route path="prairie" element={<ProjectPrairiePage />} />   
             </Route>
           </Route>
         </Routes>
