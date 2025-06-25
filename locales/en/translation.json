@@ -16,10 +16,19 @@
             "camillo":   "Camillo",
             "urbania":   "[Urbania]"
         },
+        "acadecourses": {
+            "built-heritage-digital-humanities": "[Built Heritage and Digital Humanities]",
+            "architectural-survey":              "[Architectural Surveying]",
+            "structural-design":                 "Structural Design",
+            "light-structures":                  "[Light Structures]"
+        },
         "courses": "[Courses]",
         "projects": "Projects",
         "music": "[Music]",
-        "more": "More"
+        "more": "More",
+        "moreproj": {
+            "prairie": "Procedural Prairie"
+        }
     },
     "construction": {
         "disclaimer": "Sorry, this page is still under construction"
@@ -224,7 +233,7 @@
             "position": "PhD Student",
             "funding": "MITI-CNRS, Mission pour les initiatives transverses",
             "duration": "2022-2025",
-            "head": "<strong>Brdiging observations, modelling, and simulations.</strong> \nUnderstanding building's pathologies is central to the conservation of built heritage. Such comprehension emerges from the interplay of on-site observations, measures and models, and simulations. Structural diagnosis, in particular, is key to anticipating interventions and ensuring the safety of buildings. The main challenge lies in designing methods and tools that support the coherent integration of such heterogeneous data in a knowledge capitalization framework.",
+            "head": "<strong>Bridging observations, modelling, and simulations.</strong> \nUnderstanding building's pathologies is central to the conservation of built heritage. Such comprehension emerges from the interplay of on-site observations, measures and models, and simulations. Structural diagnosis, in particular, is key to anticipating interventions and ensuring the safety of buildings. The main challenge lies in designing methods and tools that support the coherent integration of such heterogeneous data in a knowledge capitalization framework.",
             "body": {
                 "h_para1": "Organizing diagnostic knowledge via knowledge graphs",
                 "p_para10": "We propose a knowledge graph approach to organize and interrelate data produced during building diagnostics. By combining provenance modelling, spatial localization of alterations, and the formalization of their typologies using Semantic Web technologies, we iteratively develop the AB2CRM ontology from the CIDOC CRM standard. The innovative application of the eXtreme Design methodology enables the extraction and integration of ontology patterns from CIDOC CRM, supporting controlled increases in model complexity and ensuring consistency through systematic testing protocols.",
@@ -353,6 +362,18 @@
                 "reperage_prefclaveau": "The arch voussoirs, specific remains among rubble (A. Kommanda/LRMH/RNDP, 2020)",
                 "reperage_humanistica": "A diagrammatic extract from the CIDOC CRM mapping of the voussoirs N1A and N320' informations (Guillem et al., 2023)"
             }
+        }
+    },
+    "more": {
+        "global": {
+            "acronym": "Acronym"
+        },
+        "prairie": {
+            "title": "Prairies PCG",
+            "keywords": "Architecture, Procedural Generation, Graph-based",
+            "duration": "2025+",
+            "subtitle": "Procedural plan generation",
+            "head": "<strong>Lorem.</strong> \nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. "
         }
     }
   }
