@@ -40,7 +40,7 @@ import { H1, H2, H3, H4, P, A, C } from "@/components/ui/typography"
 // Feature-Specific Components
 // -------------------------------------
 import { GeneralTable } from "./house-info-table.tsx";
-import { FunctionalGraphViewer } from "./house-functional-graph-viewer.tsx";
+// import { FunctionalGraphViewer } from "./house-functional-graph-viewer.tsx";
 import { RadarRooms } from "./house-info-rooms-radar.tsx";
 import { RoomsTable } from "./house-info-rooms-table.tsx";
 
@@ -222,7 +222,7 @@ const ProjectPrairiePage = () => { // : React.FC
         <CardContent>
           <div className="flex gap-6 h-96">
             <div className="flex-1">
-              <FunctionalGraphViewer data={sampleData} edges={edgeList} />
+              {/* <FunctionalGraphViewer data={sampleData} edges={edgeList} /> */}
             </div>
             <div className="flex-[2]">
               <GeneralTable totalSurface={totalSurface} verticesCount={verticesCount} edgesCount={edgesCount} />
