@@ -6,7 +6,7 @@ import { ZoomableImage } from "@/components/ui/zoomable-image"
 import SimpleParallax from 'simple-parallax-js';
 
 import {ProjectCard} from "@/features/academics/ProjectCard"
-import {ProjectHeroImageTitle} from "@/features/academics/ProjectHeroImageTitle"
+import {HeroPageTitle} from "@/features/academics/HeroPageTitle"
 
 import * as projectData from '@/features/academics/academics-data';
 
@@ -17,7 +17,7 @@ const AcademicsStaticNdpVaults = () => {
 
   return (
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-      <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} />
+      <HeroPageTitle projectKey={projectKey} projectData={projectData} />
       
       <div className="flex flex-row">
         {/* MAIN COLUMN */}

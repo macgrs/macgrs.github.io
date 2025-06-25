@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import SimpleParallax from 'simple-parallax-js';
 
 
-const ProjectHeroImageTitle = ({projectKey, projectData, heroTextClassName}) => {
+const HeroPageTitle = ({projectKey, projectData, heroTextClassName}) => {
     const { t, i18n } = useTranslation();
     const [imageUrl, setImageUrl] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -38,8 +38,8 @@ const ProjectHeroImageTitle = ({projectKey, projectData, heroTextClassName}) => 
       fetchImage();
     }, []);
     return (
-      <div className="relative w-full max-h-[40vh] h-[40vh] overflow-hidden">
-        {loading && <p className="text-gray-500">Loading image...</p>}
+      <div className="relative w-full overflow-hidden">
+        {/* {loading && <p className="text-gray-500">Loading image...</p>}
         {error && <p className="text-red-500">{error}</p>}
         <SimpleParallax delay={0.5} 
                         // transition="cubic-bezier(0,0,0,1)"
@@ -52,8 +52,8 @@ const ProjectHeroImageTitle = ({projectKey, projectData, heroTextClassName}) => 
                 className="w-full h-auto rounded-lg shadow-lg"
             />
             )}
-        </SimpleParallax>
-        <div className="absolute inset-0 flex flex-col justify-end p-6">
+        </SimpleParallax> */}
+        <div className="flex flex-col justify-end">
           <div className="flex items-center gap-4">
             <H1 className={heroTextClassName} >{t(`academics.${projectKey}.title`)}</H1>
             <H3 className={heroTextClassName} >{t(`academics.${projectKey}.duration`)}</H3>
@@ -65,5 +65,5 @@ const ProjectHeroImageTitle = ({projectKey, projectData, heroTextClassName}) => 
   }
 
 export { 
-    ProjectHeroImageTitle
+    HeroPageTitle
 };

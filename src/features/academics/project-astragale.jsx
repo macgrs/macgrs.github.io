@@ -6,7 +6,7 @@ import { ZoomableImage } from "@/components/ui/zoomable-image"
 import SimpleParallax from 'simple-parallax-js';
 
 import {ProjectCard} from "@/features/academics/ProjectCard"
-import {ProjectHeroImageTitle} from "@/features/academics/ProjectHeroImageTitle"
+import {HeroPageTitle} from "@/features/academics/HeroPageTitle"
 import { Cite } from '@citation-js/core'
 import "@citation-js/plugin-bibtex"
 import "@citation-js/plugin-ris"
@@ -59,8 +59,8 @@ const AcademicsStaticAstragale = () => {
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       {/* Hero Image + Title */}
       <div className="mb-4">
-        {/* <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-white drop-shadow-[0_0.2px_3.2px_rgba(0,0,0,0.8)]"}/> */}
-        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-black drop-shadow-[0_0.3px_0.3px_rgba(255,255,255,0.8)]"}/>
+        {/* <HeroPageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={"text-white drop-shadow-[0_0.2px_3.2px_rgba(0,0,0,0.8)]"}/> */}
+        <HeroPageTitle projectKey={projectKey} projectData={projectData} heroTextClassName={""}/>
       </div>
 
       {/* Main Content Grid */}

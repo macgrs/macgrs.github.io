@@ -39,7 +39,7 @@ import { ZoomableImage } from "@/components/ui/zoomable-image"
 // Feature-Specific Components
 // -------------------------------------
 import {AcademicsCard} from "@/features/academics/AcademicsCard"
-import {ProjectHeroImageTitle} from "@/features/academics/ProjectHeroImageTitle"
+import {HeroPageTitle} from "@/features/academics/HeroPageTitle"
 
 
 // -------------------------------------

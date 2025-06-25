@@ -16,8 +16,8 @@ const ProjectCard = ({projectKey, rowKeys, partenaireKeys, additionalCardKeys}) 
   const ProjectCardRow = ({rowKey}) => {
     return (
       <div className="flex flex-col sm:flex-row sm:items-start sm:gap-6 text-base">
-        <p className="sm:w-1/3 text-left sm:text-right shrink-0">{t(`academics.global.${rowKey}`)}</p>
-        <p className="sm:w-2/3 sm:pl-0 mt-2 sm:mt-0" >{t(`academics.${projectKey}.${rowKey}`)}</p>
+        <P className="mt-4 sm:w-1/3 text-left sm:text-right shrink-0">{t(`academics.global.${rowKey}`)}</P>
+        <P className=" sm:w-2/3 sm:pl-0 sm:mt-0" >{t(`academics.${projectKey}.${rowKey}`)}</P>
       </div>
     )
   }
@@ -25,7 +25,7 @@ const ProjectCard = ({projectKey, rowKeys, partenaireKeys, additionalCardKeys}) 
   const ProjectCardRowOfKeywords = ({kwordList}) => {
     return (
       <div className="flex flex-col sm:flex-row sm:items-start sm:gap-6 text-base">
-        <p className="sm:w-1/3 text-left sm:text-right shrink-0">{t(`academics.global.keywords`)}</p>
+        <P className="sm:w-1/3 text-left sm:text-right shrink-0">{t(`academics.global.keywords`)}</P>
         <div className="sm:w-2/3 sm:pl-0 mt-2 sm:mt-0">
           {kwordList.map((kword) => (<Badge variant="outline" className="m-0.5 hover:bg-orange-300">{kword}</Badge>))}
         </div>
@@ -43,7 +43,7 @@ const ProjectCard = ({projectKey, rowKeys, partenaireKeys, additionalCardKeys}) 
             case "partenaires":
               return (
                 <div key={rowKey} className="flex flex-col sm:flex-row sm:items-start sm:gap-6 text-base">
-                <p className="sm:w-1/3 text-left sm:text-right shrink-0">{t(`academics.global.partenaires`)}</p>
+                <P className="sm:w-1/3 text-left sm:text-right shrink-0">{t(`academics.global.partenaires`)}</P>
                 <div className="sm:w-2/3 sm:pl-0 sm:mt-0">
                   {data.map((partenaireKey) => (              
                       <ProjectCardListElementLabLine key={partenaireKey}
@@ -58,7 +58,7 @@ const ProjectCard = ({projectKey, rowKeys, partenaireKeys, additionalCardKeys}) 
             case "keywords":
               const kwords = (t(`academics.${projectKey}.${rowKey}`)).split(", ")
               return (<ProjectCardRowOfKeywords key={rowKey} kwordList={kwords} />)
-              return (<p>Mda</p>)
+              return (<P>Mda</P>)
             default:
               return (<ProjectCardRow key={rowKey} rowKey={rowKey} />)
           }

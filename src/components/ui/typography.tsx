@@ -50,8 +50,8 @@ const H1: React.FC<Props> = ({className, children}) => {
 
   const P: React.FC<Props> = ({className, children}) => {
     return (
-      // <p className={`whitespace-pre-line font-[PPNeueMontrealRegular] tracking-wide leading-7 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
-      <p className={`whitespace-pre-line text-base leading-relaxed text-gray-800 dark:text-stone-200 [&:not(:first-child)]:mt-4 lg:text-lg ${className}`}>
+      // <p className={`whitespace-pre-line font-[PPNeueMontrealRegular] tracking-wide leading-7 [&:not(:first-child)]:mt-4 lg:text-base ${className}`}>
+      <p className={`whitespace-pre-line text-base leading-relaxed text-gray-800 dark:text-stone-200 [&:not(:first-child)]:mt-4 lg:text-base ${className}`}>
        {children}
       </p>
     )
@@ -60,7 +60,7 @@ const H1: React.FC<Props> = ({className, children}) => {
   const C: React.FC<Props> = ({className, children}) => {
     return (
       // <p className={`mx-2 font-[PPNeueMontrealRegular] whitespace-pre-line italic leading-6 [&:not(:first-child)]:mt-2 lg:text-base ${className}`}>
-      <p className={`mx-2 whitespace-pre-line italic leading-6 [&:not(:first-child)]:mt-2 lg:text-lg ${className}`}>
+      <p className={`mx-2 whitespace-pre-line italic leading-6 [&:not(:first-child)]:mt-2 lg:text-sm ${className}`}>
        {children}
       </p>
     )

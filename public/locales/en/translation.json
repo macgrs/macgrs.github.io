@@ -16,6 +16,12 @@
             "camillo":   "Camillo",
             "urbania":   "[Urbania]"
         },
+        "acadecourses": {
+            "built-heritage-digital-humanities": "[Built Heritage and Digital Humanities]",
+            "architectural-survey":              "[Architectural Surveying]",
+            "structural-design":                 "Structural Design",
+            "light-structures":                  "[Light Structures]"
+        },
         "courses": "[Courses]",
         "projects": "Projects",
         "music": "[Music]",

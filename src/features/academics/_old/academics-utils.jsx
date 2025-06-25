@@ -7,7 +7,7 @@ import { getSignedImageUrl } from "@/features/s3-utils/s3io.tsx"
 import SimpleParallax from 'simple-parallax-js';
 
 
-const ProjectHeroImageTitle = ({projectKey, projectData}) => {
+const HeroPageTitle = ({projectKey, projectData}) => {
     const { t, i18n } = useTranslation();
     const [imageUrl, setImageUrl] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -156,5 +156,5 @@ const ProjectCard = ({projectKey, partenaireKeys, additionalCardKeys}) => {
 
 export { 
     ProjectCard,
-    ProjectHeroImageTitle
+    HeroPageTitle
 };

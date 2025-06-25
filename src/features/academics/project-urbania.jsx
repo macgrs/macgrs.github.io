@@ -5,7 +5,7 @@ import { H1, H2, H3, P, A } from "@/components/ui/typography"
 import SimpleParallax from 'simple-parallax-js';
 
 import {ProjectCard} from "@/features/academics/ProjectCard"
-import {ProjectHeroImageTitle} from "@/features/academics/ProjectHeroImageTitle"
+import {HeroPageTitle} from "@/features/academics/HeroPageTitle"
 
 import * as projectData from '@/features/academics/academics-data';
 
@@ -16,7 +16,7 @@ const AcademicsStaticUrbania = () => {
 
   return (
       <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-        <ProjectHeroImageTitle projectKey={projectKey} projectData={projectData} />
+        <HeroPageTitle projectKey={projectKey} projectData={projectData} />
         <P>{t(`academics.${projectKey}.head`)}</P>
         <ProjectCard projectKey={projectKey} partenaireKeys={['mapupr', 'lmgc', 'lispen', 'mapurm']}/>
       </div>
