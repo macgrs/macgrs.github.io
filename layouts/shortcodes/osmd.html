@@ -1,0 +1,40 @@
+{{ $file := .Get "file" }}
+{{ $id := printf "osmd-%d" .Ordinal }}
+{{ $measures := .Get "measures" | default 0 }}
+{{ $zoom := .Get "zoom" | default 1.0 }}
+
+{{ if not $file }}
+  {{ errorf "osmd shortcode: missing required 'file' parameter in %s" .Page.File.Filename }}
+{{ end }}
+
+<div class="osmd-container">
+  <div id="{{ $id }}" class="osmd-score"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.9.0/build/opensheetmusicdisplay.min.js"></script>
+<script>
+(function () {
+  var container = document.getElementById("{{ $id }}");
+  var zoom = parseFloat("{{ $zoom }}");
+  var measuresPerLine = parseInt("{{ $measures }}", 10);
+
+  var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay(container, {
+    autoResize: true,
+    backend: "svg",
+    drawTitle: true,
+  });
+
+  osmd.load("{{ $file | absURL }}")
+    .then(function () {
+      osmd.zoom = zoom;
+      if (measuresPerLine > 0) {
+        osmd.EngravingRules.RenderXMeasuresPerLineAkaSystem = measuresPerLine;
+      }
+      return osmd.render();
+    })
+    .catch(function (err) {
+      container.innerHTML = "<p><em>Could not load score: {{ $file }}</em></p>";
+      console.error("OSMD load error:", err);
+    });
+}());
+</script>

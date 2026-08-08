@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+{{ if .Params.interactive_score }}
+<script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1/build/opensheetmusicdisplay.min.js"></script>
+{{ end }}
+
+<article class="article">
+  <div class="article__content">
+
+    
+
+    {{ if and .Params.image .Params.image_caption }}
+    <figure>
+      <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+      <figcaption style="display: flex; justify-content: flex-end" >{{ .Params.image_caption }}</figcaption>
+    </figure>
+    {{ else if .Params.image }}
+    <img class="article__cover" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+    {{ end }}
+
+    <!-- {{ if .Params.image }}
+    <figcaption>"{{ .Params.image_caption}}"</figcaption>
+    {{ end }} -->
+
+    {{ with .Params.tags }}
+    <p class="article__tags">{{ range $i, $t := . }}{{ if $i }} · {{ end }}{{ $t | humanize }}{{ end }}</p>
+    {{ end }}
+
+    <h1 class="article__title">{{ .Title }}</h1>
+
+    {{ with .Date }}
+    <time class="article__date" datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>
+    {{ end }}
+
+    <div class="article__body">
+      {{ .Content }}
+    </div>
+
+  </div>
+</article>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+       fill="none" stroke="currentColor" stroke-width="2.5"
+       stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <polyline points="18 15 12 9 6 15"></polyline>
+  </svg>
+  <span>Back to top</span>
+</button>
+
+<script>
+(function () {
+  var btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('back-to-top--visible', window.scrollY > 300);
+  }, { passive: true });
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+</script>
+{{ end }}

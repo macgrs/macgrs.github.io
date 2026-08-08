@@ -1,0 +1,13 @@
+{{- $url   := .Get "src" -}}
+{{- $alt   := .Get "alt"   | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $height := .Get "height" | default "" -}}
+{{- $img   := resources.GetRemote $url -}}
+{{- if $img -}}
+<img src="{{ $img.RelPermalink }}"
+     alt="{{ $alt }}"
+     {{- with $class }} class="{{ . }}"{{ end }}
+     {{- with $height }} height="{{ . }}"{{ end }}>
+{{- else -}}
+<p><em>Image unavailable: {{ $url }}</em></p>
+{{- end -}}

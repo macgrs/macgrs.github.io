@@ -1,0 +1,63 @@
+baseurl = "https://macgrs.github.io/"
+theme = "hugo-creative-portfolio-theme"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  # Contact page email (Formspree)
+  email = "you@yoursite.com"
+
+[languages]
+  [languages.en]
+    locale = "en-us"
+    label = "en"
+    title = "Antoine Gros"
+    weight = 1
+    [languages.en.params]
+      description = "Describe your website"
+      copyright = "&copy;2016 Your name or company"
+      sidebarAbout = [
+        "I am a creative illustrator and graphic designer with more than 10 years of experience.",
+        "Originally from Toronto, currently based in London."
+      ]
+    [[languages.en.params.navlinks]]
+      name = "Home"
+      url = "portfolio/"
+      home = true
+    [[languages.en.params.navlinks]]
+      name = "About"
+      url = "about/"
+
+  [languages.fr]
+    locale = "fr-fr"
+    label = "fr"
+    title = "Antoine Gros"
+    weight = 2
+    [languages.fr.params]
+      description = "Description du site"
+      copyright = "&copy;2016 Votre nom ou entreprise"
+      sidebarAbout = [
+        "Je suis un illustrateur et graphiste créatif avec plus de 10 ans d'expérience.",
+        "Originaire de Toronto, actuellement basé à Londres."
+      ]
+    [[languages.fr.params.navlinks]]
+      name = "Accueil"
+      url = "portfolio/"
+      home = true
+    [[languages.fr.params.navlinks]]
+      name = "À propos"
+      url = "about/"

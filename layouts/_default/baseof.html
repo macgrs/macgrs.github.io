@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>{{ partial "head.html" . }}</head>
+<body>
+  <div class="site-wrap">
+    {{ partial "sidebar.html" . }}
+    {{ block "main" . }}{{ end }}
+  </div>
+  {{ partial "scripts.html" . }}
+</body>
+</html>

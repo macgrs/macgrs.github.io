@@ -1,0 +1,17 @@
+[filterAll]
+other = "All"
+
+[yourName]
+other = "Your name *"
+
+[yourEmail]
+other = "Your email *"
+
+[yourMessage]
+other = "Your message for me *"
+
+[send]
+other = "Send"
+
+[dropMeALine]
+other = "Drop me a line, maybe?"

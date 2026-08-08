@@ -1,0 +1,21 @@
+<header class="site-header">
+  <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
+
+  <nav class="site-nav">
+    {{ range .Site.Params.navlinks }}
+      {{ $active := eq $.Page.Section (strings.TrimRight .url "/") }}
+      <a href="{{ .url | absLangURL }}" class="nav-link{{ if $active }} nav-link--active{{ end }}">{{ .name }}</a>
+    {{ end }}
+  </nav>
+
+  <div class="lang-switcher">
+    {{- $currentLang := .Site.Language.Lang -}}
+    {{- if eq $currentLang "fr" -}}
+      {{ range .Translations }}<a href="{{ .Permalink }}">en</a>{{ end -}}
+      <span class="lang-sep">|</span><strong>fr</strong>
+    {{- else -}}
+      <strong>en</strong><span class="lang-sep">|</span>
+      {{- range .Translations }}<a href="{{ .Permalink }}">fr</a>{{ end }}
+    {{- end -}}
+  </div>
+</header>
