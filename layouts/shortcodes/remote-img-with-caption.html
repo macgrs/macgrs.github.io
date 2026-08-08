@@ -5,6 +5,7 @@
 <figure>
   <img src="{{ $url }}"
        alt="{{ $alt }}"
+       loading="lazy"
        {{- with $height }} height="{{ . }}"{{ end }}>
   {{- with $caption }}
   <figcaption>{{ . }}</figcaption>

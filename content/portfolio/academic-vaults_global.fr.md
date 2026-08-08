@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "/img/portfolio2/web2-voute-notre-dame-godong.jpg"
+image = "https://assets.sc1quzu4790.universe.wf/img/web2-voute-notre-dame-godong.jpg"
 date = "2020-11-05T18:25:22+05:30"
 title = "Évaluation de la stabilité mécanique résiduelle au feu des voûtes de la cathédrale Notre-Dame de Paris"
 weight = 0

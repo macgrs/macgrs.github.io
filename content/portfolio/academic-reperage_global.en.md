@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "/img/portfolio2/reperage_Fig13-viewer-restitution - Copie.png"
+image = "https://assets.sc1quzu4790.universe.wf/img/reperage_Fig13-viewer-restitution - Copie.png"
 date = "2023-11-05T18:25:22+05:30"
 title = "Repérage spatio-temporel des claveaux des nervures des voûtes effondrées de Notre-Dame de Paris"
 weight = 0

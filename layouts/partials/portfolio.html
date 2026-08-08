@@ -22,7 +22,7 @@
   {{ range .Pages }}
   <a href="{{ .Permalink }}" class="portfolio-item" data-tags="{{ with .Params.tags }}{{ delimit . "," }}{{ end }}">
     {{ if and (isset .Params "image") .Params.image }}
-    <div class="portfolio-item__img" style="background-image: url('{{ .Params.image | absURL }}');"></div>
+    <div class="portfolio-item__img" style="background-image: url('{{ if hasPrefix .Params.image "http" }}{{ .Params.image }}{{ else }}{{ .Params.image | absURL }}{{ end }}');"></div>
     {{ else }}
     <div class="portfolio-item__img portfolio-item__img--placeholder"></div>
     {{ end }}

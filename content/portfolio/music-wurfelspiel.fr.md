@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "/img/portfolio2/mozartk516-m253-bnf.png"
+image = "https://assets.sc1quzu4790.universe.wf/img/mozartk516-m253-bnf.png"
 image_caption = "Mozart K.516f @BnF"
 interactive_score=true
 date = "2025-04-01T18:25:22+05:30"

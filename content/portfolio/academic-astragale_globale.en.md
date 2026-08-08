@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "/img/portfolio2/astragale_Notre-Dame_de_Paris_035.jpg"
+image = "https://assets.sc1quzu4790.universe.wf/img/astragale_Notre-Dame_de_Paris_035.jpg"
 date = "2025-04-01T18:25:22+05:30"
 title = "Astragale, Knowledge Graph Applications for Structural Simulation and Conservation Data in Built Heritage"
 weight = 0

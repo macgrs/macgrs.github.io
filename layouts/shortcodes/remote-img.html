@@ -6,6 +6,7 @@
 {{- if $img -}}
 <img src="{{ $img.RelPermalink }}"
      alt="{{ $alt }}"
+     loading="lazy"
      {{- with $class }} class="{{ . }}"{{ end }}
      {{- with $height }} height="{{ . }}"{{ end }}>
 {{- else -}}
