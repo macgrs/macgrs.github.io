@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "https://assets.sc1quzu4790.universe.wf/img/mozartk516-m253-bnf.png"
+image = "https://res.cloudinary.com/f0prauim/image/upload/v1786369182/mozartk516-m253-bnf.png"
 image_caption = "Mozart K.516f @BnF"
 interactive_score=true
 date = "2025-04-01T18:25:22+05:30"
@@ -22,7 +22,9 @@ A la charnière du XVIIIe siècle, des jeux musicaux d'un nouveau genre s'invite
 L'avènement de ces jeux tiens sur déjà quelques siècle d'histoire, de tentatives et d'utilisations d'heuristiques pour composer. L'un de ces premiers textes est : [...]. Les motivations avouées par les auteurs sont variées, casse tête ou jeu théorique sur fond de systématisation/mathématisation de l'art musical, amusement pour dilettantes, étincelle d'inspiration pour compositeurs en panne, pour égayer de longues soirées d'hiver (N. Zaslaw, 2005), pour fournir un matériau infini aux classes de danse (Kirnberger, 1757). 
 Le propos, puis le jeu sont tantôt d'une clarté déconcertante, comme le système tabulaire d'Hoegi, tantôt dissimulé par des couches de mystification ou d'obfuscation. Il se situe quelque part entre les appétences pour la science et les mathématiques de ces siècles, le goût du jeu et la frivolité du hasard, les cabbales et systèmes combinatoires.
 
-{{< remote-img-with-caption src="https://assets.sc1quzu4790.universe.wf/img/Julius Schmid - A Schubert Evening in a Vienna Salon 1897.jpg" alt="Portrait" height="200" caption="Une soirée avec Schubert dans un salon Viennois (Julius Schmid, 1897)" >}}
+{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369180/Julius_Schmid-A_Schubert_Evening_in_a_Vienna_Salon_1897.jpg" alt="Portrait" height="200" caption="Une soirée avec Schubert dans un salon Viennois (Julius Schmid, 1897)" >}}
+
+
 
 <!-- Travaux existants -->
 Il existe de nombreux travaux sur les jeux de dés musicaux. Leur historiographie est dépeinte par (A. Hedges, 1978 ; N. Zaslaw, 2005), certains bénéficient d'une attention soutenue tel le jeu de cartes des 428 millions de Quadrilles conçu par John Clinton (N. Braguinski, 2019) ou de transcriptions informatiques (voir [Ressources]). Toutefois, le statut de "curiosité" acquis par ces jeux les condamnent bien souvent à être traité comme tels : à grand renfort d'approximations et d'érudition utile, ponctué d'erreurs et d'analyses asthmatiques. Parmi ces travaux existants, le chapitre "Composer avec deux dés : invention et art combinatoire dans la musique du XVIIIe siècle" (S. Troche, 2015) est un oasis. Sa question centrale : quels sont les liens entre jeu, joueur et hasard ?
