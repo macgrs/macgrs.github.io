@@ -31,3 +31,10 @@ The first concerns the antique theater as an architectural reference for the _Th
 The second research question establishes the _Theater_ into the history of Architecture. It indicates the posterity of the device, through the personal and intellectual bond between Giulio Camillo and Sebastiano Serlio. An architectural theorist whose treatises would irrigate architectural thoughts and design in Europe, for the next centuries.
 
 Today, the _Theater_ is mostly a curiosity. Whose magical operating system has been absorbed by the passage of centuries and their growing rationalism. It is also a point in space and time, a useful allegory for a mode of thought.
+
+_This Master thesis was nominated for the Prix de la Jeune Architecture de Lyon, Research Mention category, in 2018._
+
+## Selective Bibliography
++ Gros, Antoine. 2018. Le Théâtre de Giulio Camillo, un héritage de l’art classique de la mémoire. ENSAL. 10.13140/RG.2.2.28282.85443.
++ Camillo, Giulio. 2001. Le théâtre de la mémoire. Paris: Editions Allia.
++ Yates, Frances Amelia. 1987. L’art de la mémoire. Paris: Gallimard.

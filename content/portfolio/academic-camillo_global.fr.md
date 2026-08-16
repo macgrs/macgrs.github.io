@@ -33,6 +33,8 @@ La seconde problématique inscrit le Théâtre dans l'histoire de l'architecture
 
 Le Théâtre de la Mémoire apparait aujourd'hui comme une curiosité, au fonctionnement magique absorbé par la marche des siècles et son rationalisme croissant. C'est aussi un point dans l'espace et dans le temps, l'allégorie utile d'un mode de pensée.
 
+_Ce mémoire fut nommé pour le Prix de la Jeune Architecture de Lyon, catégorie Mention Recherche, en 2018._
+
 ## Bibliographie sélective
 + Gros, Antoine. 2018. Le Théâtre de Giulio Camillo, un héritage de l’art classique de la mémoire. ENSAL. 10.13140/RG.2.2.28282.85443.
 + Camillo, Giulio. 2001. Le théâtre de la mémoire. Paris: Editions Allia.
