@@ -6,7 +6,7 @@ title = "Antoine Gros"
 <!-- **Antoine Gros** -->
 **Ph.D. Ingénierie / Ms.C. Architecture**
 
-<img class="portrait" src="/img/about/Antoine_Gros3_quatretiers.jpg" alt="Portrait" height='350'>
+{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1788370193/Antoine_Gros3_quatretiers.jpg" alt="Portrait" height="350" align="flex-start" caption="" >}}
 
 > "Relier données, modèles et connaissances pour appréhender l'environnement bâti, et soutenir les humanités numériques"
 

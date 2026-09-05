@@ -7,7 +7,7 @@ title = "Antoine Gros"
 **Ph.D. Engineering / Ms.C. Architecture**
 
 <!-- <img class="portrait" src="/img/about/Antoine_Gros3_quatretiers.jpg" alt="Portrait" height='350'> -->
-{{</* remote-img src="https://sc1quzu4790.universe.wf/o2sitepersoftp/img_postprocessed/Antoine_Gros3_quatretiers.jpg" alt="Portrait" class="portrait" */>}}
+{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1788370193/Antoine_Gros3_quatretiers.jpg" alt="Portrait" height="350" align="flex-start" caption="" >}}
 
 > "Bridging data, models, and knowledge to understand the built environment and foster digital humanities"
 

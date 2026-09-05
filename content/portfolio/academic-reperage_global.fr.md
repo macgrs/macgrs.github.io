@@ -24,14 +24,14 @@ En dérivant les observations archéologiques en contraintes algorithmiques, un 
 ## Repenser la documentation du patrimoine bâti, depuis les études et les vestiges
 L’urgence du chantier a empêché une fouille archéologique classique en phase de sécurisation. Pour pallier cette absence, l’équipe a reconstruit les trajectoires des vestiges à partir de scènes photogrammétriques annotées, associées à des modèles 3D.
 
-{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369182/reperage-humanistica.png" alt="Portrait" height="200" caption="Extrait du diagramme de mapping avec l'ontologie CIDOC CRM des informations des claveaux N1A et N320 (Guillem et al., 2023)" >}}
+{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369182/reperage-humanistica.png" alt="Portrait" height="400" caption="Extrait du diagramme de mapping avec l'ontologie CIDOC CRM des informations des claveaux N1A et N320 (Guillem et al., 2023)" >}}
 
 Au prisme de l'ingénierie des connaissances, le corpus hétérogène de données produits - par les archéologues, architectes, géomaticiens, etc. - est modélisé au moyen de l'ontologie CIDOC CRM et structuré au sein des technologies du web sémantique. Le projet explore ainsi un cadre conceptuel articulant l’Actor-Network Theory avec le CIDOC CRM (Guillem et al., 2024), et un cadre technologique attenant au jumeau numérique (Gros et al, 2023). Ces travaux fournissent un socle conceptuel pour le projet [ERC n-dame_Heritage](https://cordis.europa.eu/project/id/101055423) et le projet [Astragale](https://hal.science/hal-04790092v1).
 
 Voir aussi, le film documentaire [Notre-Dame de Paris, le chantier du siècle](https://www.youtube.com/watch?v=ztQ_g2Ix7ws).
 
 ## Bibliographie sélective
-Gros, A., Guillem, A., De Luca, L., Baillieul, É., Duvocelle, B., Malavergne, O., Leroux, L., & Zimmer, T. (2023). Faceting the Post-Disaster Built Heritage Reconstruction Process within the Digital Twin Framework for Notre-Dame de Paris. Scientific Reports, 13(1), 5981. https://doi.org/10.1038/s41598-023-32504-9
-Guillem, A., Gros, A., Abergel, V., & De Luca, L. (2023, October). Reconstruction beyond Representation in Notre-Dame de Paris. 2023 IMEKO TC-4 International Conference on Metrology for Archaeology and Cultural Heritage.
-Guillem, A., Gros, A., & Deluca, L. (2023). Faire Parler Les Claveaux Effondrés de La Cathédrale Notre-Dame de Paris. Humanistica 2023.
-Baillieul, É., Guillem, A., & Gros, A. (2024). Du claveau physique aux données numériques. Le travail de restitution de l’arc doubleau de la nef de Notre-Dame. Bulletin Monumental, 182.4, 325–332.
++ Gros, A., Guillem, A., De Luca, L., Baillieul, É., Duvocelle, B., Malavergne, O., Leroux, L., & Zimmer, T. (2023). *Faceting the Post-Disaster Built Heritage Reconstruction Process within the Digital Twin Framework for Notre-Dame de Paris.* Scientific Reports, 13(1), 5981. https://doi.org/10.1038/s41598-023-32504-9
++ Guillem, A., Gros, A., Abergel, V., & De Luca, L. (2023, October). *Reconstruction beyond Representation in Notre-Dame de Paris.* 2023 IMEKO TC-4 International Conference on Metrology for Archaeology and Cultural Heritage.
++ Guillem, A., Gros, A., & Deluca, L. (2023). *Faire Parler Les Claveaux Effondrés de La Cathédrale Notre-Dame de Paris.* Humanistica 2023.
++ Baillieul, É., Guillem, A., & Gros, A. (2024). *Du claveau physique aux données numériques. Le travail de restitution de l’arc doubleau de la nef de Notre-Dame.* Bulletin Monumental, 182.4, 325–332.

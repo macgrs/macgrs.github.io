@@ -22,7 +22,7 @@ A la charnière du XVIIIe siècle, des jeux musicaux d'un nouveau genre s'invite
 L'avènement de ces jeux tiens sur déjà quelques siècle d'histoire, de tentatives et d'utilisations d'heuristiques pour composer. L'un de ces premiers textes est : [...]. Les motivations avouées par les auteurs sont variées, casse tête ou jeu théorique sur fond de systématisation/mathématisation de l'art musical, amusement pour dilettantes, étincelle d'inspiration pour compositeurs en panne, pour égayer de longues soirées d'hiver (N. Zaslaw, 2005), pour fournir un matériau infini aux classes de danse (Kirnberger, 1757). 
 Le propos, puis le jeu sont tantôt d'une clarté déconcertante, comme le système tabulaire d'Hoegi, tantôt dissimulé par des couches de mystification ou d'obfuscation. Il se situe quelque part entre les appétences pour la science et les mathématiques de ces siècles, le goût du jeu et la frivolité du hasard, les cabbales et systèmes combinatoires.
 
-{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369180/Julius_Schmid-A_Schubert_Evening_in_a_Vienna_Salon_1897.jpg" alt="Portrait" height="200" caption="Une soirée avec Schubert dans un salon Viennois (Julius Schmid, 1897)" >}}
+{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369180/Julius_Schmid-A_Schubert_Evening_in_a_Vienna_Salon_1897.jpg" alt="Portrait" height="300" caption="Une soirée avec Schubert dans un salon Viennois (Julius Schmid, 1897)" >}}
 
 
 

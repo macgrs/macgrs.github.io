@@ -18,7 +18,7 @@ The aim is to understand the mechanical behaviour of the vaults and their buttre
 ## A wide-ranging collaboration to understand fire-damaged vault behavior
 The thermal damage caused by the fire, the loading history beared by the structure over the centuries, the material characteristics and the intrinsic irregularities of masonrywork are all unknown factors that cast doubt on the mechanical stability of the choir' and nave' vaults. Combined _in-situ_ analysis and the cumulated expertises allows to define the initial conditions for the simulation scenarios. Different simulation methods from the labs are benchmarked, representing the masonry physics in a different manner[^1] : (a) the continuous methods, with masonry "modeled as a continuum deformable body, without distinction between blocks and mortar layers" (b) the discrete methods, modeling block-by-block interactions through the mortar layers.
 
-{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369182/vault_displacement-original.png" alt="Portrait" height="200" caption="Stress mapping of material under horizontal loading [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]" >}}
+{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369182/vault_displacement-original.png" alt="Portrait" height="400" caption="Stress mapping of material under horizontal loading [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]" >}}
 
 Beyond improving the trustworthiness of the results, those complementary approaches enables to explore, in their own way, the various mechanisms resulting in structural failure, study the structure geometric deformations and stress endured by the materials, as well as to identify areas of vulnerability. 
 
@@ -30,7 +30,7 @@ How to accurately model a masonry vault ? Stereotomy principles and _"l'art du t
 Despite the perfection aura that drapes Notre-Dame de Paris, each structural element surveyed shows significant asymmetry - due to a succession of designs during the construction, or the several restoration works (ref thèse ... et ANR mirador). The pre-fire Lidar survey made by Andrew Tallon in 2010 shows the extent of those asymmetries, identifies curvature reversals in vaultings, the thickness variations from their origin to the keystone and other instances of double curvature.
 
 
-{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369182/file-20220727-21-4gv6bc.jpg" alt="Portrait" height="200" caption="Displacements endured by the vault and its buttressing system under horizontal loading [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]" >}}
+{{< remote-img-with-caption src="https://res.cloudinary.com/f0prauim/image/upload/v1786369182/file-20220727-21-4gv6bc.jpg" alt="Portrait" height="400" caption="Displacements endured by the vault and its buttressing system under horizontal loading [I2M, LMGC, Mimetics, LMDC, GSA | model: A.Gros, P.Nougayrede]" >}}
 
 To meet the requirements relating to geometric modeling, we took Tallon' Lidar point cloud as a starting point. The combined analysis of the graphical documents derived from the survey and of analoguous - ruined - structural systems allowed breaking down the vault/buttressing system to distinct components. Including the simplification of the trivial ones, such as the _tas-de-charge_ modeled as _"basketball hoops"_ or _"ice cream cones"_. Modeling of the critical elements, ribs and vaulting, is parametrised on the survey. In other words, the set of ribs curves are splines _fit_ to the point cloud (two strokes of compass for drawing the ogival arch is not an option), vaultings are built as _relaxed_ translation surfaces to the point cloud. A _variable offset_ of the resulting freeform surface generates the extrados of the vault, hence restituting its volume and its progressive tapering at the keystone.
 
@@ -46,4 +46,4 @@ Finally, discrete elements simulation strategies require a block-by-block repres
 
 [^1]: different strategies for mechanical simulation modeling of masonry structures are categorised and discussed by (D'Altri et al., 2020), their implementation for this study is detailed in (Parent et al., 2023)
 
-[^2] see the classic (Heyman, 1995)
+[^2]: see the classic (Heyman, 1995)

@@ -2,11 +2,12 @@
 {{- $alt     := .Get "alt"     | default "" -}}
 {{- $height  := .Get "height"  | default "" -}}
 {{- $caption := .Get "caption" | default "" -}}
-<figure>
+{{- $align   := .Get "align"   | default "center" -}}
+<figure style="display: flex; flex-direction: column; align-items: {{ $align }};">
   <img src="{{ $url }}"
        alt="{{ $alt }}"
        loading="lazy"
-       {{- with $height }} height="{{ . }}"{{ end }}>
+       {{- with $height }} style="max-height: {{ . }}px; width: auto;"{{ end }}>
   {{- with $caption }}
   <figcaption>{{ . }}</figcaption>
   {{- end }}
